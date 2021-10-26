@@ -8,7 +8,7 @@ interface SpaceButtonProps {
 
 const SpaceButton = ({ text, href }: SpaceButtonProps) => {
   return (
-    <div className="mt-4 mb-5">
+    <div className="mt-4 mb-5" style={{ display: "flex" }}>
       <a className="holo-btn-fed" href={href}>
         <span className="cta-e">{text}</span>
         <span className="skew top"></span>

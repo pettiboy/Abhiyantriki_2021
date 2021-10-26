@@ -1,11 +1,13 @@
 import React from "react";
 
+export interface ScrollSpyNode {
+  linkName: string;
+  linkHash: string;
+  component: React.ReactNode;
+}
+
 interface ScrollSpyProps {
-  data: {
-    linkName: string;
-    linkHash: string;
-    component: React.ReactNode;
-  }[];
+  data: ScrollSpyNode[];
 }
 
 const ScrollSpy = ({ data }: ScrollSpyProps) => {
@@ -29,7 +31,7 @@ const ScrollSpy = ({ data }: ScrollSpyProps) => {
         data-bs-spy="scroll"
         data-bs-target={`#${useId}`}
         data-bs-offset="0"
-        className="fs-1 position-relative overflow-auto"
+        className="position-relative overflow-auto p-4"
         style={{ height: 500 }}
         tabIndex={0}
       >
