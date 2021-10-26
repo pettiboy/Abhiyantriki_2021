@@ -1,5 +1,6 @@
 import React from "react";
 import SpaceButton from "../components/Buttons/SpaceButton";
+import ScrollSpy from "../components/ScrollSpy/ScrollSpy";
 import TextAndButton from "../components/TextAndButton/TextAndButton";
 
 interface ExposAndSpeakersProps {}
@@ -8,7 +9,8 @@ const ExposAndSpeakers = ({}: ExposAndSpeakersProps) => {
   return (
     <div>
       <div className="container" style={{ paddingTop: "10vh" }}>
-        <div
+        <ScrollSpy />
+        {/* <div
           className="
             text-center
             d-flex
@@ -29,7 +31,7 @@ const ExposAndSpeakers = ({}: ExposAndSpeakersProps) => {
             buttonHref="#"
             buttonText="Register"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );
