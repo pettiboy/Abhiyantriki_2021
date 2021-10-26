@@ -5,7 +5,7 @@ interface HomePageProps {
 }
 
 const HomePage = ({ name }: HomePageProps) => {
-  return <div>{name}</div>;
+  return <div style={{ color: "white" }}>{name}</div>;
 };
 
 export default HomePage;

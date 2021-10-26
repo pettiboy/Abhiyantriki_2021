@@ -5,6 +5,7 @@ import Events from "./pages/Events";
 import Parvaah from "./pages/Parvaah";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./pages/Home";
+import ExposAndSpeakers from "./pages/ExposAndSpeakers";
 
 function App() {
   return (
@@ -13,13 +14,18 @@ function App() {
       <div className="App">
         <Switch>
           {/* for home page */}
-          <Route path="/">
+          <Route path="/" exact>
             <Home />
           </Route>
 
           {/* for events page */}
           <Route path="/events">
             <Events />
+          </Route>
+
+          {/* for events page */}
+          <Route path="/expos-and-speakers">
+            <ExposAndSpeakers />
           </Route>
 
           {/* for parvaah page */}

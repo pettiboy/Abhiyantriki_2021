@@ -7,11 +7,10 @@ interface HomeProps {}
 const Home = ({}: HomeProps) => {
   return (
     <div>
-    <div className="d-flex vh-100 justify-content-center align-items-center">
-      <HomePage name="java not useful" />
-      
-    </div>
-    <About/>
+      <div className="d-flex vh-100 justify-content-center align-items-center">
+        <HomePage name="Python >>>>> Java" />
+      </div>
+      <About />
     </div>
   );
 };
