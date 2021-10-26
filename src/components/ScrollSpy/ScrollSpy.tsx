@@ -30,7 +30,7 @@ const ScrollSpy = ({ data }: ScrollSpyProps) => {
       <div
         data-bs-spy="scroll"
         data-bs-target={`#${useId}`}
-        data-bs-offset="0"
+        data-bs-offset="60"
         className="position-relative overflow-auto p-4"
         style={{ height: 500 }}
         tabIndex={0}
