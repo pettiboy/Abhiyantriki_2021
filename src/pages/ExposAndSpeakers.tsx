@@ -9,7 +9,7 @@ const ExposAndSpeakers = ({}: ExposAndSpeakersProps) => {
   return (
     <div>
       <div className="container" style={{ paddingTop: "10vh" }}>
-        <ScrollSpy />
+        {/* <ScrollSpy />  */}
         {/* <div
           className="
             text-center
