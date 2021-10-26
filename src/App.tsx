@@ -7,12 +7,13 @@ import Navbar from "./components/Navbar/Navbar";
 import Home from "./pages/Home";
 import ExposAndSpeakers from "./pages/ExposAndSpeakers";
 import GetInvolved from "./pages/GetInvolved";
+import Sponsors from "./pages/Sponsors";
 
 function App() {
   return (
     <Router>
       <Navbar />
-      <div className="App">
+      <div className="App text-white">
         <Switch>
           {/* for home page */}
           <Route path="/" exact>
@@ -37,6 +38,11 @@ function App() {
           {/* for parvaah page */}
           <Route path="/parvaah">
             <Parvaah />
+          </Route>
+
+          {/* for Sponsers page */}
+          <Route path="/sponsors">
+            <Sponsors />
           </Route>
         </Switch>
       </div>

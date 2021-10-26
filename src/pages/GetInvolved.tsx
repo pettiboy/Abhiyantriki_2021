@@ -6,7 +6,7 @@ interface GetInvolvedProps {}
 
 const GetInvolved = ({}: GetInvolvedProps) => {
   return (
-    <div className="text-white">
+    <div>
       <div className="container" style={{ paddingTop: 30 }}>
         <div
           className="

@@ -6,7 +6,7 @@ interface ExposAndSpeakersProps {}
 
 const ExposAndSpeakers = ({}: ExposAndSpeakersProps) => {
   return (
-    <div className="text-white">
+    <div>
       <div className="container" style={{ paddingTop: "10vh" }}>
         <div
           className="
