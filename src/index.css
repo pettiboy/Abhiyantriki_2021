@@ -1,3 +1,4 @@
+/* body style applied on all screens */
 body {
   background-image: linear-gradient(#001121, #001121);
   overflow-x: hidden !important;
@@ -7,7 +8,25 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+/* For custom Scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+  background-image: linear-gradient(#11112d, #11112e);
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(68, 3, 230, 0.2);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: aliceblue;
 }

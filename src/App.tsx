@@ -6,6 +6,7 @@ import Parvaah from "./pages/Parvaah";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./pages/Home";
 import ExposAndSpeakers from "./pages/ExposAndSpeakers";
+import GetInvolved from "./pages/GetInvolved";
 
 function App() {
   return (
@@ -21,6 +22,11 @@ function App() {
           {/* for events page */}
           <Route path="/events">
             <Events />
+          </Route>
+
+          {/* for get involved page */}
+          <Route path="/get-involved">
+            <GetInvolved />
           </Route>
 
           {/* for events page */}

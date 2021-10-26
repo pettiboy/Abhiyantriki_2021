@@ -64,22 +64,28 @@ const Navbar = ({}: NavbarProps) => {
                 aria-labelledby="dropdownMenuButton1"
               >
                 <li>
-                  <a className="dropdown-item" href="/expos/tech/">
+                  <a className="dropdown-item" href="/expos-and-speakers#tech">
                     Tech Expo
                   </a>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="/expos/internship/">
+                  <a
+                    className="dropdown-item"
+                    href="/expos-and-speakers#internship"
+                  >
                     Internship Expo
                   </a>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="/sessions/speaker/">
+                  <a
+                    className="dropdown-item"
+                    href="/expos-and-speakers#speaker"
+                  >
                     Speaker Session
                   </a>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="/sessions/panel/">
+                  <a className="dropdown-item" href="/expos-and-speakers#panel">
                     Panel Session
                   </a>
                 </li>
@@ -87,17 +93,17 @@ const Navbar = ({}: NavbarProps) => {
             </li>
 
             <li className="nav-item px-2 highlight">
-              <a href="/get-involved/" className="box foo text-decoration-none">
+              <a href="/get-involved" className="box foo text-decoration-none">
                 <span className="truncate-get-involved">Get Involved</span>
               </a>
             </li>
             <li className="nav-item px-2 highlight">
-              <a href="/parvaah/" className="box foo text-decoration-none">
+              <a href="/parvaah" className="box foo text-decoration-none">
                 Parvaah
               </a>
             </li>
             <li className="nav-item px-2 highlight">
-              <a href="/sponsors/" className="box foo text-decoration-none">
+              <a href="/sponsors" className="box foo text-decoration-none">
                 Sponsors
               </a>
             </li>
