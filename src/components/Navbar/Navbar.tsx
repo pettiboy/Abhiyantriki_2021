@@ -41,6 +41,7 @@ const Navbar = ({}: NavbarProps) => {
             </li>
             <li className="dropdown nav-item px-2 highlight">
               <a
+                href="/"
                 className="foo box text-decoration-none"
                 id="dropdownMenuButton1"
                 data-bs-toggle="dropdown"
@@ -116,24 +117,24 @@ const Navbar = ({}: NavbarProps) => {
             {/* <!-- right images --> */}
             <ul className="d-flex me-auto">
               <li className="nav-item somaiya left-wala-somaiya-logo">
-                <a href="#" className="navbar-brand">
+                <span className="navbar-brand">
                   <img
                     src="/assets/logos/somaiya-trust.png"
                     width="50"
                     alt=""
                     className="d-inline-block align-middle mr-2"
                   />
-                </a>
+                </span>
               </li>
               <li className="nav-item somaiya right-wala-somaiya-logo">
-                <a href="#" className="navbar-brand">
+                <span className="navbar-brand">
                   <img
                     src="/assets/logos/somaiya-white-logo.png"
                     width="125"
                     alt=""
                     className="d-inline-block align-middle mr-2"
                   />
-                </a>
+                </span>
               </li>
             </ul>
           </ul>

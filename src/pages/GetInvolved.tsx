@@ -1,5 +1,3 @@
-import React from "react";
-import SpaceButton from "../components/Buttons/SpaceButton";
 import TextAndButton from "../components/TextAndButton/TextAndButton";
 
 interface GetInvolvedProps {}
