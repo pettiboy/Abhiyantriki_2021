@@ -10,7 +10,6 @@ const Home = ({}: HomeProps) => {
       <div className="d-flex vh-100 justify-content-center align-items-center">
         <HomePage name="Python >>>>> Java" />
       </div>
-      <About />
     </div>
   );
 };

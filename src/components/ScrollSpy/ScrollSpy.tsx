@@ -1,4 +1,4 @@
-import React, { createRef, LegacyRef, useRef } from "react";
+import React from "react";
 import { useLocation } from "react-router-dom";
 
 export interface ScrollSpyNode {
@@ -15,18 +15,10 @@ const ScrollSpy = ({ data }: ScrollSpyProps) => {
   const useId = "scroll-list-100";
   const location = useLocation();
 
-  // const lineRefs = React.useRef<Array<HTMLDivElement>>([]);
-  const items = useRef(Array(data.length).fill(createRef()));
-  // lineRefs.current = data.map((_, i) => lineRefs.current[i] ?? createRef());
-
   React.useEffect(() => {
     if (location.hash) {
       setTimeout(function () {
         window.scrollTo(0, 0);
-        const dataNode = data.findIndex(
-          (scrollSpyNode) => scrollSpyNode.linkHash === location.hash
-        );
-        // window.scrollTo(location.hash);
       }, 1);
     }
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
@@ -55,11 +47,7 @@ const ScrollSpy = ({ data }: ScrollSpyProps) => {
         tabIndex={0}
       >
         {data.map((element, i) => (
-          <div
-            // ref={items[i]}
-            key={element.linkHash}
-            id={element.linkHash}
-          >
+          <div key={element.linkHash} id={element.linkHash}>
             {element.component}
           </div>
         ))}
