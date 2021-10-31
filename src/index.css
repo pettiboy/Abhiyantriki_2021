@@ -8,6 +8,21 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.active {
+  background-color: #00bcd4 !important;
+  color: white !important;
+}
+.list-group .list-group-item {
+  background-color: transparent !important;
+  color: white !important;
+  border: none !important;
+}
+.list-group .list-group-item.active {
+  color: #00bcd4 !important;
+  font-size: 3.2em !important;
+  transition: all 0.3s ease-in-out;
+}
+
 /* For custom Scrollbar */
 /* width */
 ::-webkit-scrollbar {

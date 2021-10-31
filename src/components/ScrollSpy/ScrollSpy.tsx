@@ -24,33 +24,37 @@ const ScrollSpy = ({ data }: ScrollSpyProps) => {
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
-    <div className="d-flex">
-      <div id={useId} className="list-group ">
-        {data.map((element) => (
-          <a
-            key={element.linkHash}
-            className="list-group-item list-group-item-action"
-            href={`#${element.linkHash}`}
-          >
-            {element.linkName}
-          </a>
-        ))}
+    <div className="row vh-100">
+      <div className="col-sm-6 col-md-6 flex-column d-flex justify-content-center">
+        <div id={useId} className="list-group">
+          {data.map((element) => (
+            <a
+              key={element.linkHash}
+              className="list-group-item list-group-item-action"
+              href={`#${element.linkHash}`}
+            >
+              {element.linkName}
+            </a>
+          ))}
+        </div>
       </div>
 
       {/* section to spy on */}
-      <div
-        data-bs-spy="scroll"
-        data-bs-target={`#${useId}`}
-        data-bs-offset="60"
-        className="position-relative overflow-auto p-4"
-        style={{ height: 500 }}
-        tabIndex={0}
-      >
-        {data.map((element, i) => (
-          <div key={element.linkHash} id={element.linkHash}>
-            {element.component}
-          </div>
-        ))}
+      <div className="col-sm-6 col-md-6 flex-column d-flex justify-content-center">
+        <div
+          data-bs-spy="scroll"
+          data-bs-target={`#${useId}`}
+          data-bs-offset="60"
+          className="position-relative overflow-auto p-4"
+          style={{ height: 500 }}
+          tabIndex={0}
+        >
+          {data.map((element, i) => (
+            <div key={element.linkHash} id={element.linkHash}>
+              {element.component}
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
