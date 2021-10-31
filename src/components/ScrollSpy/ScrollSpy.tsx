@@ -1,5 +1,5 @@
-import React from "react";
-import { ScrollSpy as BSScrollSpy } from "bootstrap";
+import React, { createRef, LegacyRef, useRef } from "react";
+import { useLocation } from "react-router-dom";
 
 export interface ScrollSpyNode {
   linkName: string;
@@ -13,16 +13,23 @@ interface ScrollSpyProps {
 
 const ScrollSpy = ({ data }: ScrollSpyProps) => {
   const useId = "scroll-list-100";
+  const location = useLocation();
+
+  // const lineRefs = React.useRef<Array<HTMLDivElement>>([]);
+  const items = useRef(Array(data.length).fill(createRef()));
+  // lineRefs.current = data.map((_, i) => lineRefs.current[i] ?? createRef());
 
   React.useEffect(() => {
-    setTimeout(() => {
-      var scrollSpy = new BSScrollSpy(document.body, {
-        target: useId,
-      });
-      console.log(scrollSpy.refresh);
-      scrollSpy.refresh();
-    }, 0);
-  }, []);
+    if (location.hash) {
+      setTimeout(function () {
+        window.scrollTo(0, 0);
+        const dataNode = data.findIndex(
+          (scrollSpyNode) => scrollSpyNode.linkHash === location.hash
+        );
+        // window.scrollTo(location.hash);
+      }, 1);
+    }
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <div className="d-flex">
@@ -47,8 +54,12 @@ const ScrollSpy = ({ data }: ScrollSpyProps) => {
         style={{ height: 500 }}
         tabIndex={0}
       >
-        {data.map((element) => (
-          <div key={element.linkHash} id={element.linkHash}>
+        {data.map((element, i) => (
+          <div
+            // ref={items[i]}
+            key={element.linkHash}
+            id={element.linkHash}
+          >
             {element.component}
           </div>
         ))}
