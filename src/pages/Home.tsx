@@ -1,5 +1,3 @@
-import React from "react";
-import About from "../components/About/About";
 import HomePage from "../components/HomePage/HomePage";
 
 interface HomeProps {}

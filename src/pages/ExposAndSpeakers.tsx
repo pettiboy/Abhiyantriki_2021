@@ -5,10 +5,8 @@ interface ExposAndSpeakersProps {}
 
 const ExposAndSpeakers = ({}: ExposAndSpeakersProps) => {
   return (
-    <div>
-      <div className="container" style={{ paddingTop: "10vh" }}>
-        <ScrollSpy data={exposAndSpeakersData} />
-      </div>
+    <div className="container" style={{ marginTop: "10vh" }}>
+      <ScrollSpy data={exposAndSpeakersData} />
     </div>
   );
 };
