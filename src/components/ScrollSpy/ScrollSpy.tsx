@@ -17,15 +17,13 @@ const ScrollSpy = ({ data }: ScrollSpyProps) => {
 
   React.useEffect(() => {
     if (location.hash) {
-      setTimeout(function () {
-        window.scrollTo(0, 0);
-      }, 1);
+      window.location.hash = "";
     }
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <div className="row vh-100">
-      <div className="col-sm-6 col-md-6 flex-column d-flex justify-content-center">
+      <div className="col-sm-4 col-md-4 flex-column d-flex justify-content-center">
         <div id={useId} className="list-group">
           {data.map((element) => (
             <a
@@ -40,13 +38,13 @@ const ScrollSpy = ({ data }: ScrollSpyProps) => {
       </div>
 
       {/* section to spy on */}
-      <div className="col-sm-6 col-md-6 flex-column d-flex justify-content-center">
+      <div className="col-sm-8 col-md-8 flex-column d-flex justify-content-center">
         <div
           data-bs-spy="scroll"
           data-bs-target={`#${useId}`}
           data-bs-offset="60"
-          className="position-relative overflow-auto p-4"
-          style={{ height: 500 }}
+          className="position-relative overflow-auto p-5"
+          style={{ height: "90vh" }}
           tabIndex={0}
         >
           {data.map((element, i) => (
