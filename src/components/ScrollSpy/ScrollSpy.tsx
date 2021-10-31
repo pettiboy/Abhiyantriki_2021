@@ -14,18 +14,20 @@ interface ScrollSpyProps {
 const ScrollSpy = ({ data }: ScrollSpyProps) => {
   const useId = "scroll-list-100";
   const location = useLocation();
+  const scrollContainerRef = React.useRef<HTMLDivElement>(null);
 
   React.useEffect(() => {
-    setTimeout(() => {
+    // it worksss!!
+    // last but not least I would like to thank me
+    // for believing in me
+    if (location.hash && scrollContainerRef.current) {
+      scrollContainerRef.current.scrollTo(0, 0);
+
       const target = window.document.getElementById(location.hash.slice(1));
       if (target) {
         console.log(target);
         target.scrollIntoView({ behavior: "smooth" });
       }
-    }, 0);
-
-    if (location.hash) {
-      window.location.hash = "";
     }
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
@@ -48,6 +50,7 @@ const ScrollSpy = ({ data }: ScrollSpyProps) => {
       {/* section to spy on */}
       <div className="col-sm-8 col-md-8 flex-column d-flex justify-content-center">
         <div
+          ref={scrollContainerRef}
           data-bs-spy="scroll"
           data-bs-target={`#${useId}`}
           data-bs-offset="60"
