@@ -16,6 +16,14 @@ const ScrollSpy = ({ data }: ScrollSpyProps) => {
   const location = useLocation();
 
   React.useEffect(() => {
+    setTimeout(() => {
+      const target = window.document.getElementById(location.hash.slice(1));
+      if (target) {
+        console.log(target);
+        target.scrollIntoView({ behavior: "smooth" });
+      }
+    }, 0);
+
     if (location.hash) {
       window.location.hash = "";
     }
