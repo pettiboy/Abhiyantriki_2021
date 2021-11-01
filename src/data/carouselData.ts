@@ -1,23 +1,27 @@
 export const  images = [
   {
-    "url": "/assets/logos/ab-black.png",
-    "title": "Abhiyantriki 2021 1"
+    "url": "/assets/images/events/events.png",
+    "title": "Events"
   },
   {
-    "url": "/assets/logos/ab-black.png",
-    "title": "Abhiyantriki 2021 2"
+    "url": "/assets/images/events/Informals.png",
+    "title": "Informals"
   },
   {
-    "url": "/assets/logos/ab-black.png",
-    "title": "Abhiyantriki 2021 2"
+    "url": "/assets/images/events/internship_expo.png",
+    "title": "Internship Expo"
   },
   {
-    "url": "/assets/logos/ab-black.png",
-    "title": "Abhiyantriki 2021 2"
+    "url": "/assets/images/events/parvaah.png",
+    "title": "Parvaah"
   },
   {
-    "url": "/assets/logos/ab-black.png",
-    "title": "Abhiyantriki 2021 2"
+    "url": "/assets/images/events/Speaker Session.png",
+    "title": "Speaker Session"  
+  },
+  {
+    "url": "/assets/images/events/tech expo.png",
+    "title": "Tech Expo"  
   },
 
 ]
