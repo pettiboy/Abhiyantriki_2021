@@ -1,3 +1,4 @@
+import Carousel from "../components/Carousel/Carousel";
 import HomePage from "../components/HomePage/HomePage";
 import Timeline from "../components/Timeline/Timeline";
 import Parvaah from "./Parvaah";
@@ -10,7 +11,7 @@ const Home = ({}: HomeProps) => {
       <div className="d-flex vh-100 justify-content-center align-items-center">
         <HomePage/>
       </div>
-      
+      <Carousel component={"symbol"}/>
     
     </div>
   );
