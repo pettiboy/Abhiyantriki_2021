@@ -1,11 +1,8 @@
 import React from "react";
 
-interface HomePageProps {
-  name: string;
-}
 
-const HomePage = ({ name }: HomePageProps) => {
-  return <div style={{ color: "white" }}>{name}</div>;
+const HomePage = () => {
+  return <img src='/assets/logos/ab-white.png' height={400}/>;
 };
 
 export default HomePage;
