@@ -1,22 +1,23 @@
 import React, { ReactComponentElement, ReactType } from "react";
 import Slider from "react-touch-drag-slider";
+import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, { Navigation } from "swiper";
+import "swiper/swiper-bundle.min.css";
+
 
 import { images } from "../../data/carouselData";
 
-const Carousel = (props: { component: ReactType }) => {
-  const Slider: ReactType = props.component;
+const Carousel = () => {
+  SwiperCore.use([Navigation]);
   return (
-    <div className="d-flex vh-100 justify-content-center align-items-center">
-      <Slider
-        activeIndex={0}
-        threshHold={400}
-        transition={0.5}
-        scaleOnDrag={true}
-      >
-        {images.map(({ url, title }, index) => (
-            <img src={url} key={index} alt={title} height="200" className="m-4"/>
-        ))}
-      </Slider>
+    <div>
+      <Swiper navigation={true} className="mySwiper text-center">
+        <SwiperSlide className="m-3">Swiper1</SwiperSlide>
+        <SwiperSlide className="m-3">Swiper1</SwiperSlide>
+        <SwiperSlide className="m-3">Swiper1</SwiperSlide>
+        <SwiperSlide className="m-3">Swiper1</SwiperSlide>
+        <SwiperSlide className="m-3">Swiper1</SwiperSlide>
+      </Swiper>
     </div>
   );
 };

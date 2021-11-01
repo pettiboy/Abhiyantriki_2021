@@ -11,8 +11,7 @@ const Home = ({}: HomeProps) => {
       <div className="d-flex vh-100 justify-content-center align-items-center">
         <HomePage/>
       </div>
-      <Carousel component={"symbol"}/>
-    
+      <Carousel/>
     </div>
   );
 };
