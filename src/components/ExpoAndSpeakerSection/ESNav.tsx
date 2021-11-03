@@ -1,5 +1,5 @@
 import React from "react";
-import { exposAndSpeakersData } from "../../data/exposAndSpeakers";
+import { exposAndSpeakersDataJson } from "../../data/exposAndSpeakers";
 import "./ES.css";
 
 interface Props {}
@@ -25,15 +25,21 @@ const ESNav = (props: Props) => {
     }
   };
 
+  const height = window.innerWidth;
+
   return (
     <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        overflowX: "scroll",
-      }}
+      style={
+        height < 800
+          ? {
+              display: "flex",
+              justifyContent: "center",
+              overflowX: "scroll",
+            }
+          : {}
+      }
     >
-      {exposAndSpeakersData.map((element) => (
+      {exposAndSpeakersDataJson.map((element) => (
         <a
           key={element.linkHash}
           onClick={(e) => onPress(e)}
