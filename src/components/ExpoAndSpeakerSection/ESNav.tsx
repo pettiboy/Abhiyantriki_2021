@@ -12,6 +12,16 @@ const ESNav = (props: Props) => {
     );
     if (target) {
       target.scrollIntoView({ behavior: "smooth" });
+
+      // var headerOffset = 20; // height of the header
+      // var elementPosition = target.getBoundingClientRect().top;
+      // var offsetPosition = elementPosition - headerOffset;
+      // console.log(offsetPosition);
+
+      // window.scrollTo({
+      //   top: offsetPosition,
+      //   behavior: "smooth",
+      // });
     }
   };
 
@@ -20,6 +30,7 @@ const ESNav = (props: Props) => {
       style={{
         display: "flex",
         justifyContent: "center",
+        overflowX: "scroll",
       }}
     >
       {exposAndSpeakersData.map((element) => (
@@ -28,7 +39,11 @@ const ESNav = (props: Props) => {
           onClick={(e) => onPress(e)}
           href={`#${element.linkHash}`}
         >
-          <div data-to-scrollspy-id={element.linkHash} className="ss-item">
+          <div
+            style={{ textAlign: "center" }}
+            data-to-scrollspy-id={element.linkHash}
+            className="ss-item"
+          >
             {element.linkName}
           </div>
         </a>

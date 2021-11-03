@@ -1,13 +1,17 @@
 a {
-  text-decoration: none;
-  color: white;
+  text-decoration: none !important;
+  color: white !important;
 }
 .active-scroll-spy {
   background-color: purple;
-  border-radius: 15px;
+  border-radius: 10px;
   transition: all 0.5s;
 }
 .ss-item {
-  padding: 10px 20px;
+  padding: 5px 10px;
   margin: 10px;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
