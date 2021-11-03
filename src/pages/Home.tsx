@@ -1,7 +1,7 @@
 import Carousel from "../components/Carousel/Carousel";
 import HomePage from "../components/HomePage/HomePage";
 import Timeline from "../components/Timeline/Timeline";
-import Parvaah from "./Parvaah";
+import Parvaah from "./parvaah/Parvaah";
 
 interface HomeProps {}
 

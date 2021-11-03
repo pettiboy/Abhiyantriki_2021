@@ -1,7 +1,7 @@
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Events from "./pages/Events";
-import Parvaah from "./pages/Parvaah";
+import Parvaah from "./pages/parvaah/Parvaah";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./pages/Home";
 import ExposAndSpeakers from "./pages/ExposAndSpeakers";
