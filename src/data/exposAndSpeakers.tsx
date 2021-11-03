@@ -8,7 +8,7 @@ export const exposAndSpeakersData: ScrollSpyNode[] = [
     linkName: "Panel Session",
     component: (
       <Center>
-        <h1 className="my-5" style={{ fontSize: "50px" }}>
+        <h1 className="my-5 text-center" style={{ fontSize: "50px" }}>
           Panel Session
         </h1>
         <TextAndButton
@@ -28,7 +28,7 @@ export const exposAndSpeakersData: ScrollSpyNode[] = [
     linkName: "Speaker Session",
     component: (
       <Center>
-        <h1 className="my-5" style={{ fontSize: "50px" }}>
+        <h1 className="my-5 text-center" style={{ fontSize: "50px" }}>
           Speaker Session
         </h1>
         <TextAndButton
@@ -48,7 +48,7 @@ export const exposAndSpeakersData: ScrollSpyNode[] = [
     linkName: "Internship Expo",
     component: (
       <Center>
-        <h1 className="my-5" style={{ fontSize: "50px" }}>
+        <h1 className="my-5 text-center" style={{ fontSize: "50px" }}>
           Internship Expo
         </h1>
         <TextAndButton
@@ -69,14 +69,14 @@ export const exposAndSpeakersData: ScrollSpyNode[] = [
     linkName: "Tech Expo",
     component: (
       <Center>
-        <h1 className="my-5" style={{ fontSize: "50px" }}>
+        <h1 className="my-5 text-center" style={{ fontSize: "50px" }}>
           Tech Expo
         </h1>
         <TextAndButton
           paraText={`A display of the most innovative technologies from around the
             country, ranging from humanoid robots to high-speed drones, Tech
             Expo is the most eye-catching event of Abhiyantriki.
-            <br />Exhibits from some big names like DRDO, BARC, IMD, DAE and
+            Exhibits from some big names like DRDO, BARC, IMD, DAE and
             many more at the tech expo are sure to ignite a fire for science and
             technology and leave you inquisitive!`}
           buttonHref="#"

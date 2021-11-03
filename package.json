@@ -30,7 +30,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "pull": "git pull && npm i && npm start"
+    "pull": "git pull && npm i && npm start",
+    "pull-ni": "git pull && npm start"
   },
   "eslintConfig": {
     "extends": [

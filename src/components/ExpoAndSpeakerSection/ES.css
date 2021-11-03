@@ -1,0 +1,13 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+.active-scroll-spy {
+  background-color: purple;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+.ss-item {
+  padding: 10px 20px;
+  margin: 10px;
+}
