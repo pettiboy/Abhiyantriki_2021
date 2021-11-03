@@ -5,7 +5,7 @@ interface NavbarProps {}
 
 const Navbar = ({}: NavbarProps) => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark fixed-top pt-3">
+    <nav className="navbar navbar-expand-lg navbar-dark fixed-top pt-3 position-sticky">
       <div className="container-fluid">
         <a href="/" className="navbar-brand">
           <img
@@ -41,56 +41,11 @@ const Navbar = ({}: NavbarProps) => {
             </li>
             <li className="dropdown nav-item px-2 highlight">
               <a
-                href="/"
+                href="/expos-and-speakers"
                 className="foo box text-decoration-none"
-                id="dropdownMenuButton1"
-                data-bs-toggle="dropdown"
-                aria-expanded="true"
               >
                 <span className="truncate-expo">Expos & Speakers </span>
-                <span> </span>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  className="bi bi-caret-down-fill expo-nav-ka-dropdown-icon"
-                  viewBox="0 0 16 16"
-                >
-                  <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
-                </svg>
               </a>
-              <ul
-                className="dropdown-menu fade-down dropdown-menu-dark dropdown-menu-end"
-                aria-labelledby="dropdownMenuButton1"
-              >
-                <li>
-                  <a className="dropdown-item" href="/expos-and-speakers#tech">
-                    Tech Expo
-                  </a>
-                </li>
-                <li>
-                  <a
-                    className="dropdown-item"
-                    href="/expos-and-speakers#internship"
-                  >
-                    Internship Expo
-                  </a>
-                </li>
-                <li>
-                  <a
-                    className="dropdown-item"
-                    href="/expos-and-speakers#speaker"
-                  >
-                    Speaker Session
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="/expos-and-speakers#panel">
-                    Panel Session
-                  </a>
-                </li>
-              </ul>
             </li>
 
             <li className="nav-item px-2 highlight">

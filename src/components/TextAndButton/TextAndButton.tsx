@@ -15,7 +15,7 @@ const TextAndButton = ({
 }: TextAndButtonProps) => {
   return (
     <Center>
-      <p className="my-5 fs-4 responsive-para">{paraText}</p>
+      <p className="fs-4 responsive-para text-center">{paraText}</p>
       <div className="mt-4 mb-5">
         <SpaceButton href={buttonHref} text={buttonText} />
       </div>{" "}
