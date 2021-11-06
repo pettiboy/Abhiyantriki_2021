@@ -7,27 +7,35 @@ interface TimelineProps {}
 
 const Timeline = ({}: TimelineProps) => {
   const [caption, setCaption] = useState("Year 2016");
-  const [path, setPath] = useState("/assets/images/events/Events.png");
+  const [path, setPath] = useState("/assets/images/timeline/1998.png");
 
-  const changeTo2016 = () => {
-    console.log("changed to 2016");
-    setCaption("Year 2016");
-    setPath("/assets/images/events/Events.png");
+  const changeTo1998 = () => {
+    console.log("changed to 1998");
+    setCaption(
+      "Abhiyantriki introduced as an individual, standalone festival of technical grandeur and pomp."
+    );
+    setPath("/assets/images/timeline/1998.png");
   };
-  const changeTo2017 = () => {
-    console.log("changed to 2017");
-    setCaption("Year 2017");
-    setPath("/assets/images/events/Informals.png");
+  const changeTo2008 = () => {
+    console.log("changed to 2008");
+    setCaption(
+      "Funds collected this year were all donated for the rehabilitation of the flood struck Bihar and Abhiyantriki rose in popularity with extensive media coverage."
+    );
+    setPath("/assets/images/timeline/2008.png");
   };
-  const changeTo2018 = () => {
-    console.log("changed to 2018");
-    setCaption("Year 2018");
-    setPath("/assets/images/events/parvaah.png");
+  const changeTo2009 = () => {
+    console.log("changed to 2009");
+    setCaption(
+      "KJSCE marks 25 years since its inauguration,  and the closing ceremony of Abhiyantriki was ornamented by the presence of late Dr. A.P.J. Abdul Kalam."
+    );
+    setPath("/assets/images/timeline/2009.png");
   };
-  const changeTo2019 = () => {
-    console.log("changed to 2019");
-    setCaption("Year 2019");
-    setPath("/assets/images/events/internship_expo.png");
+  const changeTo2014 = () => {
+    console.log("changed to 2014");
+    setCaption(
+      "The maiden year for Start-up and Auto Expo, Abhiyantriki this year also encompassed Rohit Suri, the Jagaur India CEO as one of the keynote speakers"
+    );
+    setPath("/assets/images/timeline/2014.png");
   };
 
   var yearParam: String;
@@ -36,17 +44,17 @@ const Timeline = ({}: TimelineProps) => {
 
   useEffect(() => {
     switch (year) {
-      case "2016":
-        changeTo2016();
+      case "1998":
+        changeTo1998();
         break;
-      case "2017":
-        changeTo2017();
+      case "2008":
+        changeTo2008();
         break;
-      case "2018":
-        changeTo2018();
+      case "2009":
+        changeTo2009();
         break;
-      case "2019":
-        changeTo2019();
+      case "2014":
+        changeTo2014();
         break;
       default:
         break;
@@ -58,21 +66,21 @@ const Timeline = ({}: TimelineProps) => {
       <h1 className="text-center m-10">Timeline</h1>
       <div className="d-inline vh-100">
         <div className="d-flex justify-content-around w-100">
-          <div onClick={() => setYear("2016")}>
-            <YearButton year="2016" />
+          <div onClick={() => setYear("1998")}>
+            <YearButton year="1998" />
           </div>
-          <div onClick={() => setYear("2017")}>
-            <YearButton year="2017" />
+          <div onClick={() => setYear("2008")}>
+            <YearButton year="2008" />
           </div>
-          <div onClick={() => setYear("2018")}>
-            <YearButton year="2018" />
+          <div onClick={() => setYear("2009")}>
+            <YearButton year="2009" />
           </div>
-          <div onClick={() => setYear("2019")}>
-            <YearButton year="2019" />
+          <div onClick={() => setYear("2014")}>
+            <YearButton year="2014" />
           </div>
         </div>
         <div className="d-flex justify-content-center w-100">
-          <InfoSection caption={caption} imgPath={path}/>
+          <InfoSection caption={caption} imgPath={path} />
         </div>
       </div>
     </>
