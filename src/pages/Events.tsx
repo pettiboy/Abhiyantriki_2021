@@ -3,6 +3,7 @@ import "./Events.css";
 import "../components/Events/EventSection";
 import EventSection from "../components/Events/EventSection";
 import SpaceButton from "../components/Buttons/SpaceButton";
+import Footer from "../components/Footer/Footer";
 
 interface EventsProps {}
 
@@ -51,6 +52,8 @@ const Events = ({}: EventsProps) => {
         </div>
       </div>
       <EventSection eventName={event} />
+      <EventSection eventName={event} />
+      <Footer />
     </div>
   );
 };

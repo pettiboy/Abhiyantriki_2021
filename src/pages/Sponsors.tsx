@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../components/Footer/Footer";
 import "./Sponsors.css";
 
 interface SponsorsProps {}
@@ -12,6 +13,7 @@ const Sponsors = ({}: SponsorsProps) => {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
         voluptatibus?
       </div>
+      <Footer/>
     </>
   );
 };
