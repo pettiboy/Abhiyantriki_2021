@@ -7,23 +7,27 @@ interface TimelineProps {}
 
 const Timeline = ({}: TimelineProps) => {
   const [caption, setCaption] = useState("Year 2016");
+  const [path, setPath] = useState("/assets/images/events/Events.png");
 
   const changeTo2016 = () => {
     console.log("changed to 2016");
     setCaption("Year 2016");
+    setPath("/assets/images/events/Events.png");
   };
   const changeTo2017 = () => {
     console.log("changed to 2017");
     setCaption("Year 2017");
+    setPath("/assets/images/events/Informals.png");
   };
   const changeTo2018 = () => {
     console.log("changed to 2018");
     setCaption("Year 2018");
+    setPath("/assets/images/events/parvaah.png");
   };
   const changeTo2019 = () => {
     console.log("changed to 2019");
     setCaption("Year 2019");
-
+    setPath("/assets/images/events/internship_expo.png");
   };
 
   var yearParam: String;
@@ -67,8 +71,8 @@ const Timeline = ({}: TimelineProps) => {
             <YearButton year="2019" />
           </div>
         </div>
-        <div className="d-flex">
-          <InfoSection/>
+        <div className="d-flex justify-content-center w-100">
+          <InfoSection caption={caption} imgPath={path}/>
         </div>
       </div>
     </>
