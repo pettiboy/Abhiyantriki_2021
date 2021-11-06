@@ -7,9 +7,11 @@ import Home from "./pages/Home";
 import ExposAndSpeakers from "./pages/ExposAndSpeakers";
 import GetInvolved from "./pages/GetInvolved";
 import Sponsors from "./pages/Sponsors";
+import Sidebar from "./components/Sidebar/Sidebar";
 
 function App() {
   return (
+    <>
     <Router>
       <Navbar />
       <div className="App text-white">
@@ -46,6 +48,8 @@ function App() {
         </Switch>
       </div>
     </Router>
+    
+    </>
   );
 }
 
