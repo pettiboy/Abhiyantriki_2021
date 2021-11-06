@@ -1,3 +1,4 @@
+import Footer from "../components/Footer/Footer";
 import TextAndButton from "../components/TextAndButton/TextAndButton";
 
 interface GetInvolvedProps {}
@@ -38,6 +39,7 @@ const GetInvolved = ({}: GetInvolvedProps) => {
           />
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

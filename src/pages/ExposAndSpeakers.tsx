@@ -3,6 +3,7 @@ import Header from "../components/ExpoAndSpeakerSection/Header";
 import ESNav from "../components/ExpoAndSpeakerSection/ESNav";
 import { COLORS } from "../constants/constants";
 import EsScrollSpy from "../components/ExpoAndSpeakerSection/EsScrollSpy";
+import Footer from "../components/Footer/Footer";
 
 interface ExposAndSpeakersProps {}
 
@@ -11,6 +12,7 @@ const ExposAndSpeakers = ({}: ExposAndSpeakersProps) => {
   const height = window.innerWidth;
 
   return (
+    <>
     <div className="container">
       <div className="row">
         <div className={"col-md-4 col-sm-4"}>
@@ -43,6 +45,7 @@ const ExposAndSpeakers = ({}: ExposAndSpeakersProps) => {
         </div>
       </div>
     </div>
+      </>
   );
 };
 

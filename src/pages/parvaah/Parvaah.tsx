@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../../components/Footer/Footer";
 import './parvaah.css';
 
 
@@ -93,7 +94,7 @@ const Parvaah = ({}: ParvaahProps) => {
       </div>
     </div>
   </div>
-
+  <Footer/>
   </div>
   );
 };
