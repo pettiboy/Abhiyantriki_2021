@@ -1,5 +1,5 @@
-import { userInfo } from "os";
 import React, { useEffect, useState } from "react";
+import './Timeline.css';
 import InfoSection from "./InfoSection";
 import YearButton from "./YearButton";
 
@@ -65,7 +65,7 @@ const Timeline = ({}: TimelineProps) => {
     <>
       <h1 className="text-center m-10">Timeline</h1>
       <div className="d-inline vh-100">
-        <div className="d-flex justify-content-around w-100">
+        <div className="d-flex justify-content-around w-100 years">
           <div onClick={() => setYear("1998")}>
             <YearButton year="1998" />
           </div>
@@ -79,7 +79,7 @@ const Timeline = ({}: TimelineProps) => {
             <YearButton year="2014" />
           </div>
         </div>
-        <div className="d-flex justify-content-center w-100">
+        <div className="d-flex justify-content-center w-100 info">
           <InfoSection caption={caption} imgPath={path} />
         </div>
       </div>

@@ -3,7 +3,7 @@ import React from "react";
 interface TechnicalProps {}
 
 const Technical = ({}: TechnicalProps) => {
-  return <div>hello</div>;
+  return <div>Technical</div>;
 };
 
 export default Technical;

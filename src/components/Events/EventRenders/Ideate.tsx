@@ -3,7 +3,7 @@ import React from "react";
 interface IdeateProps {}
 
 const Ideate = ({}: IdeateProps) => {
-  return <div>hello</div>;
+  return <div>Ideate</div>;
 };
 
 export default Ideate;

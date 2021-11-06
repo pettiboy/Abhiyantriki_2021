@@ -3,7 +3,7 @@ import React from "react";
 interface ShieldProps {}
 
 const Shield = ({}: ShieldProps) => {
-  return <div>hello</div>;
+  return <div>Shield</div>;
 };
 
 export default Shield;
