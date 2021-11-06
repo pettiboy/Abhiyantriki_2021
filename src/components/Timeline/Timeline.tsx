@@ -6,7 +6,7 @@ import YearButton from "./YearButton";
 interface TimelineProps {}
 
 const Timeline = ({}: TimelineProps) => {
-  const [caption, setCaption] = useState("Year 2016");
+  const [caption, setCaption] = useState("Abhiyantriki introduced as an individual, standalone festival of technical grandeur and pomp.");
   const [path, setPath] = useState("/assets/images/timeline/1998.png");
 
   const changeTo1998 = () => {

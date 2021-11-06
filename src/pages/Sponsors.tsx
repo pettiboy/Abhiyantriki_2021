@@ -1,9 +1,19 @@
 import React from "react";
+import "./Sponsors.css";
 
 interface SponsorsProps {}
 
 const Sponsors = ({}: SponsorsProps) => {
-  return <div style={{ margin: "20vh" }}>Sponsors</div>;
+  //sponsors render logic
+  return (
+    <>
+      <div className="sponsor-head text-center">Sponsors</div>
+      <div className="sponsor-text text-center">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
+        voluptatibus?
+      </div>
+    </>
+  );
 };
 
 export default Sponsors;
