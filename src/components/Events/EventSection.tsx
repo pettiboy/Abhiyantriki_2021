@@ -12,21 +12,17 @@ interface EventSectionProps {
 const EventSection = ({ eventName }: EventSectionProps) => {
   switch (eventName) {
     case "Technical":
-      return <Technical/>;
-      break;
+      return <Technical />;
     case "Shield":
-      return <Shield/>;
-      break;
+      return <Shield />;
     case "Informals":
-      return <Informals/>;
+      return <Informals />;
     case "Ideate":
-      return <Ideate/>;
+      return <Ideate />;
     case "Preevents":
-      return <Preevents/>;
+      return <Preevents />;
   }
-  return (
-    <h1>Technical</h1>
-  );
+  return <h1>Technical</h1>;
 };
 
 export default EventSection;
