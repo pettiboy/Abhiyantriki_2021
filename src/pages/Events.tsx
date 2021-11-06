@@ -4,6 +4,7 @@ import "../components/Events/EventSection";
 import EventSection from "../components/Events/EventSection";
 import SpaceButton from "../components/Buttons/SpaceButton";
 import Footer from "../components/Footer/Footer";
+import Center from "../components/Center/Center";
 
 interface EventsProps {}
 
@@ -18,16 +19,20 @@ const Events = ({}: EventsProps) => {
   return (
     <div className="events">
       <h1 className="text-center">Events</h1>
-      <div className="container g-8">
-        <div className="d-flex justify-content-around">
-          {events.map((eventName) => (
-            <SpaceButton
-              onPress={() => setEvent(eventName)}
-              href="#"
-              noPlus
-              text={eventName}
-            />
-          ))}
+      <div style={{ display: "table", margin: "0 auto" }}>
+        <div className="container p-5">
+          <div className="row row-cols-auto g-5">
+            {events.map((eventName) => (
+              <div className="col">
+                <SpaceButton
+                  onPress={() => setEvent(eventName)}
+                  href="#"
+                  text={eventName}
+                  noPlus
+                />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
       <EventSection eventName={event} />
