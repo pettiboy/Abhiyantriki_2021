@@ -13,7 +13,7 @@ const ExposAndSpeakers = ({}: ExposAndSpeakersProps) => {
   return (
     <div className="container">
       <div className="row">
-        <div className={"col-md-6 col-sm-6"}>
+        <div className={"col-md-4 col-sm-4"}>
           <div
             className="position-relative"
             style={{
@@ -24,7 +24,7 @@ const ExposAndSpeakers = ({}: ExposAndSpeakersProps) => {
           >
             <div
               className="position-fixed top-0"
-              style={{ marginTop: "calc(60vh/2)" }}
+              style={{ marginTop: "calc(40vh/2)" }}
             >
               <Header />
               <ESNav />
@@ -34,7 +34,7 @@ const ExposAndSpeakers = ({}: ExposAndSpeakersProps) => {
 
         <div
           className={
-            "col-md-6 col-sm-6 flex-column d-flex justify-content-center"
+            "col-md-8 col-sm-8 flex-column d-flex justify-content-center"
           }
         >
           <div ref={parentScrollContainerRef} style={{}}>

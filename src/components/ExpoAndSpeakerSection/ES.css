@@ -15,3 +15,8 @@ a {
 ::-webkit-scrollbar {
   display: none;
 }
+
+.particles,
+#tsparticles {
+  position: relative;
+}
