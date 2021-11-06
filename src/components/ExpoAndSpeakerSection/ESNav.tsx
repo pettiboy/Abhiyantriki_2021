@@ -29,15 +29,11 @@ const ESNav = (props: Props) => {
 
   return (
     <div
-      style={
-        height < 800
-          ? {
-              display: "flex",
-              justifyContent: "center",
-              overflowX: "scroll",
-            }
-          : {}
-      }
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        // overflowX: "scroll",
+      }}
     >
       {exposAndSpeakersDataJson.map((element) => (
         <a
