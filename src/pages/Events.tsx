@@ -13,45 +13,23 @@ const Events = ({}: EventsProps) => {
   const [event, setEvent] = useState("Technical");
 
   useEffect(() => {}, [event]);
+  const events = ["Technical", "Shield", "Informals", "Ideate", "Preevents"];
 
   return (
     <div className="events">
       <h1 className="text-center">Events</h1>
       <div className="container g-8">
         <div className="d-flex justify-content-around">
-          <SpaceButton
-            onPress={() => setEvent("Technical")}
-            href="#"
-            noPlus
-            text="Technical"
-          />
-          <SpaceButton
-            onPress={() => setEvent("Shield")}
-            href="#"
-            noPlus
-            text="Shield"
-          />
-          <SpaceButton
-            onPress={() => setEvent("Informals")}
-            href="#"
-            noPlus
-            text="Informals"
-          />
-          <SpaceButton
-            onPress={() => setEvent("Ideate")}
-            href="#"
-            noPlus
-            text="Ideate"
-          />
-          <SpaceButton
-            onPress={() => setEvent("Preevents")}
-            href="#"
-            noPlus
-            text="Preevents"
-          />
+          {events.map((eventName) => (
+            <SpaceButton
+              onPress={() => setEvent(eventName)}
+              href="#"
+              noPlus
+              text={eventName}
+            />
+          ))}
         </div>
       </div>
-      <EventSection eventName={event} />
       <EventSection eventName={event} />
       <Footer />
     </div>
