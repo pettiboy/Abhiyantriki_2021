@@ -12,6 +12,8 @@ const Home = ({}: HomeProps) => {
         <HomePage />
       </div>
       <Carousel />
+      <Parvaah/>
+      <Timeline/>
     </div>
   );
 };

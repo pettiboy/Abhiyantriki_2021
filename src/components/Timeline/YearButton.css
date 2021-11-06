@@ -1,0 +1,9 @@
+.year-btn {
+  color: white;
+  font-size: 1rem;
+}
+
+.year-btn:hover{
+  color: yellow;
+  cursor: pointer;
+}
