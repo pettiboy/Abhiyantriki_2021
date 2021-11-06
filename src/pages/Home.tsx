@@ -1,6 +1,7 @@
 import Carousel from "../components/Carousel/Carousel";
 import Footer from "../components/Footer/Footer";
 import HomePage from "../components/HomePage/HomePage";
+import Sidebar from "../components/Sidebar/Sidebar";
 import Timeline from "../components/Timeline/Timeline";
 import Parvaah from "./parvaah/Parvaah";
 
@@ -16,6 +17,7 @@ const Home = ({}: HomeProps) => {
       <Parvaah/>
       <Timeline/>
       <Footer/>
+      <Sidebar/>
     </div>
   );
 };
