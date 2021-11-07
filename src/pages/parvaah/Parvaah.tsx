@@ -1,5 +1,3 @@
-import React from "react";
-import Footer from "../../components/Footer/Footer";
 import "./parvaah.css";
 
 interface ParvaahProps {}

@@ -12,27 +12,21 @@ const ESScrollSpy = ({ parentScrollContainerRef }: SectionNodeProps) => {
     <ScrollSpy
       parentScrollContainerRef={parentScrollContainerRef}
       scrollThrottle={100}
-      // offsetTop={35}
     >
       {exposAndSpeakersDataJson.map((element, i) => (
         <div
           id={element.linkHash}
           key={element.linkHash}
-          style={
-            i === 3
-              ? { paddingBottom: 200, padding: 50 }
-              : i == 0
-              ? { marginTop: 80, padding: 50 }
-              : { padding: 50 }
-          }
+          style={{ padding: 50 }}
         >
-          <h1 className="mt-5 text-center" style={{ fontSize: "50px" }}>
+          <h1 className="text-center" style={{ fontSize: "40px" }}>
             {element.heading}
           </h1>
           <TextAndButton
             paraText={element.paraText}
             buttonHref={element.buttonHref}
             buttonText={element.buttonText}
+            fontSize={5}
           />
         </div>
       ))}

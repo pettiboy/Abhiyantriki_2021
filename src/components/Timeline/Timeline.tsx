@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from "react";
-import './Timeline.css';
+import "./Timeline.css";
 import InfoSection from "./InfoSection";
 import YearButton from "./YearButton";
 
 interface TimelineProps {}
 
 const Timeline = ({}: TimelineProps) => {
-  const [caption, setCaption] = useState("Abhiyantriki introduced as an individual, standalone festival of technical grandeur and pomp.");
+  const [caption, setCaption] = useState(
+    "Abhiyantriki introduced as an individual, standalone festival of technical grandeur and pomp."
+  );
   const [path, setPath] = useState("/assets/images/timeline/1998.png");
 
   const changeTo1998 = () => {
@@ -37,8 +39,6 @@ const Timeline = ({}: TimelineProps) => {
     );
     setPath("/assets/images/timeline/2014.png");
   };
-
-  var yearParam: String;
 
   const [year, setYear] = useState("2016");
 

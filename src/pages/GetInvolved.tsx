@@ -1,4 +1,3 @@
-import Footer from "../components/Footer/Footer";
 import TextAndButton from "../components/TextAndButton/TextAndButton";
 
 interface GetInvolvedProps {}

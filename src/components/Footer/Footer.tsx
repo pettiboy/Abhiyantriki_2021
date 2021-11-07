@@ -14,7 +14,7 @@ const Footer = ({}: FooterProps) => {
             </div>
             <ul className="list-unstyled">
               <li className="custom-link link-heading-li">
-                <a className="a-cancel custom-link link-heading">
+                <a href="#" className="a-cancel custom-link link-heading">
                   KJSCE Students’ Council 20-21
                 </a>
               </li>
@@ -27,7 +27,7 @@ const Footer = ({}: FooterProps) => {
                 </a>
               </li>
               <li className="custom-link link-heading-li">
-                <a className="a-cancel custom-link link-heading">
+                <a href="#" className="a-cancel custom-link link-heading">
                   Public Relations
                 </a>
               </li>
@@ -38,7 +38,9 @@ const Footer = ({}: FooterProps) => {
                 </a>
               </li>
               <li className="custom-link link-heading-li">
-                <a className="a-cancel custom-link link-heading">Marketing</a>
+                <a href="#" className="a-cancel custom-link link-heading">
+                  Marketing
+                </a>
               </li>
               <li className="custom-link">
                 <a className="a-cancel custom-link" href="tel:+91-816-938-8385">

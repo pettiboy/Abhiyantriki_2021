@@ -12,20 +12,8 @@ const ESNav = (props: Props) => {
     );
     if (target) {
       target.scrollIntoView({ behavior: "smooth" });
-
-      // var headerOffset = 20; // height of the header
-      // var elementPosition = target.getBoundingClientRect().top;
-      // var offsetPosition = elementPosition - headerOffset;
-      // console.log(offsetPosition);
-
-      // window.scrollTo({
-      //   top: offsetPosition,
-      //   behavior: "smooth",
-      // });
     }
   };
-
-  const height = window.innerWidth;
 
   return (
     <div

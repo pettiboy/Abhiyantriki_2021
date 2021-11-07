@@ -17,17 +17,22 @@ const Sidebar = ({}: SidebarProps) => {
             <a
               href="https://cutt.ly/Abhiyantriki_2020_Registration"
               target="_blank"
+              rel="noreferrer"
             >
               <i className="fa fa-edit"></i>
             </a>
           </li>
           <li>
-            <a href="/coming-soon" target="_blank">
+            <a href="/coming-soon" target="_blank" rel="noreferrer">
               <i className="fa fa-puzzle-piece"></i>
             </a>
           </li>
           <li>
-            <a href=" https://www.instagram.com/kjscelive/" target="_blank">
+            <a
+              href=" https://www.instagram.com/kjscelive/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <i className="fab fa-instagram"></i>
             </a>
           </li>
@@ -35,6 +40,7 @@ const Sidebar = ({}: SidebarProps) => {
             <a
               href="https://www.facebook.com/kjsceabhiyantriki/?ref=br_rs"
               target="_blank"
+              rel="noreferrer"
             >
               <i className="fab fa-facebook"></i>
             </a>
@@ -43,6 +49,7 @@ const Sidebar = ({}: SidebarProps) => {
             <a
               href=" https://twitter.com/kjsabhiyantriki?lang=en"
               target="_blank"
+              rel="noreferrer"
             >
               <i className="fab fa-twitter"></i>
             </a>
@@ -51,6 +58,7 @@ const Sidebar = ({}: SidebarProps) => {
             <a
               href="https://www.youtube.com/channel/UC7Z32X4uNZ8c31NteK3065g"
               target="_blank"
+              rel="noreferrer"
             >
               <i className="fa fa-youtube-play"></i>
             </a>

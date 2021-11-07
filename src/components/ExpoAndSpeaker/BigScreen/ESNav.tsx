@@ -25,18 +25,8 @@ const ESNav = (props: Props) => {
     }
   };
 
-  const height = window.innerWidth;
-
   return (
-    <div
-      style={
-        {
-          // display: "flex",
-          // justifyContent: "center",
-          // overflowX: "scroll",
-        }
-      }
-    >
+    <div>
       {exposAndSpeakersDataJson.map((element) => (
         <a
           key={element.linkHash}
