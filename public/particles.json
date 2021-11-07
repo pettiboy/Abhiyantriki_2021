@@ -9,7 +9,7 @@
       }
     },
     "color": {
-      "value": "#ffffff"
+      "value": "#ff00ff"
     },
     "shape": {
       "type": "circle",
@@ -31,7 +31,7 @@
       "random": true,
       "anim": {
         "enable": true,
-        "speed": 1,
+        "speed": 2,
         "opacity_min": 0,
         "sync": false
       }
@@ -41,7 +41,7 @@
       "random": true,
       "anim": {
         "enable": false,
-        "speed": 4,
+        "speed": 5,
         "size_min": 0.3,
         "sync": false
       }

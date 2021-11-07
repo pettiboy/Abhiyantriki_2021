@@ -7,10 +7,7 @@ interface SidebarProps {}
 const Sidebar = ({}: SidebarProps) => {
   return (
     <React.Fragment>
-      <div
-        style={{ background: COLORS.PRIMARY }}
-        className="social-media__section"
-      >
+      <div className="social-media__section">
         <ul className="list-unstyled">
           <li>
             <a href="https://kjscelive.wordpress.com/">

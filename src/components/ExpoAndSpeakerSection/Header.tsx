@@ -16,7 +16,7 @@ const Header = (props: Props) => {
       <Particles
         canvasClassName="particles"
         height="120px"
-        width="300px"
+        width="350px"
         id="tsparticles"
         url={`${process.env.PUBLIC_URL}/particles.json`}
         init={particlesInit}
