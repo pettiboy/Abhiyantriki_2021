@@ -4,6 +4,7 @@ import ESNav from "./SmallScreen/ESNav";
 import ESScrollSpy from "./SmallScreen/ESScrollSpy";
 import Header from "./SmallScreen/Header";
 import "./ES.css";
+import "./ScrollPadding.css";
 import Footer from "../Footer/Footer";
 
 interface ESBigScreenProps {}

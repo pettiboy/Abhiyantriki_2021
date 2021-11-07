@@ -19,7 +19,11 @@ const ESScrollSpy = ({ parentScrollContainerRef }: SectionNodeProps) => {
           id={element.linkHash}
           key={element.linkHash}
           style={
-            i === 3 ? { paddingBottom: 200, padding: 50 } : { padding: 50 }
+            i === 3
+              ? { paddingBottom: 200, padding: 50 }
+              : i == 0
+              ? { marginTop: 80, padding: 50 }
+              : { padding: 50 }
           }
         >
           <h1 className="mt-5 text-center" style={{ fontSize: "50px" }}>
