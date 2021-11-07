@@ -2,7 +2,8 @@
 
 ## TODO
 
-- [ ] ExpoAndSpeakers for small screens
+- [x] ExpoAndSpeakers for small screens
+- [ ] ExpoAndSpeakers for small screens - nav container
 - [ ] Footer in ExpoAndSpeakers in full screen
 - [ ] Particles for all headings
 - [ ] Sponsers page
