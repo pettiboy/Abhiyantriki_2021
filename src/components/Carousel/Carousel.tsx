@@ -3,6 +3,7 @@ import { StyleRoot } from "radium";
 
 const Carousel = () => {
   return (
+    <div className="container g-2" style={{overflowX: 'hidden'}}>
     <div className="vh-100 text-center">
       <StyleRoot>
         <Coverflow
@@ -47,6 +48,7 @@ const Carousel = () => {
           />
         </Coverflow>
       </StyleRoot>
+    </div>
     </div>
   );
 };
