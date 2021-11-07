@@ -1,3 +1,4 @@
+import TextAndButton from "../../components/TextAndButton/TextAndButton";
 import "./parvaah.css";
 
 interface ParvaahProps {}
@@ -5,7 +6,7 @@ interface ParvaahProps {}
 const Parvaah = ({}: ParvaahProps) => {
   return (
     <div>
-      <div className="container my-5" style={{ paddingTop: "1vh" }}>
+      <div className="container mb-5">
         <div className="col">
           <h1
             className="text-white text-center my-5"
@@ -14,14 +15,7 @@ const Parvaah = ({}: ParvaahProps) => {
             Parvaah
           </h1>
 
-          <div
-            className="
-            d-sm-flex
-            justify-content-around
-            align-items-center
-            text-center
-          "
-          >
+          <div className="d-sm-flex justify-content-around align-items-center text-center mb-5">
             <img
               src="/assets/logos/Parvaah Logo.png"
               alt=""
@@ -34,29 +28,16 @@ const Parvaah = ({}: ParvaahProps) => {
               className="parvaah logo"
             />
           </div>
-          <div>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-          <div
-            className="parvaah-text text-center"
-            style={{ fontSize: 25, fontFamily: "Roboto" }}
-          >
-            Parvaah, the social wing of K.J Somaiya College of Engineering works
+
+          <TextAndButton
+            paraText="Parvaah, the social wing of K.J Somaiya College of Engineering works
             towards the social causes of the society and improving the
             conditions of the less privileged. Team Parvaah, through its various
             initiatives, has been striving to spread maximum social awareness in
-            the community.
-          </div>
-          <div className="p-knowmore text-center d-flex justify-content-center">
-            <a className="holo-btn-fed" href="/parvaah/">
-              <span className="cta-e">Volunteer</span>
-              <span className="skew top"></span>
-              <span className="skew bottom"></span>
-            </a>
-          </div>
+            the community."
+            buttonText="Volunteer"
+            buttonHref="#"
+          />
         </div>
       </div>
 

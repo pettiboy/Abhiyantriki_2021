@@ -63,7 +63,7 @@ const Timeline = ({}: TimelineProps) => {
 
   return (
     <>
-      <h1 className="text-center m-10">Timeline</h1>
+      <h1 className="text-center m-10 my-5">Timeline</h1>
       <div className="d-inline vh-100">
         <div className="d-flex justify-content-around w-100 years">
           <div onClick={() => setYear("1998")}>

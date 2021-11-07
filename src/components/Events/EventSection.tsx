@@ -6,7 +6,7 @@ import Shield from "./EventRenders/Shield";
 import Technical from "./EventRenders/Technical";
 
 interface EventSectionProps {
-  eventName: String;
+  eventName: string;
 }
 
 const EventSection = ({ eventName }: EventSectionProps) => {
