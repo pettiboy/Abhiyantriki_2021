@@ -4,6 +4,7 @@ import ESNav from "./SmallScreen/ESNav";
 import ESScrollSpy from "./SmallScreen/ESScrollSpy";
 import Header from "./SmallScreen/Header";
 import "./ES.css";
+import Footer from "../Footer/Footer";
 
 interface ESBigScreenProps {}
 
@@ -12,32 +13,24 @@ const ESBigScreen = ({}: ESBigScreenProps) => {
 
   return (
     <>
-      <div className="container">
-        <div
-          className=""
-          style={{
-            zIndex: 2,
-            width: "100%",
-          }}
-        >
-          <div
-            className="position-fixed"
-            style={{
-              // marginTop: "calc(40vh/2)",
-              background: "black" + " !important",
-            }}
-          >
-            <Header />
-            <ESNav />
-          </div>
+      {/* top container */}
+      <div
+        className="position-fixed w-100"
+        style={{ background: COLORS.PRIMARY, zIndex: 1 }}
+      >
+        <Header />
+        <ESNav />
+      </div>
 
-          <div className={"flex-column d-flex justify-content-center"}>
-            <div ref={parentScrollContainerRef} style={{}}>
-              <ESScrollSpy />
-            </div>
-          </div>
+      {/* bottom container */}
+      <div className="flex-column d-flex justify-content-center">
+        <div ref={parentScrollContainerRef}>
+          <ESScrollSpy />
         </div>
       </div>
+
+      {/* hard coded footer to prevent footer on ESBigScreen */}
+      <Footer />
     </>
   );
 };

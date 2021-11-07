@@ -3,8 +3,9 @@
 ## TODO
 
 - [x] ExpoAndSpeakers for small screens
-- [ ] ExpoAndSpeakers for small screens - nav container
-- [ ] Footer in ExpoAndSpeakers in full screen
+- [x] ExpoAndSpeakers for small screens - nav container
+- [x] Footer in ExpoAndSpeakers in full screen
+- [ ] ExpoAndSpeakers in small screen - fix offset
 - [ ] Particles for all headings
 - [ ] Sponsers page
 

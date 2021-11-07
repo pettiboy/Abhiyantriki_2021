@@ -13,7 +13,7 @@ const Header = (props: Props) => {
     console.log(container);
   };
   return (
-    <div className="position-relative" style={{ marginTop: 20 }}>
+    <div style={{ marginTop: 20 }}>
       {/* <Particles
         canvasClassName="particles"
         height="120px"
