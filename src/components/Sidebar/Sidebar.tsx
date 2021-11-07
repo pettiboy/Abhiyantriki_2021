@@ -5,7 +5,7 @@ interface SidebarProps {}
 
 const Sidebar = ({}: SidebarProps) => {
   return (
-    <>
+    <React.Fragment>
       <div className="social-media__section">
         <ul className="list-unstyled">
           <li>
@@ -78,7 +78,7 @@ const Sidebar = ({}: SidebarProps) => {
           </a>
         </div>
       </div>
-    </>
+    </React.Fragment>
   );
 };
 

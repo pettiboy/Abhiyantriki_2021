@@ -10,6 +10,7 @@
     "@types/node": "^12.20.35",
     "@types/react": "^17.0.32",
     "@types/react-dom": "^17.0.10",
+    "bootstrap-icons": "^1.7.0",
     "radium": "^0.26.1",
     "react": "^17.0.2",
     "react-coverflow": "^0.2.20",
