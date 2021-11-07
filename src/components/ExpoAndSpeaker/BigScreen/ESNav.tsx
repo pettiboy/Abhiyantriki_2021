@@ -11,17 +11,14 @@ const ESNav = (props: Props) => {
       e.currentTarget.href.split("#")[1]
     );
     if (target) {
-      target.scrollIntoView({ behavior: "smooth" });
+      var headerOffset = 20;
+      var elementPosition = target.getBoundingClientRect().top;
+      var offsetPosition = elementPosition - headerOffset;
 
-      // var headerOffset = 20; // height of the header
-      // var elementPosition = target.getBoundingClientRect().top;
-      // var offsetPosition = elementPosition - headerOffset;
-      // console.log(offsetPosition);
-
-      // window.scrollTo({
-      //   top: offsetPosition,
-      //   behavior: "smooth",
-      // });
+      window.scrollBy({
+        top: offsetPosition,
+        behavior: "smooth",
+      });
     }
   };
 

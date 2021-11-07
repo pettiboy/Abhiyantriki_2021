@@ -38,7 +38,7 @@ const ESBigScreen = ({}: ESBigScreenProps) => {
               "col-md-8 col-sm-8 col-lg-8 flex-column d-flex justify-content-center"
             }
           >
-            <div ref={parentScrollContainerRef} style={{}}>
+            <div ref={parentScrollContainerRef} style={{ paddingBottom: 100 }}>
               <ESScrollSpy />
             </div>
           </div>
