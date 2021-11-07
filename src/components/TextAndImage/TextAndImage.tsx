@@ -23,10 +23,14 @@ const TextAndImage = ({ heading, text, image }: Props) => {
         </div>
         <div className="col-sm-6 col-md-6 flex-column d-flex justify-content-center order-md-2">
           <div className="align-items-center d-flex justify-content-center flex-column">
-            <div className="fs-1 fw-bold">{heading}</div>
+            <div className="fs-4 fw-bold">{heading}</div>
             <div
               className="align-items-center d-flex justify-content-center flex-column"
-              style={{ fontSize: 20, fontFamily: "Roboto" }}
+              style={{
+                fontSize: 17,
+                fontFamily: "Roboto",
+                textAlign: "center",
+              }}
             >
               {text}
             </div>
