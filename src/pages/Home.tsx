@@ -14,10 +14,10 @@ const Home = ({}: HomeProps) => {
         <HomePage />
       </div>
       <Carousel />
-      <Parvaah/>
-      <Timeline/>
-      <Footer/>
-      <Sidebar/>
+      <Parvaah />
+      <Timeline />
+      <Footer />
+      <Sidebar />
     </div>
   );
 };
