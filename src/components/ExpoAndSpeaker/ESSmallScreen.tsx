@@ -14,14 +14,14 @@ const ESBigScreen = ({}: ESBigScreenProps) => {
     <>
       <div className="container">
         <div
-          className="position-relative"
+          className=""
           style={{
             zIndex: 2,
             width: "100%",
           }}
         >
           <div
-            className="position-fixed top-0"
+            className="position-fixed"
             style={{
               // marginTop: "calc(40vh/2)",
               background: "black" + " !important",

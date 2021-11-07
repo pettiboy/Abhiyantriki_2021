@@ -49,7 +49,7 @@ function App() {
           </Switch>
         </div>
       </Router>
-      <Footer />
+      {window.location.pathname !== "/expos-and-speakers" && <Footer />}
       <Sidebar />
     </>
   );
