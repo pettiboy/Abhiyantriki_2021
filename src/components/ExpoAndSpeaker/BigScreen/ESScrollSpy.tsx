@@ -2,6 +2,7 @@ import React from "react";
 import { exposAndSpeakersDataJson } from "../../../data/exposAndSpeakers";
 import ScrollSpy from "react-ui-scrollspy";
 import TextAndButton from "../../TextAndButton/TextAndButton";
+import TextAndImage from "../../TextAndImage/TextAndImage";
 
 export interface SectionNodeProps {
   parentScrollContainerRef?: React.MutableRefObject<HTMLDivElement | null>;
@@ -30,6 +31,14 @@ const ESScrollSpy = ({ parentScrollContainerRef }: SectionNodeProps) => {
             buttonHref={element.buttonHref}
             buttonText={element.buttonText}
           />
+          {element.cards.map((card) => (
+            <TextAndImage
+              key={card.heading}
+              image={card.image}
+              text={card.text}
+              heading={card.heading}
+            />
+          ))}
         </div>
       ))}
     </ScrollSpy>

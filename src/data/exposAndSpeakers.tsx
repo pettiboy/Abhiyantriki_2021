@@ -10,6 +10,20 @@ export const exposAndSpeakersDataJson = [
               His Holiness the Dalai Lama, and many more!`,
     buttonHref: "#",
     buttonText: "Register",
+    cards: [
+      {
+        heading: "Mukesh Jain",
+        text: "CTIO and VP Insights and Data at Capgemini India, a global leader in consulting, digital transformation, technology and engineering services. A Techno-biz leader with over 25 years of experience in Digital Transformation, Big Data analytics, AI, IoT, Blockchains and so much more!",
+        image:
+          "https://kjsce-abhiyantriki.org/2020/img/Panel%20Session/mukesh%20jain.png",
+      },
+      {
+        heading: "Tamaghna Basu",
+        text: "Co-founder and CTO at neoEYED, an AI monitoring 100+ behavioural factors to detect anomalies and prevent account takeover in real-time! A mentor for SANS and Stanford Cyber Security courses, he is also a Startup advisor!",
+        image:
+          "https://kjsce-abhiyantriki.org/2020/img/Panel%20Session/tamaghna%20basu.png",
+      },
+    ],
   },
   {
     linkHash: "speaker",
@@ -22,6 +36,20 @@ export const exposAndSpeakersDataJson = [
               His Holiness the Dalai Lama and many more!`,
     buttonHref: "#",
     buttonText: "Register",
+    cards: [
+      {
+        heading: "Mukesh Jain",
+        text: "CTIO and VP Insights and Data at Capgemini India, a global leader in consulting, digital transformation, technology and engineering services. A Techno-biz leader with over 25 years of experience in Digital Transformation, Big Data analytics, AI, IoT, Blockchains and so much more!",
+        image:
+          "https://kjsce-abhiyantriki.org/2020/img/Panel%20Session/mukesh%20jain.png",
+      },
+      {
+        heading: "Tamaghna Basu",
+        text: "Co-founder and CTO at neoEYED, an AI monitoring 100+ behavioural factors to detect anomalies and prevent account takeover in real-time! A mentor for SANS and Stanford Cyber Security courses, he is also a Startup advisor!",
+        image:
+          "https://kjsce-abhiyantriki.org/2020/img/Panel%20Session/tamaghna%20basu.png",
+      },
+    ],
   },
   {
     linkHash: "internship",
@@ -35,6 +63,20 @@ export const exposAndSpeakersDataJson = [
               morale of the students.`,
     buttonHref: "#",
     buttonText: "Register",
+    cards: [
+      {
+        heading: "Mukesh Jain",
+        text: "CTIO and VP Insights and Data at Capgemini India, a global leader in consulting, digital transformation, technology and engineering services. A Techno-biz leader with over 25 years of experience in Digital Transformation, Big Data analytics, AI, IoT, Blockchains and so much more!",
+        image:
+          "https://kjsce-abhiyantriki.org/2020/img/Panel%20Session/mukesh%20jain.png",
+      },
+      {
+        heading: "Tamaghna Basu",
+        text: "Co-founder and CTO at neoEYED, an AI monitoring 100+ behavioural factors to detect anomalies and prevent account takeover in real-time! A mentor for SANS and Stanford Cyber Security courses, he is also a Startup advisor!",
+        image:
+          "https://kjsce-abhiyantriki.org/2020/img/Panel%20Session/tamaghna%20basu.png",
+      },
+    ],
   },
   {
     linkHash: "tech",
@@ -48,5 +90,19 @@ export const exposAndSpeakersDataJson = [
               technology and leave you inquisitive!`,
     buttonHref: "#",
     buttonText: "Register",
+    cards: [
+      {
+        heading: "Mukesh Jain",
+        text: "CTIO and VP Insights and Data at Capgemini India, a global leader in consulting, digital transformation, technology and engineering services. A Techno-biz leader with over 25 years of experience in Digital Transformation, Big Data analytics, AI, IoT, Blockchains and so much more!",
+        image:
+          "https://kjsce-abhiyantriki.org/2020/img/Panel%20Session/mukesh%20jain.png",
+      },
+      {
+        heading: "Tamaghna Basu",
+        text: "Co-founder and CTO at neoEYED, an AI monitoring 100+ behavioural factors to detect anomalies and prevent account takeover in real-time! A mentor for SANS and Stanford Cyber Security courses, he is also a Startup advisor!",
+        image:
+          "https://kjsce-abhiyantriki.org/2020/img/Panel%20Session/tamaghna%20basu.png",
+      },
+    ],
   },
 ];
