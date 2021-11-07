@@ -8,47 +8,49 @@ import ExposAndSpeakers from "./pages/ExposAndSpeakers";
 import GetInvolved from "./pages/GetInvolved";
 import Sponsors from "./pages/Sponsors";
 import Sidebar from "./components/Sidebar/Sidebar";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
     <>
-    <Router>
-      <Navbar />
-      <div className="App text-white">
-        <Switch>
-          {/* for home page */}
-          <Route path="/" exact>
-            <Home />
-          </Route>
+      <Router>
+        <Navbar />
+        <div className="App text-white">
+          <Switch>
+            {/* for home page */}
+            <Route path="/" exact>
+              <Home />
+            </Route>
 
-          {/* for events page */}
-          <Route path="/events">
-            <Events />
-          </Route>
+            {/* for events page */}
+            <Route path="/events">
+              <Events />
+            </Route>
 
-          {/* for get involved page */}
-          <Route path="/get-involved">
-            <GetInvolved />
-          </Route>
+            {/* for get involved page */}
+            <Route path="/get-involved">
+              <GetInvolved />
+            </Route>
 
-          {/* for events page */}
-          <Route path="/expos-and-speakers">
-            <ExposAndSpeakers />
-          </Route>
+            {/* for events page */}
+            <Route path="/expos-and-speakers">
+              <ExposAndSpeakers />
+            </Route>
 
-          {/* for parvaah page */}
-          <Route path="/parvaah">
-            <Parvaah />
-          </Route>
+            {/* for parvaah page */}
+            <Route path="/parvaah">
+              <Parvaah />
+            </Route>
 
-          {/* for Sponsers page */}
-          <Route path="/sponsors">
-            <Sponsors />
-          </Route>
-        </Switch>
-      </div>
-    </Router>
-    <Sidebar/>
+            {/* for Sponsers page */}
+            <Route path="/sponsors">
+              <Sponsors />
+            </Route>
+          </Switch>
+        </div>
+      </Router>
+      <Footer />
+      <Sidebar />
     </>
   );
 }

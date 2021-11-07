@@ -39,7 +39,6 @@ const GetInvolved = ({}: GetInvolvedProps) => {
           />
         </div>
       </div>
-      <Footer/>
     </div>
   );
 };

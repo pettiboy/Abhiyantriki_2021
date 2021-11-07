@@ -1,4 +1,5 @@
 import React from "react";
+import { COLORS } from "../../constants/constants";
 import "./Sidebar.css";
 
 interface SidebarProps {}
@@ -6,7 +7,10 @@ interface SidebarProps {}
 const Sidebar = ({}: SidebarProps) => {
   return (
     <React.Fragment>
-      <div className="social-media__section">
+      <div
+        style={{ background: COLORS.PRIMARY }}
+        className="social-media__section"
+      >
         <ul className="list-unstyled">
           <li>
             <a href="https://kjscelive.wordpress.com/">

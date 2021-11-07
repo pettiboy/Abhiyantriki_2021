@@ -16,7 +16,6 @@ const Home = ({}: HomeProps) => {
       <Carousel />
       <Parvaah />
       <Timeline />
-      <Footer />
       <Sidebar />
     </div>
   );

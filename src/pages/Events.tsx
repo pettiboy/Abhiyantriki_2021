@@ -36,7 +36,6 @@ const Events = ({}: EventsProps) => {
         </div>
       </div>
       <EventSection eventName={event} />
-      <Footer />
     </div>
   );
 };
