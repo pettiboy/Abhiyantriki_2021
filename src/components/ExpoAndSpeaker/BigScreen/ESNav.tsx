@@ -1,6 +1,6 @@
 import React from "react";
-import { exposAndSpeakersDataJson } from "../../data/exposAndSpeakers";
-import "./ES.css";
+import { exposAndSpeakersDataJson } from "../../../data/exposAndSpeakers";
+import "../ES.css";
 
 interface Props {}
 

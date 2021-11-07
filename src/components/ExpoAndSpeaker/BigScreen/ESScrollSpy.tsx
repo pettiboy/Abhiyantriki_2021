@@ -1,15 +1,13 @@
 import React from "react";
-import { exposAndSpeakersDataJson } from "../../data/exposAndSpeakers";
+import { exposAndSpeakersDataJson } from "../../../data/exposAndSpeakers";
 import ScrollSpy from "react-ui-scrollspy";
-import TextAndButton from "../TextAndButton/TextAndButton";
+import TextAndButton from "../../TextAndButton/TextAndButton";
 
 export interface SectionNodeProps {
   parentScrollContainerRef?: React.MutableRefObject<HTMLDivElement | null>;
 }
 
-const ExpoAndSpeakerSection = ({
-  parentScrollContainerRef,
-}: SectionNodeProps) => {
+const ESScrollSpy = ({ parentScrollContainerRef }: SectionNodeProps) => {
   return (
     <ScrollSpy
       parentScrollContainerRef={parentScrollContainerRef}
@@ -38,4 +36,4 @@ const ExpoAndSpeakerSection = ({
   );
 };
 
-export default ExpoAndSpeakerSection;
+export default ESScrollSpy;

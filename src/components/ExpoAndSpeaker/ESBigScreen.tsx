@@ -1,8 +1,9 @@
 import { useRef } from "react";
 import { COLORS } from "../../constants/constants";
-import ESNav from "./ESNav";
-import EsScrollSpy from "./EsScrollSpy";
-import Header from "./Header";
+import ESNav from "./BigScreen/ESNav";
+import ESScrollSpy from "./BigScreen/ESScrollSpy";
+import Header from "./BigScreen/Header";
+import "./ES.css";
 
 interface ESBigScreenProps {}
 
@@ -38,7 +39,7 @@ const ESBigScreen = ({}: ESBigScreenProps) => {
             }
           >
             <div ref={parentScrollContainerRef} style={{}}>
-              <EsScrollSpy />
+              <ESScrollSpy />
             </div>
           </div>
         </div>

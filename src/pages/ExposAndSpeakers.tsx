@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import ESBigScreen from "../components/ExpoAndSpeaker/ESBigScreen";
+import ESSmallScreen from "../components/ExpoAndSpeaker/ESSmallScreen";
 
 interface ExposAndSpeakersProps {}
 
@@ -15,7 +16,7 @@ const ExposAndSpeakers = ({}: ExposAndSpeakersProps) => {
     setWidth(window.innerWidth);
   };
 
-  return <>{width > 992 && <ESBigScreen />}</>;
+  return <>{width > 992 ? <ESBigScreen /> : <ESSmallScreen />}</>;
 };
 
 export default ExposAndSpeakers;
