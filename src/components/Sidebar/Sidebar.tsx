@@ -1,5 +1,4 @@
 import React from "react";
-import { COLORS } from "../../constants/constants";
 import "./Sidebar.css";
 
 interface SidebarProps {}

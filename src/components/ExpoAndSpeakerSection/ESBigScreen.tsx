@@ -8,7 +8,6 @@ interface ESBigScreenProps {}
 
 const ESBigScreen = ({}: ESBigScreenProps) => {
   const parentScrollContainerRef = useRef<HTMLDivElement | null>(null);
-  const height = window.innerWidth;
 
   return (
     <>

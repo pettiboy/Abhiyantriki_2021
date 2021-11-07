@@ -1,5 +1,12 @@
 # Abhiyantriki 2021
 
+## TODO
+
+- [ ] ExpoAndSpeakers for small screens
+- [ ] Footer in ExpoAndSpeakers in full screen
+- [ ] Particles for all headings
+- [ ] Sponsers page
+
 ## Getting Started
 
 1. make sure you have [`nodejs`](https://nodejs.org/en/) installed
