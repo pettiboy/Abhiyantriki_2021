@@ -40,7 +40,7 @@ const TwinkleTwinkle = ({
         init={particlesInit}
         loaded={particlesLoaded}
       ></Particles>
-      <h1 style={{ margin: 20, fontSize: 50, fontFamily: "Roboto" }}>
+      <h1 style={{ margin: 20, fontSize: 50, fontFamily: "Roboto", color:"yellow" }}>
         {title}
       </h1>
     </div>
