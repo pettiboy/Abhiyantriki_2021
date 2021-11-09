@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import "./Sponsors.css";
 import "../components/Timeline/Timeline.css";
 import { sponsorsImgSources } from "../data/sponsorsImgSources";
@@ -7,6 +7,7 @@ interface SponsorsProps {}
 
 const Sponsors = ({}: SponsorsProps) => {
   const [year, setYear] = useState<number>(2021);
+  const yearRef = useRef<HTMLSpanElement | null>(null);
 
   return (
     <div className="container">
@@ -18,16 +19,50 @@ const Sponsors = ({}: SponsorsProps) => {
         in India' on the 24th of October at the Panel Session in Abhiyantriki
         2021!
       </p>
-      <div className="d-flex justify-content-around w-100 years">
-        {Object.keys(sponsorsImgSources).map((thisyear) => (
-          <div onClick={() => setYear(parseInt(thisyear))}>{thisyear}</div>
-        ))}
+
+      {/* YearCarousal */}
+      <div className="d-flex justify-content-around align-items-center font-size p-5">
+        <i
+          className="arrows fas fa-chevron-left"
+          onClick={() => {
+            // get min and max of all keys in our dict
+            const keys = Object.keys(sponsorsImgSources);
+            const max = parseInt(keys[keys.length - 1]);
+            const min = parseInt(keys[0]);
+
+            if (year == min) {
+              setYear(max);
+            } else {
+              setYear((prev) => prev - 1);
+            }
+          }}
+        ></i>
+        <span ref={yearRef} className="displaying-year animation">
+          {year}
+        </span>
+        <i
+          className="arrows fas fa-chevron-right"
+          onClick={() => {
+            // get min and max of all keys in our dict
+            const keys = Object.keys(sponsorsImgSources);
+            const max = parseInt(keys[keys.length - 1]);
+            const min = parseInt(keys[0]);
+
+            if (year == max) {
+              setYear(min);
+            } else {
+              setYear((prev) => prev + 1);
+            }
+          }}
+        ></i>
       </div>
 
+      <div className="text-center fs-2 mb-5">Presented By</div>
+
       <div className="d-flex justify-content-center">
-        <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+        <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5">
           {sponsorsImgSources[year].map((source: string) => (
-            <div className="col m-3">
+            <div className="col m-3 d-flex flex-column mx-auto">
               <img src={source} alt="source" width={200} />
             </div>
           ))}

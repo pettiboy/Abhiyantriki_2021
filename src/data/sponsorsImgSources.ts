@@ -1,4 +1,10 @@
 export const sponsorsImgSources = {
+  2018: [
+    "/assets/images/timeline/2009.png",
+    "/assets/images/events/events.png",
+    "/assets/images/events/events.png",
+    "/assets/images/events/events.png",
+  ],
   2019: [
     "/assets/images/timeline/2008.png",
     "/assets/images/events/events.png",
