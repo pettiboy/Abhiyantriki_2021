@@ -1,3 +1,4 @@
+import About from "../components/About/About";
 import Carousel from "../components/Carousel/Carousel";
 import HomePage from "../components/HomePage/HomePage";
 import Sidebar from "../components/Sidebar/Sidebar";
@@ -13,8 +14,8 @@ const Home = ({}: HomeProps) => {
         <HomePage />
       </div>
       <Carousel />
-      <Parvaah />
       <Timeline />
+      <About/>
       <Sidebar />
     </div>
   );

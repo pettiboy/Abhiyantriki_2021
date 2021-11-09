@@ -1,3 +1,6 @@
+import React from "react";
+import './About.css';
+
 interface AboutProps {}
 
 const About = ({}: AboutProps) => {
@@ -6,13 +9,14 @@ const About = ({}: AboutProps) => {
       <div className="container">
         <div className="d-md-flex justify-content-between align-items-center">
           <img
-            src="assets/logos/about-kjsce.png"
+            src="assets/logos/kjsce.png"
             alt=""
-            className="kj-img kjsce"
+            className="kj-img kjsce m-5"
+            width="400"
           />
-          <div className="about-kjsce" style={{ color: "aliceblue" }}>
-            <h1 className="text-end">KSJCE</h1>
-            <p>
+          <div className="about-kjsce">
+            <h1 className="text-end" style={{ color: "palegoldenrod" }}>KSJCE</h1>
+            <p className="m-3">
               K.J. Somaiya College of Engineering is a nationally reputed
               engineering college under the Somaiya Vidyavihar University (SVU)
               offering 4-year B-Tech courses to 5 branches of Engineering. The
@@ -21,7 +25,7 @@ const About = ({}: AboutProps) => {
             </p>
           </div>
         </div>
-        <h1 className="text-center" style={{ color: "palegoldenrod" }}>
+        <h1 className="text-center" style={{ color: "aliceblue", fontWeight: 'bolder'}}>
           ABOUT
         </h1>
         <div
@@ -35,13 +39,14 @@ const About = ({}: AboutProps) => {
         >
           <div>
             <img
-              src="assets/logos/about-abhiyantriki.png"
+              src="assets/logos/abhiyantriki_logo.png"
               alt=""
-              className="kj-img abhiyantriki"
+              className="kj-img abhiyantriki m-5"
+              width='300'
             />
           </div>
-          <div className="about-abhiyantriki" style={{ color: "aliceblue" }}>
-            <h1 className="text-start">ABHIYANTRIKI</h1>
+          <div className="about-abhiyantriki">
+            <h1 className="text-start" style={{ color: "palegoldenrod" }}>ABHIYANTRIKI</h1>
             <p>
               K.J. Somaiya College of Engineering is a nationally reputed
               engineering college under the Somaiya Vidyavihar University (SVU)
