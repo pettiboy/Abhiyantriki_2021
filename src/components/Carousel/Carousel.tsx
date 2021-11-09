@@ -1,5 +1,6 @@
 import Coverflow from "react-coverflow";
 import { StyleRoot } from "radium";
+import "./Carousel.css";
 
 const Carousel = () => {
   return (
@@ -22,30 +23,38 @@ const Carousel = () => {
               },
             }}
           >
-            <img
-              alt="img"
-              src="/assets/images/events/Events.png"
-              data-action="https://facebook.github.io/react/"
-              height="175"
-            />
-            <img
-              alt="img"
-              src="/assets/images/events/Informals.png"
-              data-action="http://passer.cc"
-              height="175"
-            />
-            <img
-              alt="img"
-              src="/assets/images/events/internship_expo.png"
-              data-action="https://doce.cc/"
-              height="175"
-            />
+            <div className="carousel-img">
+              <img
+                alt="img"
+                src="/assets/images/events/Events.png"
+                data-action="https://facebook.github.io/react/"
+                width="200"
+              />
+            </div>
+            <div className="carousel-img">
+              <img
+                alt="img"
+                src="/assets/images/events/Informals.png"
+                data-action="http://passer.cc"
+                width="200"
+              />
+            </div>
+            <div className="carousel-img">
+              <img
+                alt="img"
+                src="/assets/images/events/internship_expo.png"
+                data-action="https://doce.cc/"
+                width="200"
+              />
+            </div>
+            <div className="carousel-img">
             <img
               alt="img"
               src="/assets/images/events/parvaah.png"
               data-action="http://tw.yahoo.com"
-              height="175"
+              width="200"     
             />
+            </div>
           </Coverflow>
         </StyleRoot>
       </div>

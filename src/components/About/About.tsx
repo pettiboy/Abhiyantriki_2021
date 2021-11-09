@@ -42,7 +42,7 @@ const About = ({}: AboutProps) => {
               src="assets/logos/abhiyantriki_logo.png"
               alt=""
               className="kj-img abhiyantriki m-5"
-              width='300'
+              width='200'
             />
           </div>
           <div className="about-abhiyantriki">
