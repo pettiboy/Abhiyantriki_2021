@@ -9,9 +9,9 @@ interface SponsorsProps {}
 
 const Sponsors = ({}: SponsorsProps) => {
   const [caption, setCaption] = useState(
-    "Abhiyantriki introduced as an individual, standalone festival of technical grandeur and pomp."
+    "Presented by:"
   );
-  const [path, setPath] = useState("/assets/images/timeline/1998.png");
+  const [path, setPath] = useState("/assets/images/events/Events.png");
 
   const changeTo2021 = () => {
     console.log("changed to 2021");
