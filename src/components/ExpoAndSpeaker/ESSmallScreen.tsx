@@ -11,6 +11,7 @@ interface ESBigScreenProps {}
 
 const ESBigScreen = ({}: ESBigScreenProps) => {
   const parentScrollContainerRef = useRef<HTMLDivElement | null>(null);
+  const navContainerRef = useRef<HTMLDivElement | null>(null);
 
   return (
     <>
@@ -20,7 +21,7 @@ const ESBigScreen = ({}: ESBigScreenProps) => {
         style={{ background: COLORS.PRIMARY, zIndex: 1 }}
       >
         <Header />
-        <ESNav />
+        <ESNav navContainerRef={navContainerRef} />
       </div>
 
       {/* bottom container */}
@@ -29,7 +30,7 @@ const ESBigScreen = ({}: ESBigScreenProps) => {
           ref={parentScrollContainerRef}
           style={{ marginTop: 90, paddingBottom: 0 }}
         >
-          <ESScrollSpy />
+          <ESScrollSpy navContainerRef={navContainerRef} />
         </div>
       </div>
 

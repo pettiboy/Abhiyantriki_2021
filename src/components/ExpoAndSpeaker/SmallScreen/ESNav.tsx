@@ -2,7 +2,9 @@ import React from "react";
 import { exposAndSpeakersDataJson } from "../../../data/exposAndSpeakers";
 import "../ES.css";
 
-interface Props {}
+interface Props {
+  navContainerRef?: React.MutableRefObject<HTMLDivElement | null>;
+}
 
 const ESNav = (props: Props) => {
   const onPress = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
@@ -17,6 +19,7 @@ const ESNav = (props: Props) => {
 
   return (
     <div
+      ref={props.navContainerRef}
       style={{
         display: "flex",
         justifyContent: "center",

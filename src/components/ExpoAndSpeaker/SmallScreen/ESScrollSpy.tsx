@@ -6,12 +6,17 @@ import TextAndImage from "../../TextAndImage/TextAndImage";
 
 export interface SectionNodeProps {
   parentScrollContainerRef?: React.MutableRefObject<HTMLDivElement | null>;
+  navContainerRef?: React.MutableRefObject<HTMLDivElement | null>;
 }
 
-const ESScrollSpy = ({ parentScrollContainerRef }: SectionNodeProps) => {
+const ESScrollSpy = ({
+  parentScrollContainerRef,
+  navContainerRef,
+}: SectionNodeProps) => {
   return (
     <ScrollSpy
       parentScrollContainerRef={parentScrollContainerRef}
+      navContainerRef={navContainerRef}
       scrollThrottle={100}
     >
       {exposAndSpeakersDataJson.map((element, i) => (
@@ -29,14 +34,16 @@ const ESScrollSpy = ({ parentScrollContainerRef }: SectionNodeProps) => {
             buttonText={element.buttonText}
             fontSize={5}
           />
-          {element.cards.map((card) => (
-            <TextAndImage
-              key={card.heading}
-              image={card.image}
-              text={card.text}
-              heading={card.heading}
-            />
-          ))}
+          <div>
+            {element.cards.map((card) => (
+              <TextAndImage
+                key={card.heading}
+                image={card.image}
+                text={card.text}
+                heading={card.heading}
+              />
+            ))}
+          </div>
         </div>
       ))}
     </ScrollSpy>
