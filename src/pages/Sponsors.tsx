@@ -1,10 +1,6 @@
-import React, { useEffect, useState } from "react";
-import Footer from "../components/Footer/Footer";
+import { useState } from "react";
 import "./Sponsors.css";
 import "../components/Timeline/Timeline.css";
-import InfoSection from "../components/Timeline/InfoSection";
-import YearButton from "../components/Timeline/YearButton";
-import Center from "../components/Center/Center";
 import { sponsorsImgSources } from "../data/sponsorsImgSources";
 
 interface SponsorsProps {}
