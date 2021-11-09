@@ -7,9 +7,9 @@ import "./ES.css";
 import "./ScrollPadding.css";
 import Footer from "../Footer/Footer";
 
-interface ESBigScreenProps {}
+interface ESSmallScreenProps {}
 
-const ESBigScreen = ({}: ESBigScreenProps) => {
+const ESSmallScreen = ({}: ESSmallScreenProps) => {
   const parentScrollContainerRef = useRef<HTMLDivElement | null>(null);
   const navContainerRef = useRef<HTMLDivElement | null>(null);
 
@@ -48,4 +48,4 @@ const ESBigScreen = ({}: ESBigScreenProps) => {
   );
 };
 
-export default ESBigScreen;
+export default ESSmallScreen;

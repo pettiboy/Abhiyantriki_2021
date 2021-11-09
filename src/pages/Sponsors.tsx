@@ -2,6 +2,7 @@ import { useRef, useState } from "react";
 import "./Sponsors.css";
 import "../components/Timeline/Timeline.css";
 import { sponsorsImgSources } from "../data/sponsorsImgSources";
+import TwinkleTwinkle from "../components/TwinkleTwinkle/TwinkleTwinkle";
 
 interface SponsorsProps {}
 
@@ -11,7 +12,8 @@ const Sponsors = ({}: SponsorsProps) => {
 
   return (
     <div className="container">
-      <h1 className={"text-center"}>Sponsers</h1>
+      <TwinkleTwinkle title="Sponsors" />
+
       <p className={"responsive-para text-center" + ` fs-4`}>
         Information Technology is growing exponentially constantly, every
         second, around the globe.India is not far behind with its own IT
