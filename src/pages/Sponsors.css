@@ -8,3 +8,10 @@
   font-size: 1rem;
   color: aliceblue;
 }
+.alignCentre{
+  text-align: center;
+}
+.floatLeft{
+  float: left;
+  padding: 1rem;
+}
