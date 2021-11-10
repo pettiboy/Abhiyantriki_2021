@@ -30,9 +30,9 @@ const ESScrollSpy = ({
             {element.eventName}
           </h1>
           <div>
-          {element.events.map((element) => {
-            <div className="text-center">{element.text}</div>
-          })}
+            {element.events.map((element) => {
+              return <div className="text-center">{element.text}</div>;
+            })}
           </div>
         </div>
       ))}

@@ -28,9 +28,14 @@ const ESScrollSpy = ({ parentScrollContainerRef }: SectionNodeProps) => {
             {element.eventName}
           </h1>
           {element.events.map((element) => {
-            <div className="text-center">{element.text}</div>
+            return (
+              <TextAndImage
+                heading={element.name}
+                text={element.text}
+                image={element.eventImgPath}
+              />
+            );
           })}
-          
         </div>
       ))}
     </ScrollSpy>

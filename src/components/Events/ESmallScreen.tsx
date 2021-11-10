@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { COLORS } from "../../constants/constants";
-import ESNav from "./SmallScreen/ESNav";
-import ESScrollSpy from "./SmallScreen/ESScrollSpy";
+import ESNav from "./SmallScreen/ENav";
+import ESScrollSpy from "./SmallScreen/EScrollSpy";
 import Header from "./SmallScreen/Header";
 import "./ES.css";
 import "./ScrollPadding.css";

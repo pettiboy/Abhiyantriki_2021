@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import ESBigScreen from "../components/Events/ESBigScreen";
-import ESSmallScreen from "../components/Events/ESSmallScreen";
+import ESBigScreen from "../components/Events/EBigScreen";
+import ESSmallScreen from "../components/Events/ESmallScreen";
 
 interface ExposAndSpeakersProps {}
 
