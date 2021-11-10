@@ -21,8 +21,8 @@ const Events = ({}: EventsProps) => {
       <TwinkleTwinkle title="Events" />
 
       <div style={{ display: "table", margin: "0 auto" }}>
-        <div className="container p-5">
-          <div className="row row-cols-auto g-5">
+        <div className="container p-2">
+          <div className="row row-cols-auto g-2">
             {events.map((eventName) => (
               <div className="col">
                 <SpaceButton

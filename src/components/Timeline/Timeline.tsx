@@ -39,6 +39,34 @@ const Timeline = ({}: TimelineProps) => {
     );
     setPath("/assets/images/timeline/2014.png");
   };
+  const changeTo2016 = () => {
+    console.log("changed to 2016");
+    setCaption(
+      "Abhiyantriki extended by a day, now was a two-day long fest with its flagship event being a technical exhibition presided over by ISRO."
+    );
+    setPath("/assets/images/timeline/2016.png");
+  };
+  const changeTo2017 = () => {
+    console.log("changed to 2017");
+    setCaption(
+      "Attending to the likes of DRDO, DAE and BARC, Abhiyantriki gamered a running footfall of over 15,000 for the first time in its history!"
+    );
+    setPath("/assets/images/timeline/2017.png");
+  };
+  const changeTo2018 = () => {
+    console.log("changed to 2018");
+    setCaption(
+      "Abhiyantriki had the Indian Army exhibiting their artillery as the highlight, along with prominent personalities like Dr S. Christopher and Mr. Vilas Shinde gracing the occasion."
+    );
+    setPath("/assets/images/timeline/2018.png");
+  };
+  const changeTo2019 = () => {
+    console.log("changed to 2019");
+    setCaption(
+      "This year witnessed the Indian Navy rolling out an array of Naval armaments at Abhiyantriki along with a riveting talk on the Big Bang by Dr. Bikash Chandra Sinha"
+    );
+    setPath("/assets/images/timeline/2019.png");
+  };
 
   const [year, setYear] = useState("2016");
 
@@ -56,6 +84,18 @@ const Timeline = ({}: TimelineProps) => {
       case "2014":
         changeTo2014();
         break;
+      case "2016":
+        changeTo2016();
+        break;
+      case "2017":
+        changeTo2017();
+        break;
+      case "2018":
+        changeTo2018();
+        break;
+      case "2019":
+        changeTo2019();
+        break;
       default:
         break;
     }
@@ -65,7 +105,7 @@ const Timeline = ({}: TimelineProps) => {
     <>
       <h1 className="text-center m-10 my-5">Timeline</h1>
       <div className="d-inline vh-100">
-        <div className="d-flex justify-content-around w-100 years">
+        <div className="d-flex justify-content-around align-items-center w-90 m-20 years">
           <div onClick={() => setYear("1998")}>
             <YearButton year="1998" />
           </div>
@@ -77,6 +117,18 @@ const Timeline = ({}: TimelineProps) => {
           </div>
           <div onClick={() => setYear("2014")}>
             <YearButton year="2014" />
+          </div>
+          <div onClick={() => setYear("2016")}>
+            <YearButton year="2016" />
+          </div>
+          <div onClick={() => setYear("2017")}>
+            <YearButton year="2017" />
+          </div>
+          <div onClick={() => setYear("2018")}>
+            <YearButton year="2018" />
+          </div>
+          <div onClick={() => setYear("2019")}>
+            <YearButton year="2019" />
           </div>
         </div>
         <div className="d-flex justify-content-center w-100 info">
