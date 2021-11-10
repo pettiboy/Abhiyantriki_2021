@@ -7,9 +7,9 @@ import "./ES.css";
 import "./ScrollPadding.css";
 import Footer from "../Footer/Footer";
 
-interface ESBigScreenProps {}
+interface ESSmallScreenProps {}
 
-const ESBigScreen = ({}: ESBigScreenProps) => {
+const ESSmallScreen = ({}: ESSmallScreenProps) => {
   const parentScrollContainerRef = useRef<HTMLDivElement | null>(null);
   const navContainerRef = useRef<HTMLDivElement | null>(null);
 
@@ -28,9 +28,17 @@ const ESBigScreen = ({}: ESBigScreenProps) => {
       <div className="flex-column d-flex justify-content-center">
         <div
           ref={parentScrollContainerRef}
-          style={{ marginTop: 90, paddingBottom: 0 }}
+          style={{
+            marginTop: 90,
+            paddingBottom: 0,
+            // height: "90vh",
+            // overflowY: "scroll",
+          }}
         >
-          <ESScrollSpy navContainerRef={navContainerRef} />
+          <ESScrollSpy
+            // parentScrollContainerRef={parentScrollContainerRef}
+            navContainerRef={navContainerRef}
+          />
         </div>
       </div>
 
@@ -40,4 +48,4 @@ const ESBigScreen = ({}: ESBigScreenProps) => {
   );
 };
 
-export default ESBigScreen;
+export default ESSmallScreen;

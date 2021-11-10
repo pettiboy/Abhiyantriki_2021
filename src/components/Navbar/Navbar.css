@@ -15,7 +15,7 @@
 }
 
 .box:hover {
-  color: #fce588;
+  color: var(--yellow);
 }
 
 .box::before,
@@ -33,14 +33,14 @@
 }
 
 .foo::before {
-  border-bottom: 1px solid #fce588;
-  border-left: 1px solid #fce588;
+  border-bottom: 1px solid var(--yellow);
+  border-left: 1px solid var(--yellow);
   transform-origin: 100% 0%;
 }
 
 .foo::after {
-  border-top: 1px solid #fce588;
-  border-right: 1px solid #fce588;
+  border-top: 1px solid var(--yellow);
+  border-right: 1px solid var(--yellow);
   transform-origin: 0% 100%;
 }
 

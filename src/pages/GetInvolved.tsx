@@ -1,4 +1,5 @@
 import TextAndButton from "../components/TextAndButton/TextAndButton";
+import TwinkleTwinkle from "../components/TwinkleTwinkle/TwinkleTwinkle";
 
 interface GetInvolvedProps {}
 
@@ -15,9 +16,9 @@ const GetInvolved = ({}: GetInvolvedProps) => {
               align-items-center
             "
         >
-          <h1 className="my-5" style={{ fontSize: 50 }}>
-            Get Involved
-          </h1>
+          <div className="mb-4">
+            <TwinkleTwinkle title="Get Involved" />
+          </div>
           <TextAndButton
             paraText={`Do you know someone with the potential to build something 
                 that pawns over the technology being displayed in Abhiyantriki and 

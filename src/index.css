@@ -8,6 +8,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+:root {
+  --yellow: #fce588;
+}
+
 .active {
   background-color: #00bcd4 !important;
   color: white !important;

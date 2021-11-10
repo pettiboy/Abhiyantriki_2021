@@ -18,6 +18,7 @@ const ESScrollSpy = ({
       parentScrollContainerRef={parentScrollContainerRef}
       navContainerRef={navContainerRef}
       scrollThrottle={100}
+      useBoxMethod={true}
     >
       {exposAndSpeakersDataJson.map((element, i) => (
         <div

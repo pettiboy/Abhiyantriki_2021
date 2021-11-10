@@ -1,4 +1,5 @@
 import TextAndButton from "../../components/TextAndButton/TextAndButton";
+import TwinkleTwinkle from "../../components/TwinkleTwinkle/TwinkleTwinkle";
 import "./parvaah.css";
 
 interface ParvaahProps {}
@@ -8,12 +9,7 @@ const Parvaah = ({}: ParvaahProps) => {
     <div>
       <div className="container mb-5">
         <div className="col">
-          <h1
-            className="text-white text-center my-5"
-            style={{ fontSize: "50px", fontFamily: "Roboto" }}
-          >
-            Parvaah
-          </h1>
+          <TwinkleTwinkle title="Parvaah" />
 
           <div className="d-sm-flex justify-content-around align-items-center text-center mb-5">
             <img

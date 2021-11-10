@@ -3,6 +3,8 @@ import "./Events.css";
 import "../components/Events/EventSection";
 import EventSection from "../components/Events/EventSection";
 import SpaceButton from "../components/Buttons/SpaceButton";
+import TwinkleTwinkle from "../components/TwinkleTwinkle/TwinkleTwinkle";
+import Center from "../components/Center/Center";
 
 interface EventsProps {}
 
@@ -16,7 +18,8 @@ const Events = ({}: EventsProps) => {
 
   return (
     <div className="events">
-      <h1 className="text-center">Events</h1>
+      <TwinkleTwinkle title="Events" />
+
       <div style={{ display: "table", margin: "0 auto" }}>
         <div className="container p-5">
           <div className="row row-cols-auto g-5">

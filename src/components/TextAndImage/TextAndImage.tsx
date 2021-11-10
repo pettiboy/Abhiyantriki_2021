@@ -10,7 +10,7 @@ const TextAndImage = ({ heading, text, image }: Props) => {
   return (
     <div className="container p-3 text-white">
       <div className="row">
-        <div className="col-sm-6 col-md-6 order-md-1">
+        <div className="col-sm-6 col-md-6">
           <div
             style={{
               marginTop: 30,
@@ -18,22 +18,20 @@ const TextAndImage = ({ heading, text, image }: Props) => {
               justifyContent: "center",
             }}
           >
-            <img style={{ width: "100%" }} src={image} alt="Beach Clean-up" />
+            <img className="w-100" src={image} alt="Beach Clean-up" />
           </div>
         </div>
-        <div className="col-sm-6 col-md-6 flex-column d-flex justify-content-center order-md-2">
-          <div className="align-items-center d-flex justify-content-center flex-column">
-            <div className="fs-4 fw-bold">{heading}</div>
-            <div
-              className="align-items-center d-flex justify-content-center flex-column"
-              style={{
-                fontSize: 17,
-                fontFamily: "Roboto",
-                textAlign: "center",
-              }}
-            >
-              {text}
-            </div>
+        <div className="col-sm-6 col-md-6 flex-column d-flex justify-content-center">
+          <div className="fs-4 fw-bold">{heading}</div>
+          <div
+            className="text-center"
+            style={{
+              fontSize: 14,
+              fontFamily: "Roboto",
+              textAlign: "center",
+            }}
+          >
+            {text}
           </div>
         </div>
       </div>

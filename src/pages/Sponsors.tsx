@@ -1,115 +1,76 @@
-import React, { useEffect, useState } from "react";
-import Footer from "../components/Footer/Footer";
+import { useRef, useState } from "react";
 import "./Sponsors.css";
 import "../components/Timeline/Timeline.css";
-import InfoSection from "../components/Timeline/InfoSection";
-import YearButton from "../components/Timeline/YearButton";
-import { colorMix } from "tsparticles";
-import { RSA_NO_PADDING } from "constants";
+import { sponsorsImgSources } from "../data/sponsorsImgSources";
+import TwinkleTwinkle from "../components/TwinkleTwinkle/TwinkleTwinkle";
 
 interface SponsorsProps {}
 
 const Sponsors = ({}: SponsorsProps) => {
-  const [caption, setCaption] = useState(
-    "Presented by:"
-  );
-  const [path, setPath] = useState("/assets/images/events/Events.png");
+  const [year, setYear] = useState<number>(2021);
+  const yearRef = useRef<HTMLSpanElement | null>(null);
 
-  const changeTo2021 = () => {
-    console.log("changed to 2021");
-    setCaption("Presented by.");
-    setPath("/assets/images/events/Events.png");
-  };
-  const changeTo2020 = () => {
-    console.log("changed to 2020");
-    setCaption("Presented by.");
-    setPath("/assets/images/events/Events.png");
-  };
-  const changeTo2019 = () => {
-    console.log("changed to 2019");
-    setCaption("Presented by.");
-    setPath("/assets/images/events/Events.png");
-  };
-  const changeTo2018 = () => {
-    console.log("changed to 2018");
-    setCaption("Presented by.");
-    setPath("/assets/images/events/Events.png");
-  };
-
-  var yearParam: String;
-
-  const [year, setYear] = useState("2017");
-
-  useEffect(() => {
-    switch (year) {
-      case "2021":
-        changeTo2021();
-        break;
-      case "2020":
-        changeTo2020();
-        break;
-      case "2019":
-        changeTo2019();
-        break;
-      case "2018":
-        changeTo2018();
-        break;
-      default:
-        break;
-    }
-  }, [year]);
-  //sponsors render logic
   return (
-    <>
-      <div className="container my-5" style={{ paddingTop: "1vh" }}>
-        <div className="col">
-          <h1
-            className="text-center my-4"
-            style={{ fontSize: "50px", fontFamily: "Roboto", color: "yellow"}}
-          >
-            Sponsors
-          </h1>
+    <div className="container">
+      <TwinkleTwinkle title="Sponsors" />
 
-          <div>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-          <div
-            className="parvaah-text text-center"
-            style={{ fontSize: 20, fontFamily: "Roboto"}}
-          >
-            Information Technology is growing exponentially constantly, every
-            second, around the globe.India is not far behind with its own IT
-            industry booming to new heights. Get to know about 'Future of IT
-            sector in India' on the 24th of October at the Panel Session in
-            Abhiyantriki 2021!
-          </div>
+      <p className={"responsive-para text-center" + ` fs-4`}>
+        Information Technology is growing exponentially constantly, every
+        second, around the globe.India is not far behind with its own IT
+        industry booming to new heights. Get to know about 'Future of IT sector
+        in India' on the 24th of October at the Panel Session in Abhiyantriki
+        2021!
+      </p>
+
+      {/* YearCarousal */}
+      <div className="d-flex justify-content-around align-items-center font-size p-5">
+        <i
+          className="arrows fas fa-chevron-left"
+          onClick={() => {
+            // get min and max of all keys in our dict
+            const keys = Object.keys(sponsorsImgSources);
+            const max = parseInt(keys[keys.length - 1]);
+            const min = parseInt(keys[0]);
+
+            if (year == min) {
+              setYear(max);
+            } else {
+              setYear((prev) => prev - 1);
+            }
+          }}
+        ></i>
+        <span ref={yearRef} className="displaying-year animation">
+          {year}
+        </span>
+        <i
+          className="arrows fas fa-chevron-right"
+          onClick={() => {
+            // get min and max of all keys in our dict
+            const keys = Object.keys(sponsorsImgSources);
+            const max = parseInt(keys[keys.length - 1]);
+            const min = parseInt(keys[0]);
+
+            if (year == max) {
+              setYear(min);
+            } else {
+              setYear((prev) => prev + 1);
+            }
+          }}
+        ></i>
+      </div>
+
+      <div className="text-center fs-2 mb-5">Presented By</div>
+
+      <div className="d-flex justify-content-center">
+        <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5">
+          {sponsorsImgSources[year].map((source: string) => (
+            <div className="col m-3 d-flex flex-column mx-auto">
+              <img src={source} alt="source" width={200} />
+            </div>
+          ))}
         </div>
       </div>
-      <div className="d-inline vh-100">
-        <div className="d-flex justify-content-around w-100 years">
-          <div onClick={() => setYear("2021")}>
-            <YearButton year="2021" />
-          </div>
-          <div onClick={() => setYear("2020")}>
-            <YearButton year="2020" />
-          </div>
-          <div onClick={() => setYear("2019")}>
-            <YearButton year="2019" />
-          </div>
-          <div onClick={() => setYear("2018")}>
-            <YearButton year="2018" />
-          </div>
-        </div>
-        <div className="d-flex justify-content-center w-100 info">
-          <InfoSection caption={caption} imgPath={path} />
-        </div>
-      </div>
-
-      <Footer />
-    </>
+    </div>
   );
 };
 
