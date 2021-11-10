@@ -4,6 +4,8 @@ import "./Sponsors.css";
 import "../components/Timeline/Timeline.css";
 import InfoSection from "../components/Timeline/InfoSection";
 import YearButton from "../components/Timeline/YearButton";
+import { colorMix } from "tsparticles";
+import { RSA_NO_PADDING } from "constants";
 
 interface SponsorsProps {}
 
@@ -62,8 +64,8 @@ const Sponsors = ({}: SponsorsProps) => {
       <div className="container my-5" style={{ paddingTop: "1vh" }}>
         <div className="col">
           <h1
-            className="text-white text-center my-5"
-            style={{ fontSize: "50px", fontFamily: "Roboto" }}
+            className="text-center my-4"
+            style={{ fontSize: "50px", fontFamily: "Roboto", color: "yellow"}}
           >
             Sponsors
           </h1>
@@ -76,7 +78,7 @@ const Sponsors = ({}: SponsorsProps) => {
           </div>
           <div
             className="parvaah-text text-center"
-            style={{ fontSize: 25, fontFamily: "Roboto" }}
+            style={{ fontSize: 20, fontFamily: "Roboto"}}
           >
             Information Technology is growing exponentially constantly, every
             second, around the globe.India is not far behind with its own IT
