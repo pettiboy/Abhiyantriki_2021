@@ -6,7 +6,10 @@
   line-height: 24px;
   margin-bottom: 30px;
 }
-
+#map-holder {
+  height: 200px;
+  width: 100%;
+}
 .list-unstyled {
   list-style-type: none;
   /* font-weight: bold; */
@@ -76,5 +79,9 @@
     width: 80%;
     margin: 0 auto;
     margin-bottom: 15px;
+  }
+  #map-holder {
+    width: 70%;
+    margin: 0 auto;
   }
 }
