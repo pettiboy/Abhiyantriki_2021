@@ -1,44 +1,22 @@
 import { useEffect, useState } from "react";
-import "./Events.css";
-import "../components/Events/EventSection";
-import SpaceButton from "../components/Buttons/SpaceButton";
-import TwinkleTwinkle from "../components/TwinkleTwinkle/TwinkleTwinkle";
-import Center from "../components/Center/Center";
+import ESBigScreen from "../components/ExpoAndSpeaker/ESBigScreen";
+import ESSmallScreen from "../components/ExpoAndSpeaker/ESSmallScreen";
 
-interface EventsProps {}
+interface ExposAndSpeakersProps {}
 
-const Events = ({}: EventsProps) => {
-  //if-check to render events on the page
+const ExposAndSpeakers = ({}: ExposAndSpeakersProps) => {
+  const [width, setWidth] = useState(window.innerWidth);
 
-  const [event, setEvent] = useState("Technical");
+  useEffect(() => {
+    window.addEventListener("resize", updateDimensions);
+    return () => window.removeEventListener("resize", updateDimensions);
+  }, []);
 
-  useEffect(() => {}, [event]);
-  const events = ["Technical", "Shield", "Informals", "Ideate", "Preevents"];
+  const updateDimensions = () => {
+    setWidth(window.innerWidth);
+  };
 
-  return (
-    <div className="events">
-      <TwinkleTwinkle title="Events" />
-
-      <div style={{ display: "table", margin: "0 auto" }}>
-        <div className="container p-5">
-          <div className="row row-cols-auto g-5">
-            {events.map((eventName) => (
-              <div className="col">
-                <SpaceButton
-                  onPress={() => setEvent(eventName)}
-                  href="#"
-                  text={eventName}
-                  noPlus
-                />
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-      <div className="text-center">
-      </div>
-    </div>
-  );
+  return <>{width > 992 ? <ESBigScreen /> : <ESSmallScreen />}</>;
 };
 
-export default Events;
+export default ExposAndSpeakers;

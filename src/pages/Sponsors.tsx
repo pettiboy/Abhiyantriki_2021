@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import "./Sponsors.css";
 import "../components/Timeline/Timeline.css";
 import { sponsorsImgSources } from "../data/sponsorsImgSources";
@@ -9,6 +9,8 @@ interface SponsorsProps {}
 const Sponsors = ({}: SponsorsProps) => {
   const [year, setYear] = useState<number>(2021);
   const yearRef = useRef<HTMLSpanElement | null>(null);
+
+  //animate years
 
   return (
     <div className="container">
@@ -27,6 +29,7 @@ const Sponsors = ({}: SponsorsProps) => {
         <i
           className="arrows fas fa-chevron-left"
           onClick={() => {
+
             // get min and max of all keys in our dict
             const keys = Object.keys(sponsorsImgSources);
             const max = parseInt(keys[keys.length - 1]);
@@ -39,7 +42,7 @@ const Sponsors = ({}: SponsorsProps) => {
             }
           }}
         ></i>
-        <span ref={yearRef} className="displaying-year animation">
+        <span ref={yearRef} className="displaying-year">
           {year}
         </span>
         <i

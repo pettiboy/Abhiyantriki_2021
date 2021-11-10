@@ -1,4 +1,4 @@
-export const  images = [
+export const images = [
   {
     "url": "/assets/images/events/events.png",
     "title": "Events"
