@@ -29,7 +29,6 @@ const Sponsors = ({}: SponsorsProps) => {
         <i
           className="arrows fas fa-chevron-left"
           onClick={() => {
-
             // get min and max of all keys in our dict
             const keys = Object.keys(sponsorsImgSources);
             const max = parseInt(keys[keys.length - 1]);
@@ -61,6 +60,10 @@ const Sponsors = ({}: SponsorsProps) => {
           }}
         ></i>
       </div>
+
+      {year == 2021 ? null : (
+        <div className="text-center fs-2 mb-5">Past Sponsors</div>
+      )}
 
       <div className="text-center fs-2 mb-5">Presented By</div>
 
