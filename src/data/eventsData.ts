@@ -1,5 +1,6 @@
 export const eventData = [
   {
+    linkHash: "technical",
     eventName: "Technical",
     events: [
       {
@@ -21,6 +22,7 @@ export const eventData = [
     ],
   },
   {
+    linkHash: "ideate",
     eventName: "Ideate",
     events: [
       {
@@ -42,6 +44,7 @@ export const eventData = [
     ],
   },
   {
+    linkHash: "shield",
     eventName: "Shield",
     events: [
       {
@@ -63,6 +66,7 @@ export const eventData = [
     ],
   },
   {
+    linkHash: "informals",
     eventName: "Informals",
     events: [
       {
@@ -84,6 +88,7 @@ export const eventData = [
     ],
   },
   {
+    linkHash: "preevents",
     eventName: "Preevents",
     events: [
       {

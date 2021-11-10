@@ -1,5 +1,5 @@
 import React from "react";
-import { exposAndSpeakersDataJson } from "../../../data/exposAndSpeakers";
+import { eventData } from "../../../data/eventsData";
 import "../ES.css";
 
 interface Props {
@@ -26,7 +26,7 @@ const ESNav = (props: Props) => {
         overflowX: "scroll",
       }}
     >
-      {exposAndSpeakersDataJson.map((element) => (
+      {eventData.map((element) => (
         <a
           key={element.linkHash}
           onClick={(e) => onPress(e)}
@@ -37,7 +37,7 @@ const ESNav = (props: Props) => {
             data-to-scrollspy-id={element.linkHash}
             className="ss-item"
           >
-            {element.linkName}
+            {element.eventName}
           </div>
         </a>
       ))}

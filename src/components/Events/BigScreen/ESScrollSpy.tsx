@@ -1,5 +1,5 @@
 import React from "react";
-import { exposAndSpeakersDataJson } from "../../../data/exposAndSpeakers";
+import { eventData } from "../../../data/eventsData";
 import ScrollSpy from "react-ui-scrollspy";
 import TextAndButton from "../../TextAndButton/TextAndButton";
 import TextAndImage from "../../TextAndImage/TextAndImage";
@@ -16,7 +16,7 @@ const ESScrollSpy = ({ parentScrollContainerRef }: SectionNodeProps) => {
       // offsetTop={35}
       useBoxMethod
     >
-      {exposAndSpeakersDataJson.map((element, i) => (
+      {eventData.map((element, i) => (
         <div
           id={element.linkHash}
           key={element.linkHash}
@@ -25,21 +25,12 @@ const ESScrollSpy = ({ parentScrollContainerRef }: SectionNodeProps) => {
           }
         >
           <h1 className="mt-5 text-center" style={{ fontSize: "50px" }}>
-            {element.heading}
+            {element.eventName}
           </h1>
-          <TextAndButton
-            paraText={element.paraText}
-            buttonHref={element.buttonHref}
-            buttonText={element.buttonText}
-          />
-          {element.cards.map((card) => (
-            <TextAndImage
-              key={card.heading}
-              image={card.image}
-              text={card.text}
-              heading={card.heading}
-            />
-          ))}
+          {element.events.map((element) => {
+            <div className="text-center">{element.text}</div>
+          })}
+          
         </div>
       ))}
     </ScrollSpy>
