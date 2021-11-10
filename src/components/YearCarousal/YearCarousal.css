@@ -3,7 +3,7 @@
 }
 
 .displaying-year {
-  color: yellow;
+  color: var(--yellow);
   font-size: 6vw;
 }
 

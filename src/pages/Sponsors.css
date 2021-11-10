@@ -1,6 +1,6 @@
 .sponsor-head {
   font-size: 1.5rem;
-  color: yellow;
+  color: var(--yellow);
   margin: 5vh;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .displaying-year {
-  color: yellow;
+  color: var(--yellow);
   font-size: 6vw;
 }
 

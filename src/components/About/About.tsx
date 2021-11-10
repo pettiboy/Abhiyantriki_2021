@@ -1,5 +1,6 @@
 import React from "react";
-import './About.css';
+import { COLORS } from "../../constants/constants";
+import "./About.css";
 
 interface AboutProps {}
 
@@ -15,7 +16,9 @@ const About = ({}: AboutProps) => {
             width="400"
           />
           <div className="about-kjsce">
-            <h1 className="text-end" style={{ color: "palegoldenrod" }}>KSJCE</h1>
+            <h1 className="text-end" style={{ color: COLORS.YELLOW }}>
+              KSJCE
+            </h1>
             <p className="m-3">
               K.J. Somaiya College of Engineering is a nationally reputed
               engineering college under the Somaiya Vidyavihar University (SVU)
@@ -25,7 +28,10 @@ const About = ({}: AboutProps) => {
             </p>
           </div>
         </div>
-        <h1 className="text-center" style={{ color: "aliceblue", fontWeight: 'bolder'}}>
+        <h1
+          className="text-center"
+          style={{ color: "aliceblue", fontWeight: "bolder" }}
+        >
           ABOUT
         </h1>
         <div
@@ -42,11 +48,13 @@ const About = ({}: AboutProps) => {
               src="assets/logos/abhiyantriki_logo.png"
               alt=""
               className="kj-img abhiyantriki m-5"
-              width='200'
+              width="200"
             />
           </div>
           <div className="about-abhiyantriki">
-            <h1 className="text-start" style={{ color: "palegoldenrod" }}>ABHIYANTRIKI</h1>
+            <h1 className="text-start" style={{ color: COLORS.YELLOW }}>
+              ABHIYANTRIKI
+            </h1>
             <p>
               K.J. Somaiya College of Engineering is a nationally reputed
               engineering college under the Somaiya Vidyavihar University (SVU)

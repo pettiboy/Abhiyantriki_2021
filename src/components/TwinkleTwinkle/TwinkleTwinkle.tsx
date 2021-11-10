@@ -1,5 +1,6 @@
 import React, { CSSProperties } from "react";
 import Particles from "react-tsparticles";
+import { COLORS } from "../../constants/constants";
 
 interface Props {
   title: string;
@@ -50,7 +51,7 @@ const TwinkleTwinkle = ({
         style={{
           margin: 20,
           fontFamily: "Roboto",
-          color: "yellow",
+          color: COLORS.YELLOW,
           ...fontSize,
           ...titleStyles,
         }}

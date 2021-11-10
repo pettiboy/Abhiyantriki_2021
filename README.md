@@ -6,10 +6,13 @@
 - [x] ExpoAndSpeakers for small screens - nav container
 - [x] Footer in ExpoAndSpeakers in full screen
 - [x] ExpoAndSpeakers in small screen - fix offset
-- [ ] mobile view for parvaah page
-- [ ] Particles for all headings
-- [ ] Sponsers page
+- [x] Particles for all headings
+- [x] Sponsers page
+- [ ] parvaah page responsiveness
 - [ ] Events page
+- [ ] HomePage page
+- [ ] HomePage page responsiveness
+- [ ] Footer
 
 ## Getting Started
 
