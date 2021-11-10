@@ -14,7 +14,7 @@ const ESScrollSpy = ({ parentScrollContainerRef }: SectionNodeProps) => {
       parentScrollContainerRef={parentScrollContainerRef}
       scrollThrottle={100}
       // offsetTop={35}
-      //useBoxMethod
+      useBoxMethod
     >
       {exposAndSpeakersDataJson.map((element, i) => (
         <div
