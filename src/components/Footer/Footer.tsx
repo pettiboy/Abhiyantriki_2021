@@ -7,10 +7,17 @@ const Footer = ({}: FooterProps) => {
   return (
     <footer className="site-footer mt-3">
       <div className="container">
-        <div className="row">
-          <div className="col-sm-6 col-md-6 text-center p-2">
+        <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+          <div className="col p-2">
+            <h3 className="footer-heading">Map</h3>
+            <div className="line"></div>
+            <div className="map-ka-dabba"></div>
+          </div>
+
+          <div className="col p-2">
             <div className="footer-heading-div">
               <h3 className="footer-heading">Reach Us</h3>
+              <div className="line"></div>
             </div>
             <ul className="list-unstyled">
               <li className="custom-link link-heading-li">
@@ -57,8 +64,9 @@ const Footer = ({}: FooterProps) => {
             </ul>
           </div>
 
-          <div id="contact" className="col-sm-6 col-md-6 text-center p-2">
-            <h3 className="footer-heading">More</h3>
+          <div className="col p-2">
+            <h3 className="footer-heading">Useful Links</h3>
+            <div className="line"></div>
             <div className="contact-links">
               <a href="/" className="white">
                 <i className="fa fa-home"></i> Home
@@ -80,11 +88,28 @@ const Footer = ({}: FooterProps) => {
                 Register
               </a>
             </div>
-            <ul className="list-unstyled">
-              <li className="custom-link m-2 contact-li"></li>
-              <li className="custom-link m-2 contact-li"></li>
-              <li className="custom-link m-2 contact-li"></li>
-            </ul>
+          </div>
+
+          <div className="col p-2">
+            <h3 className="footer-heading">Follow Us On</h3>
+            <div className="line"></div>
+            <div className="follow-us-on">
+              <a href=" https://www.instagram.com/kjscelive/">
+                <i className="fab fa-instagram"></i>
+              </a>
+              <a href="https://www.facebook.com/kjsceabhiyantriki/?ref=br_rs">
+                <i className="fab fa-facebook"></i>
+              </a>
+              <a href=" https://twitter.com/kjsabhiyantriki?lang=en">
+                <i className="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.youtube.com/channel/UC7Z32X4uNZ8c31NteK3065g">
+                <i className="fa fa-youtube-play"></i>
+              </a>
+              <a href="https://kjscelive.wordpress.com/">
+                <i className="fa fa-wordpress"></i>
+              </a>
+            </div>
           </div>
         </div>
       </div>

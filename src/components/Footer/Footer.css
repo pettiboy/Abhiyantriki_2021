@@ -4,6 +4,7 @@
   padding: 45px 0 0px;
   font-size: 1rem;
   line-height: 24px;
+  margin-bottom: 30px;
 }
 
 .list-unstyled {
@@ -20,13 +21,19 @@
   color: #11f1ff !important;
   font-size: 1.5rem;
 }
+.line {
+  border-bottom: 2px solid var(--yellow);
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 .link-heading-li {
   margin-top: 20px;
   margin-bottom: 5px;
 }
 
 .link-heading {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: bold;
 }
 .custom-link {
@@ -37,11 +44,9 @@
 }
 
 .contact-links {
-  align-items: center;
   display: flex;
   flex-direction: column;
   width: 100%;
-  font-size: 1.1rem;
 }
 .contact-links a {
   padding-top: 5px;
@@ -54,4 +59,14 @@
 
 .white:hover {
   color: #fce588;
+}
+
+.follow-us-on i {
+  font-size: 22px;
+  padding-right: 10px;
+}
+
+.map-ka-dabba {
+  background-color: aliceblue;
+  height: 90%;
 }
