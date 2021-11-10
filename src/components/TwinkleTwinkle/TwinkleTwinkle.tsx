@@ -4,17 +4,21 @@ import Particles from "react-tsparticles";
 interface Props {
   title: string;
   containerStyles?: CSSProperties;
+  titleStyles?: CSSProperties;
   height?: string;
   width?: string;
   center?: boolean;
+  noFontSize?: boolean;
 }
 
 const TwinkleTwinkle = ({
   title,
   containerStyles = {},
+  titleStyles = {},
   height = "120px",
   width = "350px",
   center = true,
+  noFontSize = false,
 }: Props) => {
   const particlesInit = () => {};
   const particlesLoaded = () => {};
@@ -29,6 +33,8 @@ const TwinkleTwinkle = ({
     };
   }
 
+  const fontSize = noFontSize ? {} : { fontSize: 50 };
+
   return (
     <div style={containerStyles}>
       <Particles
@@ -40,7 +46,15 @@ const TwinkleTwinkle = ({
         init={particlesInit}
         loaded={particlesLoaded}
       ></Particles>
-      <h1 style={{ margin: 20, fontSize: 50, fontFamily: "Roboto", color:"yellow" }}>
+      <h1
+        style={{
+          margin: 20,
+          fontFamily: "Roboto",
+          color: "yellow",
+          ...fontSize,
+          ...titleStyles,
+        }}
+      >
         {title}
       </h1>
     </div>

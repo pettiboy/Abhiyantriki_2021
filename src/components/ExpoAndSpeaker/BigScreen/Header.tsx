@@ -1,5 +1,6 @@
 import React from "react";
 import Particles from "react-tsparticles";
+import TwinkleTwinkle from "../../TwinkleTwinkle/TwinkleTwinkle";
 
 interface Props {}
 
@@ -13,16 +14,7 @@ const Header = (props: Props) => {
   };
   return (
     <div className="position-relative">
-      <Particles
-        canvasClassName="particles"
-        height="120px"
-        width="350px"
-        id="tsparticles"
-        url={`${process.env.PUBLIC_URL}/particles.json`}
-        init={particlesInit}
-        loaded={particlesLoaded}
-      ></Particles>
-      <h1 style={{ textAlign: "center", margin: 20 }}>Expos And Speakers</h1>
+      <TwinkleTwinkle title="Expos And Speakers" noFontSize />
     </div>
   );
 };
