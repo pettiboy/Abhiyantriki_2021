@@ -39,9 +39,6 @@
 .custom-link {
   color: white;
 }
-.contact-li {
-  /* font-weight: bold; */
-}
 
 .contact-links {
   display: flex;
@@ -69,4 +66,15 @@
 .map-ka-dabba {
   background-color: aliceblue;
   height: 90%;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-container {
+    text-align: center;
+  }
+  .line {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
 }

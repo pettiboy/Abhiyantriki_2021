@@ -65,7 +65,7 @@ const Sidebar = ({}: SidebarProps) => {
           </li>
         </ul>
       </div>
-      <div className="mobile-social-media-section pb-5">
+      {/* <div className="mobile-social-media-section pb-5">
         <div className="follow text-center">Follow us on</div>
         <br />
         <div className="mobile-social-media-inner-section">
@@ -85,7 +85,7 @@ const Sidebar = ({}: SidebarProps) => {
             <i className="fa fa-wordpress"></i>
           </a>
         </div>
-      </div>
+      </div> */}
     </React.Fragment>
   );
 };

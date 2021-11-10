@@ -8,13 +8,9 @@ const Footer = ({}: FooterProps) => {
     <footer className="site-footer mt-3">
       <div className="container">
         <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4">
-          <div className="col p-2">
-            <h3 className="footer-heading">Map</h3>
-            <div className="line"></div>
-            <div className="map-ka-dabba"></div>
-          </div>
+          <div className="col p-2 footer-container"></div>
 
-          <div className="col p-2">
+          <div className="col p-2 footer-container">
             <div className="footer-heading-div">
               <h3 className="footer-heading">Reach Us</h3>
               <div className="line"></div>
@@ -64,7 +60,7 @@ const Footer = ({}: FooterProps) => {
             </ul>
           </div>
 
-          <div className="col p-2">
+          <div className="col p-2 footer-container">
             <h3 className="footer-heading">Useful Links</h3>
             <div className="line"></div>
             <div className="contact-links">
@@ -90,7 +86,7 @@ const Footer = ({}: FooterProps) => {
             </div>
           </div>
 
-          <div className="col p-2">
+          <div className="col p-2 footer-container">
             <h3 className="footer-heading">Follow Us On</h3>
             <div className="line"></div>
             <div className="follow-us-on">
