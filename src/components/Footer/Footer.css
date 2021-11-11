@@ -6,10 +6,6 @@
   line-height: 24px;
   margin-bottom: 30px;
 }
-#map-holder {
-  height: 200px;
-  width: 100%;
-}
 .list-unstyled {
   list-style-type: none;
   /* font-weight: bold; */
@@ -39,8 +35,8 @@
   font-size: 1rem;
   font-weight: bold;
 }
-.custom-link {
-  color: white;
+.highlight-on-hover:hover {
+  color: var(--yellow) !important;
 }
 
 .contact-links {
@@ -57,18 +53,12 @@
   margin-right: 10px;
 }
 
-.white:hover {
-  color: #fce588;
-}
-
 .follow-us-on i {
-  font-size: 22px;
-  padding-right: 10px;
+  font-size: 25px;
+  padding-right: 20px;
 }
 
-.map-ka-dabba {
-  background-color: aliceblue;
-  height: 90%;
+.map-wala-div {
 }
 
 @media only screen and (max-width: 768px) {
@@ -79,9 +69,5 @@
     width: 80%;
     margin: 0 auto;
     margin-bottom: 15px;
-  }
-  #map-holder {
-    width: 70%;
-    margin: 0 auto;
   }
 }
