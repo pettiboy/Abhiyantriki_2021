@@ -8,7 +8,7 @@ interface HomeProps {}
 const Home = ({}: HomeProps) => {
   return (
     <div>
-      <div className="d-flex vh-100 justify-content-center align-items-center">
+      <div className="vh-100 d-sm-flex align-items-center justify-content-center home">
         <HomePage />
       </div>
       <About />

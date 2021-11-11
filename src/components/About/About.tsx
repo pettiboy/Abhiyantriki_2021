@@ -36,7 +36,7 @@ const About = ({}: AboutProps) => {
         </h1>
         <div
           className="
-          d-md-flex
+          d-sm-flex
           justify-content-between
           align-items-center
           flex-row-reverse

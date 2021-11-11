@@ -1,0 +1,16 @@
+@media screen and (max-width: 768px){
+  
+  .kjsce  {
+    display: block;
+    margin: auto;
+    width: 75%;
+  }
+  
+  .abhiyantriki {
+    display: block;
+    margin: auto;
+    width: 50vw;
+  }
+}
+
+

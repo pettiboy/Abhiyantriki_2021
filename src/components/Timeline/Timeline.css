@@ -6,3 +6,13 @@
 .info {
   margin: 5vh;
 } 
+
+@media screen and (max-width: 768px) {
+  .years {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
