@@ -19,13 +19,13 @@ const ESNav = (props: Props) => {
 
   return (
     <div
+      className="small-nav-div"
       ref={props.navContainerRef}
       style={{
         display: "flex",
         flexWrap: "wrap",
         justifyContent: "center",
         overflowX: "scroll",
-        height: "15vh"
       }}
     >
       {eventData.map((element) => (

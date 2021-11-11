@@ -13,7 +13,7 @@ const Sponsors = ({}: SponsorsProps) => {
   //animate years
 
   return (
-    <div className="container">
+    <div className="container mb-5">
       <TwinkleTwinkle title="Sponsors" />
 
       <p className={"responsive-para text-center" + ` fs-4`}>
@@ -67,14 +67,12 @@ const Sponsors = ({}: SponsorsProps) => {
 
       <div className="text-center fs-2 mb-5">Presented By</div>
 
-      <div className="d-flex justify-content-center">
-        <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5">
-          {sponsorsImgSources[year].map((source: string) => (
-            <div className="col m-3 d-flex flex-column mx-auto">
-              <img src={source} alt="source" width={200} />
-            </div>
-          ))}
-        </div>
+      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 justify-content-around">
+        {sponsorsImgSources[year].map((source: string) => (
+          <div className="col p-3 text-center">
+            <img src={source} alt="source" width={200} />
+          </div>
+        ))}
       </div>
     </div>
   );

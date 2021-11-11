@@ -22,3 +22,8 @@ a {
 #tsparticles {
   position: relative;
 }
+.small-nav-div {
+  -webkit-box-shadow: 0 8px 6px -6px rgba(17, 241, 255, 0.6);
+  -moz-box-shadow: 0 8px 6px -6px rgba(17, 241, 255, 0.6);
+  box-shadow: 0 8px 6px -6px rgba(17, 241, 255, 0.6);
+}
