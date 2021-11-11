@@ -1,0 +1,7 @@
+@media only screen and (max-width: 768px){
+  .tl-img {
+    margin: 5vw;
+    padding: 4vw;
+    width: 45vw;
+  }
+}

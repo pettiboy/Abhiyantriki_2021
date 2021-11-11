@@ -3,7 +3,5 @@
   .homepage {
      display: flex;
      align-items: center;
-     justify-content: center;
-     width: 85vw;
   }
 }

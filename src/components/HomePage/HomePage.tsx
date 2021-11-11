@@ -6,7 +6,7 @@ const HomePage = () => {
       <img
         alt="abhiyantriki logo"
         src="/assets/logos/ab-white.png"
-        height={400}
+        height={300}
         className="homepage"
       />
     </div>

@@ -6,7 +6,7 @@ interface YearButtonProps {
 }
 
 const YearButton = ({ year }: YearButtonProps) => {
-  return <div className="year-btn">{year}</div>;
+  return <div className="year-btn"><span className="year-txt">{year}</span></div>;
 };
 
 export default YearButton;
