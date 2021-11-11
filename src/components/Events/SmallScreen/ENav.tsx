@@ -22,8 +22,10 @@ const ESNav = (props: Props) => {
       ref={props.navContainerRef}
       style={{
         display: "flex",
+        flexWrap: "wrap",
         justifyContent: "center",
         overflowX: "scroll",
+        height: "15vh"
       }}
     >
       {eventData.map((element) => (
