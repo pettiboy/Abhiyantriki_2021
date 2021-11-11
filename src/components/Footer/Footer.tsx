@@ -21,7 +21,9 @@ const Footer = ({}: FooterProps) => {
 
           <div className="col p-2 footer-container">
             <div className="footer-heading-div">
-              <h3 className="footer-heading">Reach Us</h3>
+              <h3 className="footer-heading" id="contact">
+                Reach Us
+              </h3>
               <div className="line"></div>
             </div>
             <ul className="list-unstyled">
