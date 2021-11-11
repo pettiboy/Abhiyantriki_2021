@@ -10,6 +10,7 @@ const Footer = ({}: FooterProps) => {
         <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4">
           <div className="col p-2 footer-container map-wala-div">
             <iframe
+              className="map-wala-iframe"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.787265412665!2d72.89808588654978!3d19.07308871368872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c627a20bcaa9%3A0xb2fd3bcfeac0052a!2sK.+J.+Somaiya+College+of+Engineering!5e0!3m2!1sen!2sin!4v1534429674930"
               width="280"
               height="280"
@@ -29,7 +30,7 @@ const Footer = ({}: FooterProps) => {
             <ul className="list-unstyled">
               <li className="link-heading-li">
                 <a href="#" className="a-cancel link-heading">
-                  KJSCE Students’ Council 20-21
+                  KJSCE Students’ Council 21-22
                 </a>
               </li>
               <li className="">
