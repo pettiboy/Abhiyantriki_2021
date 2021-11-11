@@ -3,6 +3,7 @@ import ScrollSpy from "react-ui-scrollspy";
 import TextAndButton from "../../TextAndButton/TextAndButton";
 import TextAndImage from "../../TextAndImage/TextAndImage";
 import { eventData } from "../../../data/eventsData";
+import EventCard from "../EventCard/EventCard";
 
 export interface SectionNodeProps {
   parentScrollContainerRef?: React.MutableRefObject<HTMLDivElement | null>;
@@ -30,9 +31,11 @@ const ESScrollSpy = ({
             {element.eventName}
           </h1>
           <div>
-            {element.events.map((element) => {
-              return <div className="text-center">{element.text}</div>;
-            })}
+          {element.events.map((element) => {
+            return (
+             <EventCard/>
+            );
+          })}
           </div>
         </div>
       ))}

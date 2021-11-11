@@ -14,7 +14,7 @@ const Header = (props: Props) => {
   };
   return (
     <div className="position-relative">
-      <TwinkleTwinkle title="Expos And Speakers" noFontSize />
+      <TwinkleTwinkle title="Events" noFontSize />
     </div>
   );
 };
