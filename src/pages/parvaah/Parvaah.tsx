@@ -11,7 +11,7 @@ const Parvaah = ({}: ParvaahProps) => {
         <div className="col">
           <TwinkleTwinkle title="Parvaah" />
 
-          <div className="d-sm-flex justify-content-around align-items-center text-center mb-5">
+          <div className="d-flex justify-content-around align-items-center text-center mb-5 parvaah">
             <img
               src="/assets/logos/Parvaah Logo.png"
               alt=""
