@@ -25,17 +25,15 @@ const ESScrollSpy = ({
         <div
           id={element.linkHash}
           key={element.linkHash}
-          style={{ padding: 50 }}
+          style={i == 0 ? { padding: 50, paddingTop: 100 } : { padding: 50 }}
         >
           <h1 className="text-center" style={{ fontSize: "40px" }}>
             {element.eventName}
           </h1>
           <div>
-          {element.events.map((element) => {
-            return (
-             <EventCard/>
-            );
-          })}
+            {element.events.map((element) => {
+              return <EventCard />;
+            })}
           </div>
         </div>
       ))}
