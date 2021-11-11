@@ -43,4 +43,10 @@
     justify-content: space-around;
     align-items: center;
   }
+
+  .logo {
+    scale: 2;
+    margin: 10vw;
+  }
+
 }
