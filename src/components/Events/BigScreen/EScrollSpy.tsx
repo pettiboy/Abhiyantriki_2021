@@ -1,8 +1,6 @@
 import React from "react";
 import { eventData } from "../../../data/eventsData";
 import ScrollSpy from "react-ui-scrollspy";
-import TextAndButton from "../../TextAndButton/TextAndButton";
-import TextAndImage from "../../TextAndImage/TextAndImage";
 import EventCard from "../EventCard/EventCard";
 
 export interface SectionNodeProps {
@@ -29,9 +27,7 @@ const ESScrollSpy = ({ parentScrollContainerRef }: SectionNodeProps) => {
             {element.eventName}
           </h1>
           {element.events.map((element) => {
-            return (
-             <EventCard/>
-            );
+            return <EventCard />;
           })}
         </div>
       ))}
