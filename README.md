@@ -9,10 +9,12 @@
 - [x] Particles for all headings
 - [x] Sponsers page
 - [ ] parvaah page responsiveness
-- [ ] Events page
+- [x] Events page
 - [ ] HomePage page
 - [ ] HomePage page responsiveness
-- [ ] Footer
+- [x] Footer
+- [ ] Events && Expos and Speakers full screen footer
+- [ ] Events small screen navcontainer overflow
 
 ## Getting Started
 

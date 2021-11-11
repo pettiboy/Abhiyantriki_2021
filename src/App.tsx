@@ -49,7 +49,8 @@ function App() {
           </Switch>
         </div>
       </Router>
-      {window.location.pathname !== "/expos-and-speakers" && <Footer />}
+      {window.location.pathname !== "/expos-and-speakers" &&
+        window.location.pathname !== "/events" && <Footer />}
       <Sidebar />
     </>
   );

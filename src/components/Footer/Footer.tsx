@@ -8,53 +8,71 @@ const Footer = ({}: FooterProps) => {
     <footer className="site-footer mt-3">
       <div className="container">
         <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4">
-          <div className="col p-2 footer-container">
-            <div className="map-holder" id="map-holder"></div>
+          <div className="col p-2 footer-container map-wala-div">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.787265412665!2d72.89808588654978!3d19.07308871368872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c627a20bcaa9%3A0xb2fd3bcfeac0052a!2sK.+J.+Somaiya+College+of+Engineering!5e0!3m2!1sen!2sin!4v1534429674930"
+              width="280"
+              height="280"
+              frameBorder="0"
+              aria-hidden="false"
+              tabIndex={0}
+            ></iframe>
           </div>
 
           <div className="col p-2 footer-container">
             <div className="footer-heading-div">
-              <h3 className="footer-heading">Reach Us</h3>
+              <h3 className="footer-heading" id="contact">
+                Reach Us
+              </h3>
               <div className="line"></div>
             </div>
             <ul className="list-unstyled">
-              <li className="custom-link link-heading-li">
-                <a href="#" className="a-cancel custom-link link-heading">
+              <li className="link-heading-li">
+                <a href="#" className="a-cancel link-heading">
                   KJSCE Students’ Council 20-21
                 </a>
               </li>
-              <li className="custom-link">
+              <li className="">
                 <a
                   href="mailto:kjsceabhiyantriki@somaiya.edu"
-                  className="a-cancel custom-link"
+                  className="a-cancel highlight-on-hover"
                 >
                   kjsceabhiyantriki@somaiya.edu
                 </a>
               </li>
-              <li className="custom-link link-heading-li">
-                <a href="#" className="a-cancel custom-link link-heading">
+              <li className="link-heading-li">
+                <a href="#" className="a-cancel link-heading">
                   Public Relations
                 </a>
               </li>
-              <li className="custom-link">
-                <a className="a-cancel custom-link" href="tel:+91-816-938-8385">
+              <li className="">
+                <a
+                  className="a-cancel highlight-on-hover"
+                  href="tel:+91-816-938-8385"
+                >
                   <span className="fw-bold">Freya Vora: </span>
                   +91 8169388385
                 </a>
               </li>
-              <li className="custom-link link-heading-li">
-                <a href="#" className="a-cancel custom-link link-heading">
+              <li className="link-heading-li">
+                <a href="#" className="a-cancel link-heading">
                   Marketing
                 </a>
               </li>
-              <li className="custom-link">
-                <a className="a-cancel custom-link" href="tel:+91-816-938-8385">
+              <li className="">
+                <a
+                  className="a-cancel highlight-on-hover"
+                  href="tel:+91-816-938-8385"
+                >
                   <span className="fw-bold">Supriya Tiwari: </span>
                   +91 8169388385
                 </a>
               </li>
-              <li className="custom-link">
-                <a className="a-cancel custom-link" href="tel:+91-816-938-8385">
+              <li className="">
+                <a
+                  className="a-cancel highlight-on-hover"
+                  href="tel:+91-816-938-8385"
+                >
                   <span className="fw-bold">Aabha Borle: </span>
                   +91 8169388385
                 </a>
@@ -66,22 +84,22 @@ const Footer = ({}: FooterProps) => {
             <h3 className="footer-heading">Useful Links</h3>
             <div className="line"></div>
             <div className="contact-links">
-              <a href="/" className="white">
+              <a href="/" className="highlight-on-hover">
                 <i className="fa fa-home"></i> Home
               </a>
-              <a href="/events" className="white">
+              <a href="/events" className="highlight-on-hover">
                 <i className="fa fa-calendar-alt"></i> Events
               </a>
-              <a href="/get-involved" className="white">
+              <a href="/get-involved" className="highlight-on-hover">
                 <i className="fas fa-hands-helping"></i> Get Involved
               </a>
-              <a href="/parvaah" className="white">
+              <a href="/parvaah" className="highlight-on-hover">
                 <i className="fas fa-hands"></i> Parvaah
               </a>
-              <a href="/sponsors" className="white">
+              <a href="/sponsors" className="highlight-on-hover">
                 <i className="fa fa-pagelines"></i> Sponsors
               </a>
-              <a href="#" className="white">
+              <a href="#" className="highlight-on-hover">
                 <i className="fa fa-edit"></i>
                 Register
               </a>
@@ -92,19 +110,34 @@ const Footer = ({}: FooterProps) => {
             <h3 className="footer-heading">Follow Us On</h3>
             <div className="line"></div>
             <div className="follow-us-on">
-              <a href=" https://www.instagram.com/kjscelive/">
+              <a
+                className="highlight-on-hover"
+                href=" https://www.instagram.com/kjscelive/"
+              >
                 <i className="fab fa-instagram"></i>
               </a>
-              <a href="https://www.facebook.com/kjsceabhiyantriki/?ref=br_rs">
+              <a
+                className="highlight-on-hover"
+                href="https://www.facebook.com/kjsceabhiyantriki/?ref=br_rs"
+              >
                 <i className="fab fa-facebook"></i>
               </a>
-              <a href=" https://twitter.com/kjsabhiyantriki?lang=en">
+              <a
+                className="highlight-on-hover"
+                href=" https://twitter.com/kjsabhiyantriki?lang=en"
+              >
                 <i className="fab fa-twitter"></i>
               </a>
-              <a href="https://www.youtube.com/channel/UC7Z32X4uNZ8c31NteK3065g">
+              <a
+                className="highlight-on-hover"
+                href="https://www.youtube.com/channel/UC7Z32X4uNZ8c31NteK3065g"
+              >
                 <i className="fa fa-youtube-play"></i>
               </a>
-              <a href="https://kjscelive.wordpress.com/">
+              <a
+                className="highlight-on-hover"
+                href="https://kjscelive.wordpress.com/"
+              >
                 <i className="fa fa-wordpress"></i>
               </a>
             </div>
