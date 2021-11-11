@@ -32,7 +32,7 @@ const ESScrollSpy = ({
           </h1>
           <div>
             {element.events.map((element) => {
-              return <EventCard />;
+              return <EventCard event={element} />;
             })}
           </div>
         </div>

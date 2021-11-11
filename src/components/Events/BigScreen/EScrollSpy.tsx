@@ -27,7 +27,7 @@ const ESScrollSpy = ({ parentScrollContainerRef }: SectionNodeProps) => {
             {element.eventName}
           </h1>
           {element.events.map((element) => {
-            return <EventCard />;
+            return <EventCard event={element} />;
           })}
         </div>
       ))}

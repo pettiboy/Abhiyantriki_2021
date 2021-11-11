@@ -1,9 +1,12 @@
 import React from "react";
+import { eventData } from "../../../data/eventsData";
 import "./EventCard.css";
 
-interface EventCardProps {}
+interface EventCardProps {
+  event: typeof eventData[0]["events"][0];
+}
 
-const EventCard = ({}: EventCardProps) => {
+const EventCard = ({ event }: EventCardProps) => {
   return (
     <div className="d-flex justify-content-center align-items-center event-card">
       <div className="row w-85 d-flex justify-content-center align-items-center">
@@ -16,33 +19,32 @@ const EventCard = ({}: EventCardProps) => {
         </div>
         <div className="col">
           <div>
-            <h1>Crackathon</h1>
+            <h1>{event.name}</h1>
           </div>
           <hr />
-          <div>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum,
-            placeat?
-          </div>
+          <div>{event.text}</div>
           <hr />
           <div>
             <img src="/assets/images/events/team.png" width="20" />
-            <span className="m-1">3 members per team</span>
+            <span className="m-1">{event.memberLimit}</span>
           </div>
-           <hr />
+          <hr />
           <div>
             <img src="/assets/images/events/prize.png" width="20" />
-            <span className="m-1">Prizes worth 12000</span>
+            <span className="m-1">{event.prize}</span>
           </div>
           <hr />
           <div>
             <img src="/assets/images/events/registration.png" width="20" />
-            <span className="m-1">60 for 3</span>
+            <span className="m-1">{event.fees}</span>
           </div>
           <hr />
-          <div>
-            <img src="/assets/images/events/contact.png" width="20" />
-            <span className="m-1">Vidhi 987860 Manasi 64645</span>
-          </div>
+          {event.contactInfo.map((contact) => (
+            <div>
+              <img src="/assets/images/events/contact.png" width="20" />
+              <span className="m-1">{contact}</span>
+            </div>
+          ))}
         </div>
       </div>
     </div>
