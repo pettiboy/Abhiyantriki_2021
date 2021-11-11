@@ -102,9 +102,9 @@ const Timeline = ({}: TimelineProps) => {
   }, [year]);
 
   return (
-    <>
+    <div className="tl">
       <h1 className="text-center m-10 my-5">Timeline</h1>
-      <div className="d-inline vh-100">
+      <div className="d-inline">
         <div className="d-sm-flex justify-content-around align-items-center w-90 m-20 years">
           <div onClick={() => setYear("1998")}>
             <YearButton year="1998" />
@@ -135,7 +135,7 @@ const Timeline = ({}: TimelineProps) => {
           <InfoSection caption={caption} imgPath={path} />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
