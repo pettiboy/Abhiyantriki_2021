@@ -1,3 +1,14 @@
 .event-card {
   margin: 5vh;
 }
+
+
+.btn {
+  margin: 10px;
+  border-radius: 5px;
+  padding: 5px 15px;
+  color: aliceblue;
+  border: 1px solid rgba(17, 241, 255, 0.6);
+  box-shadow: 0 0 5px rgba(17, 241, 255, 0.6);
+}
+
