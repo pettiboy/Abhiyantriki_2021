@@ -1,4 +1,5 @@
 import About from "../components/About/About";
+import ACarousel from "../components/Carousel/ACarousel";
 import HomePage from "../components/HomePage/HomePage";
 import Sidebar from "../components/Sidebar/Sidebar";
 import Timeline from "../components/Timeline/Timeline";
@@ -12,6 +13,7 @@ const Home = ({}: HomeProps) => {
       <div className="vh-100 d-sm-flex align-items-center justify-content-center home">
         <HomePage />
       </div>
+      <ACarousel/>
       <About />
       <Timeline />
       <Sidebar />
