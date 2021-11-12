@@ -11,5 +11,20 @@
 }
 
 .slides {
-  height: 75vh;
+  height: 65vh;
+}
+
+@media only screen and (max-width: 768px){
+   .slides {
+     height: 50vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+   }
+
+   .navigate {
+     display: block;
+     margin: auto;
+     text-align: center;
+   }
 }
