@@ -10,18 +10,22 @@ interface ACarouselProps {}
 
 const ACarousel = ({}: ACarouselProps) => {
   const [index, setIndex] = useState<number>(0);
+  const [anim, setAnim] = useState<boolean | null>(false);
 
   const textRef = useRef<HTMLDivElement | null>(null);
   const imgRef = useRef<HTMLDivElement | null>(null);
 
-  
-    // AOS.init();
+  useEffect(() => {setAnim(true)}, [index]);
+
+  // AOS.init();
 
   return (
     <>
       <div className="d-sm-flex justify-content-around align-items-center slides">
-        <div ref={textRef}>{carouselData[index].text}</div>
-        <div ref={imgRef}>
+        <div ref={textRef} className={anim ? "anim-loader" : ""}>
+          {carouselData[index].text}
+        </div>
+        <div ref={imgRef} className={anim ? "anim-loader" : ""}>
           <img src={carouselData[index].imgPath} width="300" />
         </div>
       </div>
@@ -39,10 +43,7 @@ const ACarousel = ({}: ACarouselProps) => {
             } else {
               setIndex((prev) => prev - 1);
             }
-            textRef.current?.classList.remove('anim-loader');
-            imgRef.current?.classList.remove('anim-loader');
-            textRef.current?.classList.add('anim-loader');
-            imgRef.current?.classList.add('anim-loader');
+            setAnim(false);
           }}
         ></i>
 
@@ -59,11 +60,7 @@ const ACarousel = ({}: ACarouselProps) => {
             } else {
               setIndex((prev) => prev + 1);
             }
-            textRef.current?.classList.remove('anim-loader');
-            imgRef.current?.classList.remove('anim-loader');
-            textRef.current?.classList.add('anim-loader');
-            imgRef.current?.classList.add('anim-loader');
-            
+            setAnim(false);
           }}
         ></i>
       </div>
