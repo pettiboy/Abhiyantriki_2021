@@ -17,31 +17,31 @@ const EventCard = ({ event }: EventCardProps) => {
             width="350"
           />
         </div>
-        <div className="col">
+        <div className="col event-info">
           <div>
             <h1>{event.name}</h1>
           </div>
-          <hr />
+          <hr/>
           <div>{event.text}</div>
           <hr />
           <div>
-            <img src="/assets/images/events/team.png" width="20" />
+            <img src="/assets/images/events/team.png" width="20" className="event-img"/>
             <span>{event.memberLimit}</span>
           </div>
           <hr />
           <div>
-            <img src="/assets/images/events/prize.png" width="20" />
+            <img src="/assets/images/events/prize.png" width="20" className="event-img"/>
             <span>{event.prize}</span>
           </div>
           <hr />
           <div>
-            <img src="/assets/images/events/registration.png" width="20" />
+            <img src="/assets/images/events/registration.png" width="20" className="event-img"/>
             <span>{event.fees}</span>
           </div>
           <hr />
           {event.contactInfo.map((contact) => (
             <div>
-              <img src="/assets/images/events/contact.png" width="20" />
+              <img src="/assets/images/events/contact.png" width="20" className="event-img"/>
               <span>{contact}</span>
             </div>
           ))}

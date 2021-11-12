@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./ACarousel.css";
 import Slider from "react-animated-slider";
 import "react-animated-slider/build/horizontal.css";
 import { carouselData } from "../../data/carouselData";
+import AOS from "aos";
 // import 'normalize.css/normalize.css';
 
 interface ACarouselProps {}
@@ -10,13 +11,17 @@ interface ACarouselProps {}
 const ACarousel = ({}: ACarouselProps) => {
   const [index, setIndex] = useState<number>(0);
 
+  useEffect(() => {
+    AOS.init();
+  }, [index]);
+
   return (
     <>
       <div className="d-sm-flex justify-content-around align-items-center slides">
-        <div>
-          {carouselData[index].text}
+        <div data-aos="fade-in">{carouselData[index].text}</div>
+        <div data-aos="fade-in">
+          <img src={carouselData[index].imgPath} width="300" />
         </div>
-        <img src={carouselData[index].imgPath} width="300"/>
       </div>
       <div className="d-md-flex justify-content-end align-items-center navigate">
         <i

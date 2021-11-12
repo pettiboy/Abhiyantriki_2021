@@ -1,6 +1,24 @@
 .event-card {
   margin: 5vh;
+  font-size: 1rem;
 }
+
+.event-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.event-img {
+  margin: 5px;
+}
+
+hr
+{ 
+   margin-top: 0.3em;
+   margin-bottom: 0.3em;
+   border-width: 2px;
+} 
 
 
 .btn {
