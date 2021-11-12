@@ -24,7 +24,7 @@ const ESScrollSpy = ({
         <div
           id={element.linkHash}
           key={element.linkHash}
-          style={{ padding: 50 }}
+          style={i == 0 ? { padding: 50, paddingTop: 70 } : { padding: 50 }}
         >
           <h1 className="text-center" style={{ fontSize: "40px" }}>
             {element.heading}

@@ -34,6 +34,7 @@ const ESScrollSpy = ({ parentScrollContainerRef }: SectionNodeProps) => {
           />
           {element.cards.map((card) => (
             <TextAndImage
+              noTextCenter
               key={card.heading}
               image={card.image}
               text={card.text}
