@@ -12,11 +12,11 @@ const ACarousel = ({}: ACarouselProps) => {
 
   return (
     <>
-      <div className="d-flex justify-content-around align-items-center">
+      <div className="d-flex justify-content-around align-items-center slides">
         <div>
           {carouselData[index].text}
         </div>
-        <img src={carouselData[index].imgPath}/>
+        <img src={carouselData[index].imgPath} width="300"/>
       </div>
       <div className="d-flex justify-content-end align-items-center">
         <i

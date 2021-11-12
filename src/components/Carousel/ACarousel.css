@@ -1,0 +1,15 @@
+.arrows {
+  font-size: 2rem;
+  border-radius: 15px;
+  border: 1px solid #11f1ff;
+  padding: 5px 15px;
+  color: #11f1ff;
+}
+
+.arrows:hover {
+  cursor: pointer;
+}
+
+.slides {
+  height: 75vh;
+}
