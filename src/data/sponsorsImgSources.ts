@@ -1,23 +1,25 @@
 export const sponsorsImgSources = {
   2018: [
-    "/assets/images/timeline/2009.png",
-    "/assets/images/events/events.png",
-    "/assets/images/events/events.png",
-    "/assets/images/events/events.png",
+    { source: "/assets/images/timeline/2009.png", text: "life partner" },
+    { source: "/assets/images/timeline/2009.png", text: "life partner" },
+    { source: "/assets/images/timeline/2009.png", text: "life partner" },
   ],
   2019: [
-    "/assets/images/timeline/2008.png",
-    "/assets/images/events/events.png",
-    "/assets/images/events/events.png",
+    { source: "/assets/images/timeline/2008.png", text: "life partner" },
+    { source: "/assets/images/timeline/2008.png", text: "life partner" },
+    { source: "/assets/images/timeline/2008.png", text: "life partner" },
+    { source: "/assets/images/timeline/2008.png", text: "life partner" },
   ],
   2020: [
-    "/assets/images/timeline/1998.png",
-    "/assets/images/events/events.png",
-    "/assets/images/events/events.png",
+    { source: "/assets/images/timeline/2008.png", text: "life partner" },
+    { source: "/assets/images/timeline/2008.png", text: "life partner" },
+    { source: "/assets/images/timeline/2008.png", text: "life partner" },
+    { source: "/assets/images/timeline/2008.png", text: "life partner" },
   ],
   2021: [
-    "/assets/images/events/events.png",
-    "/assets/images/events/events.png",
-    "/assets/images/events/events.png",
+    { source: "/assets/images/timeline/2008.png", text: "life partner" },
+    { source: "/assets/images/timeline/2008.png", text: "life partner" },
+    { source: "/assets/images/timeline/2008.png", text: "life partner" },
+    { source: "/assets/images/timeline/2008.png", text: "life partner" },
   ],
 };
