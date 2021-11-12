@@ -4,9 +4,15 @@ interface Props {
   heading: string;
   text: string;
   image: string;
+  noTextCenter?: boolean;
 }
 
-const TextAndImage = ({ heading, text, image }: Props) => {
+const TextAndImage = ({
+  heading,
+  text,
+  image,
+  noTextCenter = false,
+}: Props) => {
   return (
     <div className="container p-3 text-white">
       <div className="row">
@@ -22,13 +28,18 @@ const TextAndImage = ({ heading, text, image }: Props) => {
           </div>
         </div>
         <div className="col-sm-6 col-md-6 flex-column d-flex justify-content-center">
-          <div className="fs-4 fw-bold">{heading}</div>
           <div
-            className="text-center"
+            className={
+              noTextCenter ? "fs-4 fw-bold" : "fs-4 fw-bold text-center"
+            }
+          >
+            {heading}
+          </div>
+          <div
+            className={noTextCenter ? "" : "text-center"}
             style={{
               fontSize: 14,
               fontFamily: "Roboto",
-              textAlign: "center",
             }}
           >
             {text}

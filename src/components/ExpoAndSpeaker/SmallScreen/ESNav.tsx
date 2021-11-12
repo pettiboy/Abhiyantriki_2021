@@ -25,6 +25,7 @@ const ESNav = (props: Props) => {
         justifyContent: "center",
         overflowX: "scroll",
       }}
+      className="small-nav-div pb-2"
     >
       {exposAndSpeakersDataJson.map((element) => (
         <a
