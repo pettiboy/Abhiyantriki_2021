@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./ACarousel.css";
 import Slider from "react-animated-slider";
 import "react-animated-slider/build/horizontal.css";
 import { carouselData } from "../../data/carouselData";
-import AOS from "aos";
+// import AOS from "aos";
 // import 'normalize.css/normalize.css';
 
 interface ACarouselProps {}
@@ -11,15 +11,17 @@ interface ACarouselProps {}
 const ACarousel = ({}: ACarouselProps) => {
   const [index, setIndex] = useState<number>(0);
 
-  useEffect(() => {
-    AOS.init();
-  }, [index]);
+  const textRef = useRef<HTMLDivElement | null>(null);
+  const imgRef = useRef<HTMLDivElement | null>(null);
+
+  
+    // AOS.init();
 
   return (
     <>
       <div className="d-sm-flex justify-content-around align-items-center slides">
-        <div data-aos="fade-in">{carouselData[index].text}</div>
-        <div data-aos="fade-in">
+        <div ref={textRef}>{carouselData[index].text}</div>
+        <div ref={imgRef}>
           <img src={carouselData[index].imgPath} width="300" />
         </div>
       </div>
@@ -37,6 +39,10 @@ const ACarousel = ({}: ACarouselProps) => {
             } else {
               setIndex((prev) => prev - 1);
             }
+            textRef.current?.classList.remove('anim-loader');
+            imgRef.current?.classList.remove('anim-loader');
+            textRef.current?.classList.add('anim-loader');
+            imgRef.current?.classList.add('anim-loader');
           }}
         ></i>
 
@@ -53,6 +59,11 @@ const ACarousel = ({}: ACarouselProps) => {
             } else {
               setIndex((prev) => prev + 1);
             }
+            textRef.current?.classList.remove('anim-loader');
+            imgRef.current?.classList.remove('anim-loader');
+            textRef.current?.classList.add('anim-loader');
+            imgRef.current?.classList.add('anim-loader');
+            
           }}
         ></i>
       </div>
