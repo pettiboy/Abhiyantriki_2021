@@ -21,32 +21,50 @@ const EventCard = ({ event }: EventCardProps) => {
           <div>
             <h1>{event.name}</h1>
           </div>
-          <hr/>
+          <hr />
           <div>{event.text}</div>
           <hr />
           <div>
-            <img src="/assets/images/events/team.png" width="20" className="event-img"/>
+            <img
+              src="/assets/images/events/team.png"
+              width="20"
+              className="event-img"
+            />
             <span>{event.memberLimit}</span>
           </div>
           <hr />
           <div>
-            <img src="/assets/images/events/prize.png" width="20" className="event-img"/>
+            <img
+              src="/assets/images/events/prize.png"
+              width="20"
+              className="event-img"
+            />
             <span>{event.prize}</span>
           </div>
           <hr />
           <div>
-            <img src="/assets/images/events/registration.png" width="20" className="event-img"/>
+            <img
+              src="/assets/images/events/registration.png"
+              width="20"
+              className="event-img"
+            />
             <span>{event.fees}</span>
           </div>
           <hr />
           {event.contactInfo.map((contact) => (
             <div>
-              <img src="/assets/images/events/contact.png" width="20" className="event-img"/>
+              <img
+                src="/assets/images/events/contact.png"
+                width="20"
+                className="event-img"
+              />
               <span>{contact}</span>
             </div>
           ))}
-          <div className="d-flex justify-content-center align-items-center">
-          <div className="text-center reg-btn m-1"><span className="btn">Register</span></div>
+          <div className="d-flex justify-content-start align-items-center">
+            <div className="text-center reg-btn m-1">
+              <span className="btn">Register</span>
+            </div>
           </div>
         </div>
       </div>

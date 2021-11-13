@@ -62,10 +62,12 @@ const Sponsors = ({}: SponsorsProps) => {
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 justify-content-around">
         {sponsorsImgSources[year].map(
           (el: typeof sponsorsImgSources[2021][0]) => (
-            <div className="col p-3 text-center">
-              <div>{el.text}</div>
-              <img src={el.source} alt="source" width={200} />
-            </div>
+            <a href={el.link}>
+              <div className="col p-3 text-center">
+                <div>{el.text}</div>
+                <img src={el.source} alt="source" width={200} />
+              </div>
+            </a>
           )
         )}
       </div>

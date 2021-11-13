@@ -17,7 +17,7 @@ const About = ({}: AboutProps) => {
           />
           <div className="about-kjsce">
             <h1 className="text-end" style={{ color: COLORS.YELLOW }}>
-              KSJCE
+              KJSCE
             </h1>
             <p className="m-3">
               K.J. Somaiya College of Engineering is a nationally reputed
