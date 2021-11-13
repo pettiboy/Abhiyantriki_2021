@@ -11,6 +11,7 @@ const Timeline = ({}: TimelineProps) => {
   );
   const [path, setPath] = useState("/assets/images/timeline/1998.png");
   const [year, setYear] = useState(2019);
+  const [anim, setAnim] = useState<boolean | null>(false);
 
   const changeTo1998 = () => {
     setCaption(
@@ -75,6 +76,8 @@ const Timeline = ({}: TimelineProps) => {
         return years[next];
       });
     }
+
+    setAnim(false);
   };
 
   const onPressRight = () => {
@@ -89,6 +92,7 @@ const Timeline = ({}: TimelineProps) => {
         return years[next];
       });
     }
+    setAnim(false);
   };
 
   useEffect(() => {
@@ -122,13 +126,21 @@ const Timeline = ({}: TimelineProps) => {
     }
   }, [year]);
 
+  useEffect(() => {
+    setAnim(true);
+  }, [year]);
+
   return (
     <div className="tl">
       <h1 className="text-center m-10 my-5">Timeline</h1>
       <div className="d-inline">
         <div className="d-flex justify-content-around align-items-center font-size p-5">
           <i className="arrows fas fa-chevron-left" onClick={onPressLeft}></i>
-          <span className="displaying-year">{year}</span>
+          <span
+            className={anim ? "anim-loader displaying-year" : "displaying-year"}
+          >
+            {year}
+          </span>
           <i className="arrows fas fa-chevron-right" onClick={onPressRight}></i>
         </div>
 

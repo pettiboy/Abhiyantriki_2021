@@ -14,31 +14,17 @@
   height: 65vh;
 }
 
-.anim-loader {
-  animation: carouselAnim ease-in-out 1s forwards;
-}
+@media only screen and (max-width: 768px) {
+  .slides {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
 
-@media only screen and (max-width: 768px){
-   .slides {
-     height: 50vh;
-     display: flex;
-     flex-direction: column;
-     justify-content: space-around;
-   }
-
-   .navigate {
-     display: block;
-     margin: auto;
-     text-align: center;
-   }
-}
-
-@keyframes carouselAnim {
-   0% {
-     transform: scale(1,1);
-   }
-
-   100% {
-    transform: scale(1.5,1.5);
-   }
+  .navigate {
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
 }
