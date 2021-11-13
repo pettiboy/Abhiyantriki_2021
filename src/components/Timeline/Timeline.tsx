@@ -85,6 +85,10 @@ const Timeline = ({}: TimelineProps) => {
     setAnim(false);
   };
 
+  setTimeout(() => {
+    onPressRight();
+  }, 5000);
+
   const onPressRight = () => {
     const max = years[0];
     const min = years[years.length - 1];
