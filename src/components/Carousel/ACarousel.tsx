@@ -26,7 +26,7 @@ const ACarousel = ({}: ACarouselProps) => {
           {carouselData[index].text}
         </div>
         <div ref={imgRef} className={anim ? "anim-loader" : ""}>
-          <img src={carouselData[index].imgPath} width="300" />
+          <img src={carouselData[index].imgPath} width="200" />
         </div>
       </div>
       <div className="d-md-flex justify-content-end align-items-center navigate">
