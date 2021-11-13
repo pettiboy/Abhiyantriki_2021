@@ -17,6 +17,57 @@ export const exposAndSpeakersDataJson = [
         text: "RiverRecycle was founded in Finland halfway around the world to create a circular economy in every nation. RiverRecycle developed technology that effectively cleans rivers of plastic pollution. With over 500 installations planned in nine countries, they hope to prevent more than 60% of plastic river waste from entering our marine ecosystem. This will be a commercial endeavour, converting plastic waste into marketable products through collection and pyrolysis.",
         image: "",
       },
+      {
+        heading: "Sagar Defence",
+        text: "Sagar Defence Engineering, based in India, specialises in maritime defence technologies. The ocean is expected to undergo a profound transformation over the next decade. To address this issue, it has created an unmanned marine surface vehicle, which could prove its essential applications in naval and commercial operations. It aims at building an ocean network that connects billions of sensors, manned and unmanned systems, and satellites above, transforming it into a digital ocean.",
+        image: "",
+      },
+      {
+        heading: "Hiroshi Ishiguro",
+        text: "Hiroshi Ishiguro, a roboticist at Japan's Osaka University, has built numerous robots. Ishiguro's focus in robot development is on creating a robot that is as close to a living human being as possible. One is the Geminoid, an android version of a middle-aged family man like himself. Ishiguro built his mechanical doppelganger out of silicone rubber, pneumatic actuators, powerful electronics, and hair from his scalp, and it performs realistic human functions such as blinking, breathing, and fidgeting with his hands. The Geminoid has even been used as a 'teacher' in his classes at Japan's Osaka University.",
+        image: "",
+      },
+      {
+        heading: "Puli Space",
+        text: "The Hungarian company develops a low-cost, lightweight planetary rover platform with unique mobility capabilities for carrying payloads and payload instruments capable of surviving the harsh lunar environment, exploring lunar resources, and supporting In-Situ Resource Utilization (ISRU) on the Moon. They hope to be the first Hungarian payload to land on the Moon, where they will search for water ice, explore the lunar surface, and take images and videos of the landing site.",
+        image: "",
+      },
+      {
+        heading: "Furhat Robotics",
+        text: `The Swedish robotics development company specialises in advancements in social robot construction. Furhat's mission is to use social and conversational robotics to enable a revolution in human-computer interaction. They created a social robot with limitless possibilities for research and development due to its expressibility and customizability. Its ingenious back-projection system allows a digital face to be displayed on a physical mask. Expressions and movements that mimic human behaviour, as well as vocal gestures such as "ehh", "ahh", "uhm", coughs, laughs, yawns, etc.`,
+        image: "",
+      },
+      {
+        heading: "Turing Laboratory",
+        text: `Turing Laboratory is part of a new generation of research and development laboratories that have recently been established at Galileo University to promote the advancement of science and technology. It specialises in faster product development and providing a more secure overview of consumer needs. Leonardo GreenMoov, a telepresence robot, is one of their recent projects. It is designed to allow you and others to remotely control a humanoid robot while giving you the sensation of being in the location where the robot is.`,
+        image: "",
+      },
+      {
+        heading: "City Transformers",
+        text: `Introducing the world's first all-electric vehicle, hailing from Israel, that challenges mobility issues with smart solutions to city parking issues. A strikingly convenient, electrified, foldable mobility solution designed from the ground up for an unrivalled city riding experience. It is aimed at parking superpowers, superior manoeuvrability, and thoughtful productivity, and is designed around what city dwellers truly require. City Transformer was named one of the "top 10 cars of IAA mobility 2021" and one of Time magazine's "best inventions of 2020."`,
+
+        image: "",
+      },
+      {
+        heading: "GO ROLLOE",
+        text: `Introducing a new innovation in the field of pollution reduction in which the energy produced by spinning a vehicle's wheels drives the mechanism for cleaning the surrounding air. All the way from the UK, ROLLOE is an ingenious way to reduce air contaminants from your vehicle. It is a device that attaches to the wheels of a bicycle to filter air pollution by simply utilising the rider's motion and energy.`,
+        image: "",
+      },
+      {
+        heading: "Embention",
+        text: `Embention, the Spanish leaders in manned eVTOL flights, presented high-performance automated UAVs and eVTOL drones. They are the world's drone trendsetters, known for their Veronte Drone components. Embention collaborates with a wide range of UAVs to deliver ready-to-fly professional drones equipped with Veronte systems. These drones can be customised for surveillance, mapping, spraying, and a variety of other applications.`,
+        image: "",
+      },
+      {
+        heading: "",
+        text: ``,
+        image: "",
+      },
+      {
+        heading: "",
+        text: ``,
+        image: "",
+      },
     ],
   },
   {
