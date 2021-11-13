@@ -17,7 +17,7 @@ export const exposAndSpeakersDataJson = [
       {
         heading: "RiverRecycle OY",
         text: "RiverRecycle was founded in Finland halfway around the world to create a circular economy in every nation. RiverRecycle developed technology that effectively cleans rivers of plastic pollution. With over 500 installations planned in nine countries, they hope to prevent more than 60% of plastic river waste from entering our marine ecosystem. This will be a commercial endeavour, converting plastic waste into marketable products through collection and pyrolysis.",
-        image: `${process.env.PUBLIC_URL}/assets/expos/tech/RIVERCYCLE OY.png`,
+        image: `${process.env.PUBLIC_URL}/assets/expos/tech/RIVERRECYCLE OY.png`,
         cardHref: "#",
       },
       {
