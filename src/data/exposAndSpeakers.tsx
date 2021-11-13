@@ -17,7 +17,7 @@ export const exposAndSpeakersDataJson = [
       {
         heading: "RiverRecycle OY",
         text: "RiverRecycle was founded in Finland halfway around the world to create a circular economy in every nation. RiverRecycle developed technology that effectively cleans rivers of plastic pollution. With over 500 installations planned in nine countries, they hope to prevent more than 60% of plastic river waste from entering our marine ecosystem. This will be a commercial endeavour, converting plastic waste into marketable products through collection and pyrolysis.",
-        image: `${process.env.PUBLIC_URL}/assets/expos/tech/CITY_TRANSFORMER.png`,
+        image: `${process.env.PUBLIC_URL}/assets/expos/tech/RIVERCYCLE OY.png`,
         cardHref: "#",
       },
       {
@@ -47,7 +47,7 @@ export const exposAndSpeakersDataJson = [
       {
         heading: "Turing Laboratory",
         text: `Turing Laboratory is part of a new generation of research and development laboratories that have recently been established at Galileo University to promote the advancement of science and technology. It specialises in faster product development and providing a more secure overview of consumer needs. Leonardo GreenMoov, a telepresence robot, is one of their recent projects. It is designed to allow you and others to remotely control a humanoid robot while giving you the sensation of being in the location where the robot is.`,
-        image: ``,
+        image: `${process.env.PUBLIC_URL}/assets/expos/tech/TURING LABORATORY.png`,
         cardHref: "#",
       },
       {
@@ -80,43 +80,6 @@ export const exposAndSpeakersDataJson = [
         heading: "Hexapod",
         text: `With the advent of biped robots, IIT Madras' iBot Club created their own Hexapod, a six-legged autonomous robot. They have also designed it to cover any type of terrain using the machine learning paradigm's reinforcement learning. It can walk on any surface on its own, like an insect, learning as it goes.`,
         image: `${process.env.PUBLIC_URL}/assets/expos/tech/HEXAPOD.png`,
-        cardHref: "#",
-      },
-      {
-        heading: "Orion Racing",
-        text: `India's Orion Racing The K.J Somaiya College of Engineering's Official Formula Student Team was formed. Engineering students from various disciplines create, design, and build a Formula Style car to compete in national and international design competitions in Germany, Italy, and Hungary.`,
-        image: ``,
-        cardHref: "#",
-      },
-      {
-        heading: "RedShift Racing",
-        text: `K J Somaiya College Of Engineering's Official BAJA SAE Team is Redshift Racing India. The team designs, fabricates, and tests a single-seater all-terrain vehicle (ATV) and competes in national and international competitions such as BAJA SAE India, BAJA SAE USA, ESI, and the Mega ATV Championship.
-        `,
-        image: ``,
-        cardHref: "#",
-      },
-      {
-        heading: "Team ETA",
-        text: `Team Eta is a student organisation that participates in the Shell Eco-Marathon every year. The Shell Eco-Marathon is one of the world's leading energy efficiency competitions. Students are challenged to design, build, and test energy-efficient automobiles that push the boundaries of what is technically possible.`,
-        image: ``,
-        cardHref: "#",
-      },
-      {
-        heading: "Team Onyx",
-        text: `Team Onyx India, The Aero Design Club of K J Somaiya College of Engineering, is a group of Aviation Enthusiasts with a passion For everything. Participating in various aeromodelling competitions allows the team to broaden their knowledge base and put various technical and analytical skills to the test by validating research.`,
-        image: ``,
-        cardHref: "#",
-      },
-      {
-        heading: "Team Robocon",
-        text: `Robocon is a group of people that are passionate about robotics. Team KJSCE Robocon, which was founded in 2010 by a group of students, has paved the way for young intelligent minds to experiment with and implement new and innovative designs in modern robotics.`,
-        image: ``,
-        cardHref: "#",
-      },
-      {
-        heading: "Team TMRT",
-        text: `The College's Underwater Robotics and Offshore Engineering Team are the Marine Robotics Team (TMRT). This team was formed on July 27th, 2017. Their goal is to create an "autonomous underwater vehicle" that can perform a set of tasks and make decisions on its own using algorithms such as deep learning.`,
-        image: ``,
         cardHref: "#",
       },
     ],
