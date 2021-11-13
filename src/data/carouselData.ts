@@ -5,19 +5,23 @@ export const carouselData = {
   // internshipExpo: ["/assets/images/events/internship_expo.png"],
 
   0: {
-    text: "lorem ipsum bla bla 0",
-    imgPath: "/assets/images/events/Events.png"
+    text: "Events",
+    imgPath: "/assets/images/carousel/Events.png"
   },
   1: {
-    text: "lorem ipsum bla bla 1",
-    imgPath: "/assets/images/events/Informals.png"
+    text: "Fun and Informals",
+    imgPath: "/assets/images/carousel/Fun and Informals.png"
   },
   2: {
-    text: "lorem ipsum bla bla 2",
-    imgPath: "/assets/images/events/Parvaah.png"
+    text: "Speaker Session",
+    imgPath: "/assets/images/carousel/Speaker session.png"
   },
   3: {
-    text: "lorem ipsum bla bla 3",
-    imgPath: "/assets/images/events/internship_expo.png"
+    text: "Internship expo",
+    imgPath: "/assets/images/carousel/internship_expo.png"
+  },
+  4: {
+    text: "Tech Expo",
+    imgPath: "/assets/images/carousel/Tech Expo.png"
   }
 };
