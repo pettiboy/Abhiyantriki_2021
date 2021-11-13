@@ -15,15 +15,22 @@ const ACarousel = ({}: ACarouselProps) => {
   const textRef = useRef<HTMLDivElement | null>(null);
   const imgRef = useRef<HTMLDivElement | null>(null);
 
-  useEffect(() => {setAnim(true)}, [index]);
+  useEffect(() => {
+    setAnim(true);
+  }, [index]);
 
   // AOS.init();
 
   return (
     <>
       <div className="d-sm-flex justify-content-around align-items-center slides">
-        <div ref={textRef} className={anim ? "anim-loader" : ""}>
-          {carouselData[index].text}
+        <div className="text-grid w-50">
+          <div ref={textRef} className={anim ? "anim-loader" : ""} id="grid-title">
+            {carouselData[index].title}
+          </div>
+          <div ref={textRef} className={anim ? "anim-loader" : ""} id="grid-text">
+            {carouselData[index].text}
+          </div>
         </div>
         <div ref={imgRef} className={anim ? "anim-loader" : ""}>
           <img src={carouselData[index].imgPath} width="200" />

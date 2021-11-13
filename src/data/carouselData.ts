@@ -5,23 +5,28 @@ export const carouselData = {
   // internshipExpo: ["/assets/images/events/internship_expo.png"],
 
   0: {
-    text: "Events",
-    imgPath: "/assets/images/carousel/Events.png"
+    title: "Events",
+    text: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+    imgPath: "/assets/images/carousel/Events.png",
   },
   1: {
-    text: "Fun and Informals",
-    imgPath: "/assets/images/carousel/Fun and Informals.png"
+    title: "Fun and Informals",
+    text: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+    imgPath: "/assets/images/carousel/Fun and Informals.png",
   },
   2: {
-    text: "Speaker Session",
-    imgPath: "/assets/images/carousel/Speaker session.png"
+    title: "Speaker Session",
+    text: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+    imgPath: "/assets/images/carousel/Speaker session.png",
   },
   3: {
-    text: "Internship expo",
-    imgPath: "/assets/images/carousel/internship_expo.png"
+    title: "Internship expo",
+    text: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+    imgPath: "/assets/images/carousel/internship_expo.png",
   },
   4: {
-    text: "Tech Expo",
-    imgPath: "/assets/images/carousel/Tech Expo.png"
-  }
+    title: "Tech Expo",
+    text: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+    imgPath: "/assets/images/carousel/Tech Expo.png",
+  },
 };
