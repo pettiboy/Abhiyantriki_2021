@@ -13,7 +13,7 @@ import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Navbar />
         <div className="App text-white">
           <Switch>
@@ -49,8 +49,11 @@ function App() {
           </Switch>
         </div>
       </Router>
-      {window.location.pathname !== "/expos-and-speakers" &&
-        window.location.pathname !== "/events" && <Footer />}
+      {window.location.href !==
+        process.env.PUBLIC_URL + "/expos-and-speakers" &&
+        window.location.href !== process.env.PUBLIC_URL + "/events" && (
+          <Footer />
+        )}
       <Sidebar />
     </>
   );
