@@ -77,7 +77,10 @@ const Sponsors = ({}: SponsorsProps) => {
           <a href="https://www.citiustech.com/">
             <div className="col p-3">
               <img
-                src={"/assets/sponsors/citius-tech-logo.png"}
+                src={
+                  process.env.PUBLIC_URL +
+                  "/assets/sponsors/citius-tech-logo.png"
+                }
                 alt="source"
                 width={300}
               />
