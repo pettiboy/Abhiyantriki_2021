@@ -10,6 +10,12 @@ const Sponsors = ({}: SponsorsProps) => {
   const [year, setYear] = useState<number>(2021);
   const yearRef = useRef<HTMLSpanElement | null>(null);
 
+  const [anim, setAnim] = useState<boolean | null>(false);
+
+  useEffect(() => {
+    setAnim(true);
+  }, [year]);
+
   const onPressLeft = () => {
     const keys = Object.keys(sponsorsImgSources);
     const max = parseInt(keys[keys.length - 1]);
@@ -20,6 +26,7 @@ const Sponsors = ({}: SponsorsProps) => {
     } else {
       setYear((prev) => prev - 1);
     }
+    setAnim(false);
   };
 
   const onPressRight = () => {
@@ -32,6 +39,7 @@ const Sponsors = ({}: SponsorsProps) => {
     } else {
       setYear((prev) => prev + 1);
     }
+    setAnim(false);
   };
 
   return (
@@ -49,7 +57,10 @@ const Sponsors = ({}: SponsorsProps) => {
       {/* YearCarousal */}
       <div className="d-flex justify-content-around align-items-center font-size p-5">
         <i className="arrows fas fa-chevron-left" onClick={onPressLeft}></i>
-        <span ref={yearRef} className="displaying-year">
+        <span
+          ref={yearRef}
+          className={anim ? "anim-loader displaying-year" : "displaying-year"}
+        >
           {year}
         </span>
         <i className="arrows fas fa-chevron-right" onClick={onPressRight}></i>
