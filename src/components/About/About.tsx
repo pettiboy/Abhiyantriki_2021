@@ -10,7 +10,7 @@ const About = ({}: AboutProps) => {
       <div className="container about-grid">
         <div className="d-md-flex justify-content-between align-items-center about-item-1">
           <img
-            src={process.env.PUBLIC_URL + "assets/logos/kjsce.png"}
+            src={process.env.PUBLIC_URL + "/assets/logos/kjsce.png"}
             alt=""
             className="kj-img kjsce m-5"
             width="400"
@@ -46,7 +46,7 @@ const About = ({}: AboutProps) => {
           <div>
             <img
               src={
-                process.env.PUBLIC_URL + "assets/logos/abhiyantriki_logo.png"
+                process.env.PUBLIC_URL + "/assets/logos/abhiyantriki_logo.png"
               }
               alt=""
               className="kj-img abhiyantriki mb-5 mt-5"
