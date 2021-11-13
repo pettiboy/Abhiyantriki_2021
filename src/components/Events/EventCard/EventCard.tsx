@@ -63,7 +63,7 @@ const EventCard = ({ event }: EventCardProps) => {
           ))}
           <div className="d-flex justify-content-start align-items-center">
             <div className="text-center reg-btn m-1">
-              <span className="btn">Register</span>
+              <span className="btn"><a href="https://forms.gle/FweycRFNCkQLVGYt7" target="_blank">Register</a></span>
             </div>
           </div>
         </div>
