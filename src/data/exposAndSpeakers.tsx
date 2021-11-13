@@ -2,6 +2,7 @@ export const exposAndSpeakersDataJson = [
   {
     linkHash: "tech",
     linkName: "Tech Expo",
+    gifName: "tech-expo.gif",
     heading: "Tech Expo",
     paraText: `Tech Expo is a unique exhibition and the most anticipated event at Abhiyantriki. With innovative technologies from all over the country, the Tech Expo contains exhibits from well-known organisations namely DRDO, ISRO, IMD, DAE and innovations ranging from speed-defying drones to humanoid robots with intellect on par with a human being. `,
     buttonHref: "#",
@@ -59,8 +60,45 @@ export const exposAndSpeakersDataJson = [
         image: "",
       },
       {
-        heading: "",
-        text: ``,
+        heading: "Stargazing India",
+        text: `Stargazing India organises various outreach ventures to expose the wonder of outer space sightseeing to many enthusiasts throughout India. Mr. Narendra Gor began the journey in 1991. Since 1991, the Kutch Amateur Astronomers Club, which later became Stargazing India, has organised a series of sky observation events at various locations throughout Kachchh. This has piqued the interest of many people, including the Honorable Prime Minister, Shri Narendra Modi. Stargazing India even hosts special workshops and seminars for non-governmental organisations.
+        `,
+        image: "",
+      },
+      {
+        heading: "Hexapod",
+        text: `With the advent of biped robots, IIT Madras' iBot Club created their own Hexapod, a six-legged autonomous robot. They have also designed it to cover any type of terrain using the machine learning paradigm's reinforcement learning. It can walk on any surface on its own, like an insect, learning as it goes.`,
+        image: "",
+      },
+      {
+        heading: "Orion Racing",
+        text: `India's Orion Racing The K.J Somaiya College of Engineering's Official Formula Student Team was formed. Engineering students from various disciplines create, design, and build a Formula Style car to compete in national and international design competitions in Germany, Italy, and Hungary.`,
+        image: "",
+      },
+      {
+        heading: "RedShift Racing",
+        text: `K J Somaiya College Of Engineering's Official BAJA SAE Team is Redshift Racing India. The team designs, fabricates, and tests a single-seater all-terrain vehicle (ATV) and competes in national and international competitions such as BAJA SAE India, BAJA SAE USA, ESI, and the Mega ATV Championship.
+        `,
+        image: "",
+      },
+      {
+        heading: "Team ETA",
+        text: `Team Eta is a student organisation that participates in the Shell Eco-Marathon every year. The Shell Eco-Marathon is one of the world's leading energy efficiency competitions. Students are challenged to design, build, and test energy-efficient automobiles that push the boundaries of what is technically possible.`,
+        image: "",
+      },
+      {
+        heading: "Team Onyx",
+        text: `Team Onyx India, The Aero Design Club of K J Somaiya College of Engineering, is a group of Aviation Enthusiasts with a passion For everything. Participating in various aeromodelling competitions allows the team to broaden their knowledge base and put various technical and analytical skills to the test by validating research.`,
+        image: "",
+      },
+      {
+        heading: "Team Robocon",
+        text: `Robocon is a group of people that are passionate about robotics. Team KJSCE Robocon, which was founded in 2010 by a group of students, has paved the way for young intelligent minds to experiment with and implement new and innovative designs in modern robotics.`,
+        image: "",
+      },
+      {
+        heading: "Team TMRT",
+        text: `The College's Underwater Robotics and Offshore Engineering Team are the Marine Robotics Team (TMRT). This team was formed on July 27th, 2017. Their goal is to create an "autonomous underwater vehicle" that can perform a set of tasks and make decisions on its own using algorithms such as deep learning.`,
         image: "",
       },
       {
@@ -73,6 +111,7 @@ export const exposAndSpeakersDataJson = [
   {
     linkHash: "internship",
     linkName: "Internship Expo",
+    gifName: "internship-expo.gif",
     heading: "Internship Expo",
     paraText: `Internship expo is one of the major events at Abhiyantriki. The main
               objective of this expo is to provide students with a diverse range
@@ -100,6 +139,8 @@ export const exposAndSpeakersDataJson = [
   {
     linkHash: "speaker",
     linkName: "Speaker Session",
+    gifName: "speaker-session.gif",
+
     heading: "Speaker Session",
     paraText: `A live session with the connoisseurs from myraid backgrounds, 
               the SPeaker Session at Abhiyantriki is sure to leave you wanting for 
@@ -126,6 +167,7 @@ export const exposAndSpeakersDataJson = [
   {
     linkHash: "panel",
     linkName: "Panel Session",
+    gifName: "panel-session.gif",
     heading: "Panel Session",
     paraText: `A live session with connoisseurs from myriad backgrounds,
               the Speaker Session at Abhiyantriki is sure to leave you wanting
