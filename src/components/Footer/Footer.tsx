@@ -187,10 +187,6 @@ const Footer = ({}: FooterProps) => {
             {" "}
             Hussain Pettiwala{" "}
           </a>
-          Powered by{" "}
-          <a href="https://www.kjscecodecell.com/" className="codecell">
-            CodeCell
-          </a>
         </div>
       </div>
     </footer>
