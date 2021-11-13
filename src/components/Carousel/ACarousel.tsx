@@ -25,10 +25,18 @@ const ACarousel = ({}: ACarouselProps) => {
     <>
       <div className="d-sm-flex justify-content-around align-items-center slides">
         <div className="text-grid w-50">
-          <div ref={textRef} className={anim ? "anim-loader" : ""} id="grid-title">
+          <div
+            ref={textRef}
+            // className={anim ? "anim-loader" : ""}
+            id="grid-title"
+          >
             {carouselData[index].title}
           </div>
-          <div ref={textRef} className={anim ? "anim-loader" : ""} id="grid-text">
+          <div
+            ref={textRef}
+            // className={anim ? "anim-loader" : ""}
+            id="grid-text"
+          >
             {carouselData[index].text}
           </div>
         </div>
