@@ -10,10 +10,8 @@ interface HomeProps {}
 const Home = ({}: HomeProps) => {
   return (
     <div className="main-home">
-      <div className="vh-100 d-sm-flex align-items-center justify-content-center home">
-        <HomePage />
-      </div>
-      <ACarousel/>
+      <HomePage />
+      <ACarousel />
       <About />
       <Timeline />
       <Sidebar />
