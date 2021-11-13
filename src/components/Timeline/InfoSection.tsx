@@ -8,9 +8,15 @@ interface InfoSectionProps {
 
 const InfoSection = ({ caption, imgPath }: InfoSectionProps) => {
   return (
-    <div className="d-flex justify-content-around align-items-center m-20">
-      <div className="text-center w-50">{caption}</div>
-      <img alt={caption} src={imgPath} width="250" className="tl-img" />
+    <div className="container">
+      <div className="row">
+        <div className="col-6">
+          <div className="text-center align-items-center">{caption}</div>
+        </div>
+        <div className="col-6 text-center">
+          <img alt={caption} src={imgPath} width="300" />
+        </div>
+      </div>
     </div>
   );
 };

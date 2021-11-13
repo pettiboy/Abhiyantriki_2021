@@ -10,6 +10,7 @@ const Timeline = ({}: TimelineProps) => {
     "Abhiyantriki introduced as an individual, standalone festival of technical grandeur and pomp."
   );
   const [path, setPath] = useState("/assets/images/timeline/1998.png");
+  const [year, setYear] = useState(2019);
 
   const changeTo1998 = () => {
     console.log("changed to 1998");
@@ -68,32 +69,60 @@ const Timeline = ({}: TimelineProps) => {
     setPath("/assets/images/timeline/2019.png");
   };
 
-  const [year, setYear] = useState("2016");
+  const years = [2019, 2018, 2017, 2016, 2014, 2009, 2008, 1998];
+
+  const onPressLeft = () => {
+    const max = years[0];
+    const min = years[years.length - 1];
+
+    if (year == min) {
+      setYear(max);
+    } else {
+      setYear((prev) => {
+        const next = years.indexOf(prev) + 1;
+        return years[next];
+      });
+    }
+  };
+
+  const onPressRight = () => {
+    const max = years[0];
+    const min = years[years.length - 1];
+
+    if (year == max) {
+      setYear(min);
+    } else {
+      setYear((prev) => {
+        const next = years.indexOf(prev) - 1;
+        return years[next];
+      });
+    }
+  };
 
   useEffect(() => {
     switch (year) {
-      case "1998":
+      case 1998:
         changeTo1998();
         break;
-      case "2008":
+      case 2008:
         changeTo2008();
         break;
-      case "2009":
+      case 2009:
         changeTo2009();
         break;
-      case "2014":
+      case 2014:
         changeTo2014();
         break;
-      case "2016":
+      case 2016:
         changeTo2016();
         break;
-      case "2017":
+      case 2017:
         changeTo2017();
         break;
-      case "2018":
+      case 2018:
         changeTo2018();
         break;
-      case "2019":
+      case 2019:
         changeTo2019();
         break;
       default:
@@ -105,32 +134,12 @@ const Timeline = ({}: TimelineProps) => {
     <div className="tl">
       <h1 className="text-center m-10 my-5">Timeline</h1>
       <div className="d-inline">
-        <div className="d-sm-flex justify-content-around align-items-center w-90 m-20 years">
-          <div onClick={() => setYear("1998")}>
-            <YearButton year="1998" />
-          </div>
-          <div onClick={() => setYear("2008")}>
-            <YearButton year="2008" />
-          </div>
-          <div onClick={() => setYear("2009")}>
-            <YearButton year="2009" />
-          </div>
-          <div onClick={() => setYear("2014")}>
-            <YearButton year="2014" />
-          </div>
-          <div onClick={() => setYear("2016")}>
-            <YearButton year="2016" />
-          </div>
-          <div onClick={() => setYear("2017")}>
-            <YearButton year="2017" />
-          </div>
-          <div onClick={() => setYear("2018")}>
-            <YearButton year="2018" />
-          </div>
-          <div onClick={() => setYear("2019")}>
-            <YearButton year="2019" />
-          </div>
+        <div className="d-flex justify-content-around align-items-center font-size p-5">
+          <i className="arrows fas fa-chevron-left" onClick={onPressLeft}></i>
+          <span className="displaying-year">{year}</span>
+          <i className="arrows fas fa-chevron-right" onClick={onPressRight}></i>
         </div>
+
         <div className="d-flex justify-content-center w-100 info">
           <InfoSection caption={caption} imgPath={path} />
         </div>

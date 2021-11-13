@@ -21,10 +21,10 @@ const About = ({}: AboutProps) => {
             </h1>
             <p className="m-3">
               K.J. Somaiya College of Engineering is a nationally reputed
-              engineering college under the Somaiya Vidyavihar University (SVU)
-              offering 4-year B-Tech courses to 5 branches of Engineering. The
-              college hosts three exuberant festivals: Abhiyantriki, Skream, and
-              Symphony.
+              engineering college under the Somaiya Vidyavihar University (SVU).
+              The SVU campus constitutes 34 individual institutes spread across
+              a lush land area of 65-acres. KJSCE is accredited grade 'A' by the
+              NAAC (National Assessment and Accreditation Council) since 2017.
             </p>
           </div>
         </div>
@@ -56,11 +56,13 @@ const About = ({}: AboutProps) => {
               ABHIYANTRIKI
             </h1>
             <p>
-              K.J. Somaiya College of Engineering is a nationally reputed
-              engineering college under the Somaiya Vidyavihar University (SVU)
-              offering 4-year B-Tech courses to 5 branches of Engineering. The
-              college hosts three exuberant festivals: Abhiyantriki, Skream, and
-              Symphony.
+              Abhiyantriki, meaning 'Engineering' in Sanskrit, is the annual
+              technical festival of K.J.Somaiya College of Engineering (KJSCE).
+              Over 35 events are organized, ranging from workshops to
+              exhibitions. The fest also hosts audience engaging events such as
+              the Internship Expo, Tech Expo, Auto expo, Speaker sessions and
+              Panel sessions. Over the years, Abhiyantriki has established
+              itself as one of the premier technical festivals in Mumbai.
             </p>
           </div>
         </div>
