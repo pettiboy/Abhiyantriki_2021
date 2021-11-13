@@ -5,7 +5,11 @@ const HomePage = () => {
     <div className="home-resp">
       <img
         alt="abhiyantriki logo"
-        src="/assets/gifs/home_page.gif"
+        src={
+          window.innerWidth > 768
+            ? "/assets/gifs/home_page.gif"
+            : "/assets/gifs/home_page_mobile.gif"
+        }
         style={{ width: "100%" }}
         className="homepage"
       />
