@@ -4,7 +4,7 @@ const HomePage = () => {
   return (
     <div className="home-resp">
       <img
-        alt="abhiyantriki logo"
+        alt="Abhiyantriki 2021"
         src={
           window.innerWidth > 768
             ? "/assets/gifs/home_page.gif"

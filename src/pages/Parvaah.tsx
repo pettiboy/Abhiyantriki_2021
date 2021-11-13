@@ -12,8 +12,9 @@ const Parvaah = ({}: ParvaahProps) => {
           {/* <TwinkleTwinkle title="Parvaah" /> */}
           <img
             src={process.env.PUBLIC_URL + "/assets/gifs/parvaah.gif"}
-            className="parvaah-title"
-            alt=""
+            // className="parvaah-title"
+            style={{ width: "100%" }}
+            alt="Parvaah"
           />
 
           <div className="d-flex justify-content-around align-items-center text-center mb-5 parvaah">

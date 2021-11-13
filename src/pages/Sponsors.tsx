@@ -44,7 +44,12 @@ const Sponsors = ({}: SponsorsProps) => {
 
   return (
     <div className="container mb-5">
-      <TwinkleTwinkle title="Sponsors" />
+      {/* <TwinkleTwinkle title="Sponsors" /> */}
+      <img
+        src={process.env.PUBLIC_URL + "/assets/gifs/sponsors.gif"}
+        style={{ width: "100%" }}
+        alt="Sponsors"
+      />
 
       <p className={"responsive-para text-center" + ` fs-4`}>
         Information Technology is growing exponentially constantly, every
