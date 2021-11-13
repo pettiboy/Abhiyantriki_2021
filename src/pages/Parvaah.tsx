@@ -1,5 +1,6 @@
 import TextAndButton from "../components/TextAndButton/TextAndButton";
 import TwinkleTwinkle from "../components/TwinkleTwinkle/TwinkleTwinkle";
+import "./Parvaah.css";
 
 interface ParvaahProps {}
 
@@ -11,7 +12,7 @@ const Parvaah = ({}: ParvaahProps) => {
           {/* <TwinkleTwinkle title="Parvaah" /> */}
           <img
             src={process.env.PUBLIC_URL + "/assets/gifs/parvaah.gif"}
-            style={{ width: "100vw", margin: "0 auto" }}
+            className="parvaah-title"
             alt=""
           />
 

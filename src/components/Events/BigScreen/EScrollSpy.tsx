@@ -23,8 +23,8 @@ const ESScrollSpy = ({ parentScrollContainerRef }: SectionNodeProps) => {
             i === 3 ? { paddingBottom: 200, padding: 50 } : { padding: 50 }
           }
         >
-          <h1 className="mt-5 text-center" style={{ fontSize: "50px" }}>
-            {element.eventName}
+          <h1>
+            <img src={element.eventNamePath} className="section-gifs"/>
           </h1>
           {element.events.map((element) => {
             return <EventCard event={element} />;
