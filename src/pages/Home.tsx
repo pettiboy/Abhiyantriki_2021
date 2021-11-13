@@ -36,13 +36,16 @@ const Home = ({}: HomeProps) => {
       >
         <div className="d-flex justify-content-around align-items-center text-center mb-5 parvaah">
           <img
-            src="/assets/logos/Parvaah Logo.png"
+            src={process.env.PUBLIC_URL + "/assets/logos/Parvaah Logo.png"}
             alt=""
             className="parvaah logo"
           />
           <div className="vl"></div>
           <img
-            src="/assets/logos/Sustainable Reality logo.png"
+            src={
+              process.env.PUBLIC_URL +
+              "/assets/logos/Sustainable Reality logo.png"
+            }
             alt=""
             className="parvaah logo"
           />

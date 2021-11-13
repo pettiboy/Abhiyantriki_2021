@@ -18,13 +18,16 @@ const Parvaah = ({}: ParvaahProps) => {
 
           <div className="d-flex justify-content-around align-items-center text-center mb-5 parvaah">
             <img
-              src="/assets/logos/Parvaah Logo.png"
+              src={process.env.PUBLIC_URL + "/assets/logos/Parvaah Logo.png"}
               alt=""
               className="parvaah logo"
             />
             <div className="vl"></div>
             <img
-              src="/assets/logos/Sustainable Reality logo.png"
+              src={
+                process.env.PUBLIC_URL +
+                "/assets/logos/Sustainable Reality logo.png"
+              }
               alt=""
               className="parvaah logo"
             />
@@ -73,7 +76,10 @@ const Parvaah = ({}: ParvaahProps) => {
               >
                 <img
                   style={{ width: "50%" }}
-                  src="../assets/images/Parvaah/ecorun_2019.png"
+                  src={
+                    process.env.PUBLIC_URL +
+                    "/assets/images/Parvaah/ecorun_2019.png"
+                  }
                   alt="Beach Clean-up"
                 />
               </div>
@@ -111,7 +117,10 @@ const Parvaah = ({}: ParvaahProps) => {
               >
                 <img
                   style={{ width: "50%" }}
-                  src="/assets/images/Parvaah/Signal_Shala_2019.png"
+                  src={
+                    process.env.PUBLIC_URL +
+                    "/assets/images/Parvaah/Signal_Shala_2019.png"
+                  }
                   alt="Beach Clean-up"
                 />
               </div>
@@ -150,7 +159,10 @@ const Parvaah = ({}: ParvaahProps) => {
               >
                 <img
                   style={{ width: "50%" }}
-                  src="../assets/images/Parvaah/Secret_Santa_2019.png"
+                  src={
+                    process.env.PUBLIC_URL +
+                    "/assets/images/Parvaah/Secret_Santa_2019.png"
+                  }
                   alt="Beach Clean-up"
                 />
               </div>
@@ -188,7 +200,10 @@ const Parvaah = ({}: ParvaahProps) => {
               >
                 <img
                   style={{ width: "50%" }}
-                  src="/assets/images/Parvaah/Diwali_Donation_2019.png"
+                  src={
+                    process.env.PUBLIC_URL +
+                    "/assets/images/Parvaah/Diwali_Donation_2019.png"
+                  }
                   alt="Beach Clean-up"
                 />
               </div>
@@ -226,7 +241,10 @@ const Parvaah = ({}: ParvaahProps) => {
               >
                 <img
                   style={{ width: "50%" }}
-                  src="../assets/images/Parvaah/tree_plantation_2019.png"
+                  src={
+                    process.env.PUBLIC_URL +
+                    "/assets/images/Parvaah/tree_plantation_2019.png"
+                  }
                   alt="Beach Clean-up"
                 />
               </div>
@@ -265,7 +283,10 @@ const Parvaah = ({}: ParvaahProps) => {
               >
                 <img
                   style={{ width: "50%" }}
-                  src="/assets/images/Parvaah/Know_your_plastic_2020.png"
+                  src={
+                    process.env.PUBLIC_URL +
+                    "/assets/images/Parvaah/Know_your_plastic_2020.png"
+                  }
                   alt="Beach Clean-up"
                 />
               </div>
@@ -303,7 +324,10 @@ const Parvaah = ({}: ParvaahProps) => {
               >
                 <img
                   style={{ width: "50%" }}
-                  src="../assets/images/Parvaah/Beautification_2020.png"
+                  src={
+                    process.env.PUBLIC_URL +
+                    "/assets/images/Parvaah/Beautification_2020.png"
+                  }
                   alt="Beach Clean-up"
                 />
               </div>
@@ -340,7 +364,10 @@ const Parvaah = ({}: ParvaahProps) => {
               >
                 <img
                   style={{ width: "50%" }}
-                  src="/assets/images/Parvaah/Diwali_Donation_2020.png"
+                  src={
+                    process.env.PUBLIC_URL +
+                    "/assets/images/Parvaah/Diwali_Donation_2020.png"
+                  }
                   alt="Beach Clean-up"
                 />
               </div>
@@ -378,7 +405,10 @@ const Parvaah = ({}: ParvaahProps) => {
               >
                 <img
                   style={{ width: "50%" }}
-                  src="../assets/images/Parvaah/Mangrove_clean_up_2020.png"
+                  src={
+                    process.env.PUBLIC_URL +
+                    "/assets/images/Parvaah/Mangrove_clean_up_2020.png"
+                  }
                   alt="Beach Clean-up"
                 />
               </div>
