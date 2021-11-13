@@ -17,7 +17,7 @@ export const exposAndSpeakersDataJson = [
       {
         heading: "RiverRecycle OY",
         text: "RiverRecycle was founded in Finland halfway around the world to create a circular economy in every nation. RiverRecycle developed technology that effectively cleans rivers of plastic pollution. With over 500 installations planned in nine countries, they hope to prevent more than 60% of plastic river waste from entering our marine ecosystem. This will be a commercial endeavour, converting plastic waste into marketable products through collection and pyrolysis.",
-        image: `${process.env.PUBLIC_URL}/assets/expos/tech/CITY_TRANSFORMER.png`,
+        image: `${process.env.PUBLIC_URL}/assets/expos/tech/RIVERCYCLE OY.png`,
         cardHref: "#",
       },
       {
@@ -47,7 +47,7 @@ export const exposAndSpeakersDataJson = [
       {
         heading: "Turing Laboratory",
         text: `Turing Laboratory is part of a new generation of research and development laboratories that have recently been established at Galileo University to promote the advancement of science and technology. It specialises in faster product development and providing a more secure overview of consumer needs. Leonardo GreenMoov, a telepresence robot, is one of their recent projects. It is designed to allow you and others to remotely control a humanoid robot while giving you the sensation of being in the location where the robot is.`,
-        image: ``,
+        image: `${process.env.PUBLIC_URL}/assets/expos/tech/TURING LABORATORY.png`,
         cardHref: "#",
       },
       {
