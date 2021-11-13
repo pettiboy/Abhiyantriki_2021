@@ -8,13 +8,18 @@
 - [x] ExpoAndSpeakers in small screen - fix offset
 - [x] Particles for all headings
 - [x] Sponsers page
-- [ ] parvaah page responsiveness
+- [x] parvaah page responsiveness
 - [x] Events page
-- [ ] HomePage page
-- [ ] HomePage page responsiveness
+- [x] HomePage page
+- [x] HomePage page responsiveness
 - [x] Footer
-- [ ] Events && Expos and Speakers full screen footer
-- [ ] Events small screen navcontainer overflow
+- [x] Events && Expos and Speakers full screen footer
+- [x] Events small screen navcontainer overflow
+- [ ] Parvaah on HomeScreen (Hussain)
+- [ ] Remove particle js from some headings (Hussain)
+- [ ] Parvaah page ka data update karneka hai (Jay)
+- [ ] events page ka image (Jay)
+- [ ] Sponsors data update (Tanvi)
 
 ## Getting Started
 
