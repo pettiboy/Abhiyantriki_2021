@@ -26,9 +26,14 @@ const ESScrollSpy = ({
           key={element.linkHash}
           style={i == 0 ? { padding: 50, paddingTop: 70 } : { padding: 50 }}
         >
-          <h1 className="text-center" style={{ fontSize: "40px" }}>
+          {/* <h1 className="text-center" style={{ fontSize: "40px" }}>
             {element.heading}
-          </h1>
+          </h1> */}
+          <img
+            src={process.env.PUBLIC_URL + "/assets/gifs/" + element.gifName}
+            alt={element.heading}
+            style={{ width: "100%" }}
+          />
           <TextAndButton
             paraText={element.paraText}
             buttonHref={element.buttonHref}

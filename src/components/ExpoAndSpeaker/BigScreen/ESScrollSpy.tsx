@@ -24,9 +24,14 @@ const ESScrollSpy = ({ parentScrollContainerRef }: SectionNodeProps) => {
             i === 3 ? { paddingBottom: 200, padding: 50 } : { padding: 50 }
           }
         >
-          <h1 className="mt-5 text-center" style={{ fontSize: "50px" }}>
+          {/* <h1 className="mt-5 text-center" style={{ fontSize: "50px" }}>
             {element.heading}
-          </h1>
+          </h1> */}
+          <img
+            src={process.env.PUBLIC_URL + "/assets/gifs/" + element.gifName}
+            alt={element.heading}
+            style={{ width: "100%" }}
+          />
           <TextAndButton
             paraText={element.paraText}
             buttonHref={element.buttonHref}
