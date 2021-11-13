@@ -46,6 +46,7 @@ const ESScrollSpy = ({
                 key={card.heading}
                 image={card.image}
                 text={card.text}
+                cardHref={card.cardHref}
                 heading={card.heading}
               />
             ))}
