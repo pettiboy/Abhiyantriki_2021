@@ -1,6 +1,7 @@
 export const eventData = [
   {
     linkHash: "technical",
+    eventNamePath: "/assets/gifs/technical.gif",
     eventName: "Technical",
     events: [
       {
@@ -25,6 +26,7 @@ export const eventData = [
   },
   {
     linkHash: "ideate",
+    eventNamePath: "/assets/gifs/ideate.gif",
     eventName: "Ideate",
     events: [
       {
@@ -49,6 +51,7 @@ export const eventData = [
   },
   {
     linkHash: "shield",
+    eventNamePath: "/assets/gifs/shield.gif",
     eventName: "Shield",
     events: [
       {
@@ -73,6 +76,7 @@ export const eventData = [
   },
   {
     linkHash: "informals",
+    eventNamePath: "/assets/gifs/informals.gif",
     eventName: "Informals",
     events: [
       {
@@ -97,7 +101,8 @@ export const eventData = [
   },
   {
     linkHash: "preevents",
-    eventName: "Preevents",
+    eventNamePath: "/assets/gifs/pre-event.gif",
+    eventName: "Pre-events",
     events: [
       {
         eventImgPath: "/assets/images/events/events_image.png",

@@ -15,7 +15,7 @@ const EventCard = ({ event }: EventCardProps) => {
             src="/assets/images/events/events_image.png"
             alt=""
             width="350"
-            className="event-poster"
+            className="event-"
           />
         </div>
         <div className="col event-info">

@@ -27,9 +27,7 @@ const ESScrollSpy = ({
           key={element.linkHash}
           style={i == 0 ? { padding: 50, paddingTop: 100 } : { padding: 50 }}
         >
-          <h1 className="text-center" style={{ fontSize: "40px" }}>
-            {element.eventName}
-          </h1>
+          <img src={element.eventNamePath} className="section-gifs"/>
           <div>
             {element.events.map((element) => {
               return <EventCard event={element} />;
