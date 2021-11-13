@@ -74,6 +74,21 @@ const Timeline = ({}: TimelineProps) => {
     const max = years[0];
     const min = years[years.length - 1];
 
+    if (year == max) {
+      setYear(min);
+    } else {
+      setYear((prev) => {
+        const next = years.indexOf(prev) - 1;
+        return years[next];
+      });
+    }
+    setAnim(false);
+  };
+
+  const onPressRight = () => {
+    const max = years[0];
+    const min = years[years.length - 1];
+
     if (year == min) {
       setYear(max);
     } else {
@@ -83,21 +98,6 @@ const Timeline = ({}: TimelineProps) => {
       });
     }
 
-    setAnim(false);
-  };
-
-  const onPressRight = () => {
-    const max = years[0];
-    const min = years[years.length - 1];
-
-    if (year == max) {
-      setYear(min);
-    } else {
-      setYear((prev) => {
-        const next = years.indexOf(prev) - 1;
-        return years[next];
-      });
-    }
     setAnim(false);
   };
 

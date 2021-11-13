@@ -25,6 +25,9 @@
 - [x] links update
 - [ ] gif update (homepage)
 - [ ] Carousal home page wala
+- [ ] Carousal icons linking
+- [x] Time line auto
+- [x] Reverse timeline
 - [x] Increase timeline content size
 - [x] reduce parvaah line width
 - [x] Useful link mini game

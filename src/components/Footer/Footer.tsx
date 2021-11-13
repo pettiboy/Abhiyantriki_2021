@@ -157,7 +157,7 @@ const Footer = ({}: FooterProps) => {
       </div>
 
       <div
-        className="text-white text-center d-flex flex-column fs-4 p-3 mb-3"
+        className="text-white text-center d-flex flex-column fs-5 p-3 mb-2"
         style={{ lineHeight: 2 }}
       >
         <div
