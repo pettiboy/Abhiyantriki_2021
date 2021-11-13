@@ -1,20 +1,263 @@
 export const sponsorsImgSources = {
   2018: [
-    { source: "/assets/images/timeline/2009.png", text: "life partner" },
-    { source: "/assets/images/timeline/2009.png", text: "life partner" },
-    { source: "/assets/images/timeline/2009.png", text: "life partner" },
+    { source: "/assets/sponsors/rossari.png", text: "Presented By" },
+    {
+      source: "/assets/sponsors/British Council.png",
+      text: "In association with",
+    },
+    { source: "/assets/sponsors/mi.png", text: "Powered By" },
+    { source: "/assets/sponsors/MobiCule.png", text: "Hackathon Partner" },
+    { source: "/assets/sponsors/CNLOGO.svg", text: "Codecrux Partner" },
+    { source: "/assets/sponsors/BalajiWafers.svg", text: "Wafers Partner" },
+    {
+      source: "/assets/sponsors/maharashtra-times (1).png",
+      text: "Marathi Print Media Partner",
+    },
+    { source: "/assets/sponsors/logo-238x48.png", text: "Networking Partner" },
+    {
+      source: "/assets/sponsors/Boat-Logo_200x.png",
+      text: "Entertainment Partner",
+    },
+    {
+      source: "/assets/sponsors/souled-store-squarelogo-1596799564109 (1).png",
+      text: "Gifting Partner",
+    },
+    { source: "/assets/sponsors/drona-logo.png", text: "Drone racing Partner" },
+    { source: "/assets/sponsors/ERFOLG.png", text: "German Education Partner" },
+    {
+      source: "/assets/sponsors/logo_1520506185-Custom (1).png",
+      text: "Gadget Partner",
+    },
+    { source: "/assets/sponsors/logo (5).png", text: "Wellness Partner" },
+    { source: "/assets/sponsors/yantravat", text: "Robotics Title Partner" },
+    { source: "/assets/sponsors/logo (6).png", text: "Escape room Partner" },
+    {
+      source:
+        "/assets/sponsors/PS_5e42c154-453e-4ee0-8c79-dcc596793e16_350x.png",
+      text: "Munching Partner",
+    },
+    {
+      source: "/assets/sponsors/zebronics-logo_165x (1).png",
+      text: "Audio Partner",
+    },
+    {
+      source:
+        "/assets/sponsors/Logo-4caea23633ad9f2236c278c81d847c1324bafc0db9f9fce06d743eb956138466.png",
+      text: "Education and Financing Partner",
+    },
+    { source: "/assets/sponsors/download (1).jpg", text: "Codebase Partner" },
+    {
+      source: "/assets/sponsors/maharashtra-times (2).png",
+      text: "Media Partner",
+    },
+    { source: "/assets/sponsors/LOGO-METRP (1).png", text: "Holiday Partner" },
+    { source: "/assets/sponsors/PV-Lumens-LLP.svg", text: "Channel Partner" },
+    { source: "/assets/sponsors/wild west media", text: "Recycling Partner" },
+    {
+      source: "/assets/sponsors/logo2 (1).png",
+      text: "Technical equipment Partner",
+    },
+    {
+      source: "/assets/sponsors/logo (7).png",
+      text: "Photography Gear Partner",
+    },
+    {
+      source: "/assets/sponsors/Navbharat Times.png",
+      text: "Hindi Print Media Partner",
+    },
+    { source: "/assets/sponsors/msi.png", text: "VR Gaming Partner" },
+    { source: "/assets/sponsors/SSPL", text: "Consultation Partner" },
+    { source: "/assets/sponsors/logo (8).png", text: "Banking Partner" },
+    { source: "/assets/sponsors/gamebarrage.png", text: "Laser Tag Partner" },
+    { source: "/assets/sponsors/faasos.png", text: "Food coupon Partner" },
+    { source: "/assets/sponsors/download (1).png", text: "Beverage Partner" },
+    { source: "/assets/sponsors/HT media", text: "Radio Partner" },
+    { source: "/assets/sponsors/logo-orange.svg", text: "Fitness Partner" },
+    { source: "/assets/sponsors/what after college", text: "Workshop Partner" },
+    {
+      source: "/assets/sponsors/cblogo (2).png",
+      text: "Online Training Partner",
+    },
+    { source: "/assets/sponsors/Common Lounge.png", text: "Code in X Partner" },
+    { source: "/assets/sponsors/idp-logo.svg", text: "Other Partner" },
+    {
+      source: "/assets/sponsors/logo_15 (1).png",
+      text: "Online Media Partner",
+    },
+    {
+      source: "/assets/sponsors/new_temp_trans1.png",
+      text: "Online Media Partner",
+    },
+    { source: "/assets/sponsors/Fest Pav.png", text: "Online Media Partner" },
+    {
+      source: "/assets/sponsors/Campus Karma.png",
+      text: "Online Media Partner",
+    },
+    {
+      source: "/assets/sponsors/Ignite Engineers.png",
+      text: "Online Media Partner",
+    },
+    {
+      source: "/assets/sponsors/272by90 (1).png",
+      text: "Online Media Partner",
+    },
+    { source: "/assets/sponsors/logo1.png", text: "Online Media Partner" },
+    { source: "/assets/sponsors/domain adda", text: "Messaging Partner" },
+    { source: "/assets/sponsors/CompeteKaro", text: "Competetion Partner" },
+    { source: "/assets/sponsors/select.png", text: "Online Media Partner" },
+    {
+      source: "/assets/sponsors/logo with name (2).png",
+      text: "Online Media Partner",
+    },
+    {
+      source: "/assets/sponsors/1_Ysznj9CI1zg-29S7393Y7Q@2x.png",
+      text: "Online Media Partner",
+    },
+    { source: "/assets/sponsors/fest samachar", text: "Online Media Partner" },
+    {
+      source: "/assets/sponsors/the xollege fever",
+      text: "Online Media Partner",
+    },
+    {
+      source: "/assets/sponsors/mobile-web-logo (1).png",
+      text: "Online Media Partner",
+    },
+    { source: "/assets/sponsors/NoticeBard.png", text: "Online Media Partner" },
+    { source: "/assets/sponsors/yocket (2).png", text: "Online Media Partner" },
+    {
+      source: "/assets/sponsors/Laugha Laughi.png",
+      text: "Online Media Partner",
+    },
+    {
+      source: "/assets/sponsors/Get My Fest.png",
+      text: "Online Media Partner",
+    },
+    { source: "/assets/sponsors/logo (9).png", text: "Blog Outreach Partner" },
+    { source: "/assets/sponsors/i-ball-black.png", text: "Other Partner" },
+    {
+      source:
+        "/assets/sponsors/cropped-jr-sharansuvarna-01-01-e1526981956505.png",
+      text: "Other Partner",
+    },
+    { source: "/assets/sponsors/Playstation.png", text: "Other Partner" },
+    { source: "/assets/sponsors/Ice Kraft.png", text: "Other Partner" },
+    { source: "/assets/sponsors/download (2).jpg", text: "Other Partner" },
   ],
   2019: [
-    { source: "/assets/images/timeline/2008.png", text: "life partner" },
-    { source: "/assets/images/timeline/2008.png", text: "life partner" },
-    { source: "/assets/images/timeline/2008.png", text: "life partner" },
-    { source: "/assets/images/timeline/2008.png", text: "life partner" },
+    { source: "/assets/sponsors/logo.svg", text: "In association with" },
+    { source: "/assets/sponsors/logo.svg", text: "Powered by" },
+    { source: "/assets/sponsors/download.png", text: "Beverage Partner" },
+    {
+      source: "/assets/sponsors/logo_1520506185-Custom.png",
+      text: "Gadget Partner",
+    },
+    {
+      source: "/assets/sponsors/UNITED TELECOM.png",
+      text: "Communication Partner",
+    },
+    { source: "/assets/sponsors/", text: "Workshop Partner" },
+    { source: "/assets/sponsors/cblogo (1)", text: "Code in X Partner" },
+    { source: "/assets/sponsors/EVERNOTE.png", text: "Productivity Partner" },
+    { source: "/assets/sponsors/BalajiWafers.svg", text: "Wafer Partner" },
+    {
+      source: "/assets/sponsors/navbharat-times.png",
+      text: "Hindi print media Partner",
+    },
+    { source: "/assets/sponsors/casio-logo.svg", text: "Accessories Partner" },
+    {
+      source: "/assets/sponsors/ib-cricket-logo-reg-text.png",
+      text: "VR Cricket Partner",
+    },
+    { source: "/assets/sponsors/", text: "VR Cricket Partner" },
+    { source: "/assets/sponsors/", text: "Robotics Title Partner" },
+    { source: "/assets/sponsors/Ilw-Logo-V2.png", text: "Education Partner" },
+    { source: "/assets/sponsors/LOGO-METRP.png", text: "Holiday Partner" },
+    { source: "/assets/sponsors/HT media", text: "Radio Partner" },
+    { source: "/assets/sponsors/12.png", text: "Laser Tag Partner" },
+    {
+      source: "/assets/sponsors/maharashtra-times.png",
+      text: "Marathi print media Partner",
+    },
+    { source: "/assets/sponsors/download.jpg", text: "Codebase Partner" },
+    { source: "/assets/sponsors/aveonlogo.png", text: "Coffee Partner" },
+    { source: "/assets/sponsors/12569-comp-image.png", text: "Crunch Partner" },
+    {
+      source: "/assets/sponsors/LIC_LOGO.png",
+      text: "Insurance print media Partner",
+    },
+    { source: "/assets/sponsors/unnamed.webp", text: "Cab Partner" },
+    {
+      source: "/assets/sponsors/logo.jpg",
+      text: "Technical Equipment Partner",
+    },
+    { source: "/assets/sponsors/logo.png", text: "Photography Gear Partner" },
+    { source: "/assets/sponsors/logo2.png", text: "Equipment Partner" },
+    { source: "/assets/sponsors//DARK.png", text: "Bike Expo Partner" },
+    { source: "/assets/sponsors/logo (1).png", text: "Banking Partner" },
+    { source: "/assets/sponsors/event 2.png", text: "Experience Partner" },
+    {
+      source: "/assets/sponsors/logo (2).png",
+      text: "Fun and Informals Partner",
+    },
+    { source: "/assets/sponsors/logos2.png", text: "Music Partner" },
+    { source: "/assets/sponsors/SKILLENZA.png", text: "Crackathon Partner" },
+    {
+      source: "/assets/sponsors/logo_befikar_180x.png",
+      text: "Munching Partner",
+    },
+    {
+      source: "/assets/sponsors/souled-store-squarelogo-1596799564109.png",
+      text: "Gifting Partner",
+    },
+    {
+      source: "/assets/sponsors/zebronics-logo_165x.png",
+      text: "Audio Partner",
+    },
+    { source: "/assets/sponsors/logo (3).png", text: "Entertainment Partner" },
+    { source: "/assets/sponsors/brew house.png", text: "Iced Tea Partner" },
+    { source: "/assets/sponsors/fortilis.png", text: "SMS Partner" },
+    { source: "/assets/sponsors/imperial (1).png", text: "Other Partner" },
+    { source: "/assets/sponsors/inspirus.png", text: "Other Partner" },
+    { source: "/assets/sponsors/riya study abroad.png", text: "Other Partner" },
+    { source: "/assets/sponsors/nomad", text: "Other Partner" },
+    { source: "/assets/sponsors/siec edu.png", text: "Other Partner" },
+    { source: "/assets/sponsors/40.png", text: "Other Partner" },
+    { source: "/assets/sponsors/41.png", text: "Other Partner" },
+    { source: "/assets/sponsors/logo (1).jpg", text: "Online Media Partner" },
+    { source: "/assets/sponsors/logo_15.png", text: "Online Media Partner" },
+    { source: "/assets/sponsors/logo (4).png", text: "Online Media Partner" },
+    { source: "/assets/sponsors/fest info.png", text: "Online Media Partner" },
+    {
+      source: "/assets/sponsors/het my fest.png",
+      text: "Online Media Partner",
+    },
+    { source: "/assets/sponsors/yepdesk.png", text: "Online Media Partner" },
+    { source: "/assets/sponsors/48.png", text: "Online Media Partner" },
+    {
+      source: "/assets/sponsors/mobile-web-logo.png",
+      text: "Online Media Partner",
+    },
+    { source: "/assets/sponsors/yocket (1).png", text: "Online Media Partner" },
+    {
+      source: "/assets/sponsors/events high treebo.png",
+      text: "Online Media Partner",
+    },
+    {
+      source: "/assets/sponsors/cropped-pg_logo.png_-LZhrrZhcP4OfifDU_Kw.png",
+      text: "Online Media Partner",
+    },
+    { source: "/assets/sponsors/53.png", text: "Online Media Partner" },
+    { source: "/assets/sponsors/272by90.png", text: "Online Media Partner" },
+    {
+      source: "/assets/sponsors/education world.png",
+      text: "Online Media Partner",
+    },
   ],
   2020: [
     {
       name: "Ontutes",
       source: "/assets/sponsors/ontutes.png",
-      link: "https://ontutes.com//",
+      link: "https://ontutes.com/",
       text: "Brought to you by",
     },
     {
@@ -143,7 +386,7 @@ export const sponsorsImgSources = {
       link: "https://www.edurific.com/",
       text: "Online Education Partner",
     },
-    
+
     {
       name: "Pixels and Lenses",
       source: "/assets/sponsors/pixel.png",
@@ -152,16 +395,37 @@ export const sponsorsImgSources = {
     },
 
     { source: "/assets/sponsors/Scootr.png", text: "Delivery Partner" },
-    { source: "/assets/sponsors/handvaerk.jpeg", text: "Sustainable Gift Partner" },
-    { source: "/assets/sponsors/technology partner.jpg", text: "Technology Partner" },
-    { source: "/assets/sponsors/Enlighten.jpeg", text: "Magazine and Online Media Partner" },
+    {
+      source: "/assets/sponsors/handvaerk.jpeg",
+      text: "Sustainable Gift Partner",
+    },
+    {
+      source: "/assets/sponsors/technology partner.jpg",
+      text: "Technology Partner",
+    },
+    {
+      source: "/assets/sponsors/Enlighten.jpeg",
+      text: "Magazine and Online Media Partner",
+    },
     { source: "/assets/sponsors/Gyanwhite.png", text: "Social Media Partner" },
     { source: "/assets/sponsors/e-l.png", text: "Social Media Partner" },
-    { source: "/assets/sponsors/Yocket.png", text: "Overseas Education Partner" },
-    { source: "/assets/sponsors/connecting partner.png", text: "Connecting Partner" },
+    {
+      source: "/assets/sponsors/Yocket.png",
+      text: "Overseas Education Partner",
+    },
+    {
+      source: "/assets/sponsors/connecting partner.png",
+      text: "Connecting Partner",
+    },
     { source: "/assets/sponsors/coupon partner.png", text: "Coupon Partner" },
-    { source: "/assets/sponsors/cleansing partner.jpeg", text: "Cleansing Partner" },
-    { source: "/assets/sponsors/study abroad partner.jpg", text: "Study Abroad Partner" },
+    {
+      source: "/assets/sponsors/cleansing partner.jpeg",
+      text: "Cleansing Partner",
+    },
+    {
+      source: "/assets/sponsors/study abroad partner.jpg",
+      text: "Study Abroad Partner",
+    },
     { source: "/assets/sponsors/ideate partner.png", text: "Ideate Partner" },
     { source: "/assets/sponsors/VI.png", text: "Other Partner" },
     { source: "/assets/sponsors/get-way.jpeg", text: "Other Partner" },
@@ -169,31 +433,55 @@ export const sponsorsImgSources = {
     { source: "/assets/sponsors/imperial.png", text: "Other Partner" },
     { source: "/assets/sponsors/HGG.jpeg", text: "Other Partner" },
     { source: "/assets/sponsors/ANVIRA.png", text: "Other Partner" },
-    { source: "/assets/sponsors/online media partner.jpg", text: "Online Media Partner" },    
-    { source: "/assets/sponsors/online media partner-1.png", text: "Online Media Partner" },    
-    { source: "/assets/sponsors/online media partner (1).png", text: "Online Media Partner" },    
-    { source: "/assets/sponsors/online media partner (2).png", text: "Online Media Partner" }, 
-    { source: "/assets/sponsors/online media partner (3).png", text: "Online Media Partner" }, 
-    { source: "/assets/sponsors/online media partner (4).png", text: "Online Media Partner" },
-    { source: "/assets/sponsors/online media partner (5).png", text: "Online Media Partner" },
-    { source: "/assets/sponsors/online media partner (6).png", text: "Online Media Partner" },
-    { source: "/assets/sponsors/online media partner (7).png", text: "Online Media Partner" },
-    { source: "/assets/sponsors/online media partner (8).png", text: "Online Media Partner" }, 
-    { source: "/assets/sponsors/ohcampus.png", text: "Online Media Partner" }, 
-    { source: "/assets/sponsors/knowafest.png", text: "Online Media Partner" }, 
-    { source: "/assets/sponsors/getmyfest.png", text: "Online Media Partner" }, 
-
+    {
+      source: "/assets/sponsors/online media partner.jpg",
+      text: "Online Media Partner",
+    },
+    {
+      source: "/assets/sponsors/online media partner-1.png",
+      text: "Online Media Partner",
+    },
+    {
+      source: "/assets/sponsors/online media partner (1).png",
+      text: "Online Media Partner",
+    },
+    {
+      source: "/assets/sponsors/online media partner (2).png",
+      text: "Online Media Partner",
+    },
+    {
+      source: "/assets/sponsors/online media partner (3).png",
+      text: "Online Media Partner",
+    },
+    {
+      source: "/assets/sponsors/online media partner (4).png",
+      text: "Online Media Partner",
+    },
+    {
+      source: "/assets/sponsors/online media partner (5).png",
+      text: "Online Media Partner",
+    },
+    {
+      source: "/assets/sponsors/online media partner (6).png",
+      text: "Online Media Partner",
+    },
+    {
+      source: "/assets/sponsors/online media partner (7).png",
+      text: "Online Media Partner",
+    },
+    {
+      source: "/assets/sponsors/online media partner (8).png",
+      text: "Online Media Partner",
+    },
+    { source: "/assets/sponsors/ohcampus.png", text: "Online Media Partner" },
+    { source: "/assets/sponsors/knowafest.png", text: "Online Media Partner" },
+    { source: "/assets/sponsors/getmyfest.png", text: "Online Media Partner" },
   ],
   2021: [
     {
-      name: "Citius Tech",
-      source: "/assets/sponsors/citius-tech-logo.png",
-      link: "https://www.citiustech.com/",
-      text: "Title Sponsor",
-    },
-    {
       name: "GeeksforGeeks",
-      source: "/assets/sponsors/citius-tech-logo.png",
+      source:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/GeeksforGeeks.svg/2560px-GeeksforGeeks.svg.png",
       link: "https://www.geeksforgeeks.org/",
       text: "Coding Partner",
     },
@@ -377,7 +665,5 @@ export const sponsorsImgSources = {
       source: "/assets/sponsors/convey logo.jpg",
       link: "https://t.me/finnovationzindia",
     },
-  
-
   ],
 };
