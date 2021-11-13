@@ -7,7 +7,7 @@ export const eventData = [
       {
         eventImgPath: "/assets/images/events/events_image.png",
         name: "Codeclan",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        text: "Are you focusing on developing your finance dexterity along with coding as your past-time delectation, then you should consider registering for this one-of-a-kind event. CodeClan is a game that combines technical as well as financial-management skills with enticing rewards on the line for participants.",
         memberLimit: "3 members per team",
         prize: "worth 12,000/-",
         fees: "60 Rs for a team of 3",
@@ -16,7 +16,7 @@ export const eventData = [
       {
         eventImgPath: "/assets/images/events/events_image.png",
         name: "Crackathon",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        text: "If coding is your go-to debuffs and has the adroitness to solve profuse problems, then Crackathon is the event for you. With difficulty increasing every round, level up your problem-solving skills and test your limits in the 3 rounds of this coding fiesta!",
         memberLimit: "3 members per team",
         prize: "worth 12,000/-",
         fees: "60 Rs for a team of 3",
@@ -25,7 +25,7 @@ export const eventData = [
       {
         eventImgPath: "/assets/images/events/events_image.png",
         name: "Technocrats Assemble",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        text: "ISTE is here with yet another virtual hunt where you can reverse the timeline and complete the quest for the infinity stones before Thanos does and become the reality among 14,000,605 others. The team that manages to solve all the levels in the shortest time will become the wielder of the gauntlet among many other amazing prizes.",
         memberLimit: "2 members per team",
         prize: "worth 7,000/-",
         fees: "70 Rs for a team of 2",
@@ -34,7 +34,7 @@ export const eventData = [
       {
         eventImgPath: "/assets/images/events/events_image.png",
         name: "Circuit Saga",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        text: "If circuit designing is your poison, then ‘Circuit Saga’ should be your go-to event. Learn about the various aspects of circuit designing by challenging each other to make efficient and complex circuits. The 2 rounds of this event are intertwined as the redundant material removed from the circuit in round 1 will be the only components used in the finale.",
         memberLimit: "1-3 members per team",
         prize: "worth 5,000/-",
         fees: "60 Rs for a team of 1-3",
@@ -43,7 +43,7 @@ export const eventData = [
       {
         eventImgPath: "/assets/images/events/events_image.png",
         name: "Electronic Wizard",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        text: "EESA is back with yet another riveting event, ‘Electronic Wizard’, where the participants will be tested based on their knowledge of electronics and its interactions with circuits. Provide the answers as quickly as possible in the quiz and showcase your finesse in building circuits on TinkerCAD to become the one & only, “ELECTRONIC WIZARD”! ",
         memberLimit: "1-3 members per team",
         prize: "worth 5,000/-",
         fees: "60 Rs for a team of 1-3",
@@ -52,7 +52,7 @@ export const eventData = [
       {
         eventImgPath: "/assets/images/events/events_image.png",
         name: "Incognito Probe",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        text: " Feeling bored and don’t know what to do with your time? Join IETE in their virtual quest where every team competes against each other to reach the final location before anyone else. Are you ready to test your IQ & implementation skills in this unique ‘Race Against Time’?",
         memberLimit: "2-4 members per team",
         prize: "worth 5,000/-",
         fees: "50 Rs for a team of 2-4",
@@ -61,7 +61,7 @@ export const eventData = [
       {
         eventImgPath: "/assets/images/events/events_image.png",
         name: "The Rising Star",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        text: "ISTE is back with yet another alluring game…” THE RISING STAR” where the competitors will have to exhibit their prowess in the knowledge of memes, movies, web series and other forms of entertainment. Do you have what it takes to become a ‘Rising Star’ ?",
         memberLimit: "2 members per team",
         prize: "worth 5,000/-",
         fees: "50 Rs for a team of 2",
@@ -70,7 +70,7 @@ export const eventData = [
       {
         eventImgPath: "/assets/images/events/events_image.png",
         name: "Cad-Clash",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        text: "MESA council presents CADCLASH, a premium competition for all 3D Designers and AutoDesk connoisseurs out there. Each participant will have to prove their mettle by designing the most intricate & captivating designs to win fascinating prizes.",
         memberLimit: "1 participant",
         prize: "worth 4,000/-",
         fees: "50 Rs per participant",
@@ -79,7 +79,7 @@ export const eventData = [
       {
         eventImgPath: "/assets/images/events/events_image.png",
         name: "Rush",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        text: "On the demand of F1 enthusiasts, council MESA of KJSCE presents “RUSH”, wherein a team of 4 will be tested on their de-riddling skills & faster response times in the qualifying round as well as the finale. The ‘RUSH’ of the finale will get your blood pumping with adrenaline rushing through your veins!",
         memberLimit: "4 members per team",
         prize: "worth 4,000/-",
         fees: "80 Rs for a team of 4",
@@ -88,7 +88,7 @@ export const eventData = [
       {
         eventImgPath: "/assets/images/events/events_image.png",
         name: "Wheel of Faith",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        text: "Feeling abundantly lucky? Try your luck at Emfinity’s newest event ‘Wheel Of Faith’. Spin the wheel and if the pointer lands on a question, solve the same within the given time limit to get the predetermined no. of points. If Lady-luck has her mercy on you, you may get the points without solving a question! ",
         memberLimit: "1 particpant",
         prize: "worth 3,000/-",
         fees: "20 Rs per participant",
