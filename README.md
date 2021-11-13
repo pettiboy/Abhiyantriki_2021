@@ -15,11 +15,20 @@
 - [x] Footer
 - [x] Events && Expos and Speakers full screen footer
 - [x] Events small screen navcontainer overflow
-- [ ] Parvaah on HomeScreen (Hussain)
-- [ ] Remove particle js from some headings (Hussain)
-- [ ] Parvaah page ka data update karneka hai (Jay)
-- [ ] events page ka image (Jay)
-- [ ] Sponsors data update (Tanvi)
+- [x] Parvaah on HomeScreen (Hussain)
+- [x] Remove particle js from some headings (Hussain)
+- [x] Parvaah page ka data update karneka hai (Jay)
+- [x] events page ka image (Jay)
+- [x] Sponsors data update (Tanvi)
+
+- [ ] logo update, gif update (homepage)
+- [ ] Carousal home page wala
+- [x] Increase timeline content size
+- [x] reduce parvaah line width
+- [x] Useful link mini game
+- [x] Parvaah not centered
+- [x] Title sponsor
+- [x] Sponsor page reverse buttons
 
 ## Getting Started
 

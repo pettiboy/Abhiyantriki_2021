@@ -49,10 +49,10 @@ const Parvaah = ({}: ParvaahProps) => {
         <div className="container p-3 text-white">
           <div className="row">
             <div className="col-sm-6 col-md-6 flex-column d-flex justify-content-center order-md-2">
-              <div className="align-items-center d-flex justify-content-center flex-column text-center mb-3">
-                <div className="fs-3 fw-bold">Eco Run (2019)</div>
+              <div className="align-items-center d-flex justify-content-center flex-column mb-3">
+                <div className="fs-3 fw-bold text-left">Eco Run (2019)</div>
                 <div
-                  className="align-items-center d-flex justify-content-center flex-column text-center mb-3"
+                  className="align-items-center d-flex justify-content-center flex-column mb-3"
                   style={{ fontSize: 15, fontFamily: "Roboto" }}
                 >
                   With The Three-Year-Long Cause Of Zero-Waste Community,
@@ -85,10 +85,12 @@ const Parvaah = ({}: ParvaahProps) => {
         <div className="container p-3 text-white">
           <div className="row">
             <div className="col-sm-6 col-md-6 flex-column d-flex justify-content-center">
-              <div className="align-items-center d-flex justify-content-center flex-column text-center mb-3">
-                <div className="fs-3 fw-bold">Signal Shala (2019)</div>
+              <div className="align-items-center d-flex justify-content-center flex-column mb-3">
+                <div className="fs-3 fw-bold text-left">
+                  Signal Shala (2019)
+                </div>
                 <div
-                  className="align-items-center d-flex justify-content-center flex-column text-center mb-3"
+                  className="align-items-center d-flex justify-content-center flex-column mb-3"
                   style={{ fontSize: 15, fontFamily: "Roboto" }}
                 >
                   Parvaah Collaborated With Signal Shala To Spread Awareness
@@ -121,10 +123,12 @@ const Parvaah = ({}: ParvaahProps) => {
         <div className="container p-3 text-white">
           <div className="row">
             <div className="col-sm-6 col-md-6 flex-column d-flex justify-content-center order-md-2">
-              <div className="align-items-center d-flex justify-content-center flex-column text-center mb-3">
-                <div className="fs-3 fw-bold">Secret Santa (2019)</div>
+              <div className="align-items-center d-flex justify-content-center flex-column mb-3">
+                <div className="fs-3 fw-bold text-left">
+                  Secret Santa (2019)
+                </div>
                 <div
-                  className="align-items-center d-flex justify-content-center flex-column text-center mb-3"
+                  className="align-items-center d-flex justify-content-center flex-column mb-3"
                   style={{ fontSize: 15, fontFamily: "Roboto" }}
                 >
                   What Is A Christmas Celebration Without A Secret Santa? Team
@@ -158,10 +162,12 @@ const Parvaah = ({}: ParvaahProps) => {
         <div className="container p-3 text-white">
           <div className="row">
             <div className="col-sm-6 col-md-6 flex-column d-flex justify-content-center">
-              <div className="align-items-center d-flex justify-content-center flex-column text-center mb-3">
-                <div className="fs-3 fw-bold">Diwali Donation Drive (2019)</div>
+              <div className="align-items-center d-flex justify-content-center flex-column mb-3">
+                <div className="fs-3 fw-bold text-left">
+                  Diwali Donation Drive (2019)
+                </div>
                 <div
-                  className="align-items-center d-flex justify-content-center flex-column text-center mb-3"
+                  className="align-items-center d-flex justify-content-center flex-column mb-3"
                   style={{ fontSize: 15, fontFamily: "Roboto" }}
                 >
                   The Festival Of Lights Brings With It Happiness And Joy. Team
@@ -194,10 +200,12 @@ const Parvaah = ({}: ParvaahProps) => {
         <div className="container p-3 text-white">
           <div className="row">
             <div className="col-sm-6 col-md-6 flex-column d-flex justify-content-center order-md-2">
-              <div className="align-items-center d-flex justify-content-center flex-column text-center mb-3">
-                <div className="fs-3 fw-bold">Tree Plantation Drive (2019)</div>
+              <div className="align-items-center d-flex justify-content-center flex-column mb-3">
+                <div className="fs-3 fw-bold text-left">
+                  Tree Plantation Drive (2019)
+                </div>
                 <div
-                  className="align-items-center d-flex justify-content-center flex-column text-center mb-3"
+                  className="align-items-center d-flex justify-content-center flex-column mb-3"
                   style={{ fontSize: 15, fontFamily: "Roboto" }}
                 >
                   With Our Environment On The Verge Of Being Knocked Down By
@@ -231,10 +239,12 @@ const Parvaah = ({}: ParvaahProps) => {
         <div className="container p-3 text-white">
           <div className="row">
             <div className="col-sm-6 col-md-6 flex-column d-flex justify-content-center">
-              <div className="align-items-center d-flex justify-content-center flex-column text-center mb-3">
-                <div className="fs-3 fw-bold">Know Your Plastic (2020)</div>
+              <div className="align-items-center d-flex justify-content-center flex-column mb-3">
+                <div className="fs-3 fw-bold text-left">
+                  Know Your Plastic (2020)
+                </div>
                 <div
-                  className="align-items-center d-flex justify-content-center flex-column text-center mb-3"
+                  className="align-items-center d-flex justify-content-center flex-column mb-3"
                   style={{ fontSize: 15, fontFamily: "Roboto" }}
                 >
                   The Festival Of Lights Brings With It Happiness And Joy. Team
@@ -267,10 +277,12 @@ const Parvaah = ({}: ParvaahProps) => {
         <div className="container p-3 text-white">
           <div className="row">
             <div className="col-sm-6 col-md-6 flex-column d-flex justify-content-center order-md-2">
-              <div className="align-items-center d-flex justify-content-center flex-column text-center mb-3">
-                <div className="fs-3 fw-bold">Beautification (2020)</div>
+              <div className="align-items-center d-flex justify-content-center flex-column mb-3">
+                <div className="fs-3 fw-bold text-left">
+                  Beautification (2020)
+                </div>
                 <div
-                  className="align-items-center d-flex justify-content-center flex-column text-center mb-3"
+                  className="align-items-center d-flex justify-content-center flex-column mb-3"
                   style={{ fontSize: 15, fontFamily: "Roboto" }}
                 >
                   With Our Environment On The Verge Of Being Knocked Down By
@@ -302,10 +314,12 @@ const Parvaah = ({}: ParvaahProps) => {
         <div className="container p-3 text-white">
           <div className="row">
             <div className="col-sm-6 col-md-6 flex-column d-flex justify-content-center">
-              <div className="align-items-center d-flex justify-content-center flex-column text-center mb-3">
-                <div className="fs-3 fw-bold">Diwali Donation Drive (2020)</div>
+              <div className="align-items-center d-flex justify-content-center flex-column mb-3">
+                <div className="fs-3 fw-bold text-left">
+                  Diwali Donation Drive (2020)
+                </div>
                 <div
-                  className="align-items-center d-flex justify-content-center flex-column text-center mb-3"
+                  className="align-items-center d-flex justify-content-center flex-column mb-3"
                   style={{ fontSize: 15, fontFamily: "Roboto" }}
                 >
                   The Festival Of Lights Brings With It Happiness And Joy. Team
@@ -338,10 +352,12 @@ const Parvaah = ({}: ParvaahProps) => {
         <div className="container p-3 text-white">
           <div className="row">
             <div className="col-sm-6 col-md-6 flex-column d-flex justify-content-center order-md-2">
-              <div className="align-items-center d-flex justify-content-center flex-column text-center mb-3">
-                <div className="fs-3 fw-bold">Mangrove Clean-Up (2020)</div>
+              <div className="align-items-center d-flex justify-content-center flex-column mb-3">
+                <div className="fs-3 fw-bold text-left">
+                  Mangrove Clean-Up (2020)
+                </div>
                 <div
-                  className="align-items-center d-flex justify-content-center flex-column text-center mb-3"
+                  className="align-items-center d-flex justify-content-center flex-column mb-3"
                   style={{ fontSize: 15, fontFamily: "Roboto" }}
                 >
                   With Our Environment On The Verge Of Being Knocked Down By

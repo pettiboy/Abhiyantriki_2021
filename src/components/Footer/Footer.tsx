@@ -100,9 +100,19 @@ const Footer = ({}: FooterProps) => {
               <a href="/sponsors" className="highlight-on-hover">
                 <i className="fa fa-pagelines"></i> Sponsors
               </a>
-              <a href="#" className="highlight-on-hover">
+              <a
+                href="https://forms.gle/FweycRFNCkQLVGYt7"
+                className="highlight-on-hover"
+              >
                 <i className="fa fa-edit"></i>
                 Register
+              </a>
+              <a
+                href="https://kjsce-abhiyantriki.org/mini-game"
+                className="highlight-on-hover"
+              >
+                <i className="fas fa-gamepad"></i>
+                Play Mini Game
               </a>
             </div>
           </div>

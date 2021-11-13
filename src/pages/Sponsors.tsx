@@ -21,10 +21,10 @@ const Sponsors = ({}: SponsorsProps) => {
     const max = parseInt(keys[keys.length - 1]);
     const min = parseInt(keys[0]);
 
-    if (year == min) {
-      setYear(max);
+    if (year == max) {
+      setYear(min);
     } else {
-      setYear((prev) => prev - 1);
+      setYear((prev) => prev + 1);
     }
     setAnim(false);
   };
@@ -34,10 +34,10 @@ const Sponsors = ({}: SponsorsProps) => {
     const max = parseInt(keys[keys.length - 1]);
     const min = parseInt(keys[0]);
 
-    if (year == max) {
-      setYear(min);
+    if (year == min) {
+      setYear(max);
     } else {
-      setYear((prev) => prev + 1);
+      setYear((prev) => prev - 1);
     }
     setAnim(false);
   };
@@ -72,7 +72,7 @@ const Sponsors = ({}: SponsorsProps) => {
         {/* Presented By {year == 2021 ? null : "(Past Sponsors)"} */}
       </div>
       {year === 2021 && (
-        <div className="text-center fs-2 font-bold m-3">
+        <div className="text-center fs-5 font-bold m-3">
           Title Sponsor
           <a href="https://www.citiustech.com/">
             <div className="col p-3">
