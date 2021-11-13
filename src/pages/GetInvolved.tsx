@@ -17,7 +17,13 @@ const GetInvolved = ({}: GetInvolvedProps) => {
             "
         >
           <div className="mb-4">
-            <TwinkleTwinkle title="Get Involved" />
+            {/* <TwinkleTwinkle title="Get Involved" /> */}
+            <img
+              src={process.env.PUBLIC_URL + "/assets/gifs/get-involved.gif"}
+              // className="parvaah-title"
+              style={{ width: "100%" }}
+              alt="Get Involved"
+            />
           </div>
           <TextAndButton
             paraText={`Do you know someone with the potential to build something 

@@ -1,11 +1,9 @@
-
 @media only screen and (max-width: 768px) {
   .homepage {
-     display: flex;
-     align-items: center;
+    display: flex;
+    align-items: center;
   }
   .home-resp {
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -44,6 +44,7 @@ const ESScrollSpy = ({ parentScrollContainerRef }: SectionNodeProps) => {
               image={card.image}
               text={card.text}
               heading={card.heading}
+              cardHref={card.cardHref}
             />
           ))}
         </div>
