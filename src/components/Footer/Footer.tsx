@@ -146,8 +146,7 @@ const Footer = ({}: FooterProps) => {
         </div>
       </div>
 
-      {/* developer credits */}
-      {/* <div className="text-white text-center d-flex flex-column">
+      <div className="text-white text-center d-flex flex-column">
         <div
           style={{
             borderBottom: "1px solid var(--yellow)",
@@ -160,11 +159,11 @@ const Footer = ({}: FooterProps) => {
         <div>
           Developed By
           <a href=""> Jay Malave,</a>
-          <a href=""> Tanvi Deshapande</a>
+          <a href=""> Tanvi Deshpande</a>
           <span> and </span>
           <a href=""> Hussain Pettiwala </a>
         </div>
-      </div> */}
+      </div>
     </footer>
   );
 };
