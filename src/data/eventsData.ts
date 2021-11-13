@@ -178,12 +178,12 @@ export const eventData = [
     events: [
       {
         eventImgPath: "/assets/images/events/events_image.png",
-        name: "Preevent 1",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        name: "Codespree",
+        text: "CodeSpree is a precursor to Crackathon, which will take place during Abhiyantriki. It is a lengthy coding competition that puts your overall programming skills to the test, hosted on CodeChef. The CodeSpree winners will receive cash prizes as well as a direct entry into the third round of Crackathon!",
         memberLimit: "3 members per team",
-        prize: "10 crore rupayy (in Amitabh Bachchan's voice)",
-        fees: "60 Rs for a team of 3",
-        contactInfo: ["Vidhi Shah: 9769051597", "Manasi Varaiya: 9867167255"],
+        prize: "worth 8000/-",
+        fees: "FREE",
+        contactInfo: ["Rahil: 9920828960", "Soumen: 8356853262"],
       },
     ],
   },
