@@ -52,7 +52,7 @@ const Footer = ({}: FooterProps) => {
                   href="tel:+91-816-938-8385"
                 >
                   <span className="fw-bold">Freya Vora: </span>
-                  +91 8169388385
+                  +91 8291383303
                 </a>
               </li>
               <li className="link-heading-li">
@@ -66,7 +66,7 @@ const Footer = ({}: FooterProps) => {
                   href="tel:+91-816-938-8385"
                 >
                   <span className="fw-bold">Supriya Tiwari: </span>
-                  +91 8169388385
+                  +91 9702016387
                 </a>
               </li>
               <li className="">
@@ -75,7 +75,7 @@ const Footer = ({}: FooterProps) => {
                   href="tel:+91-816-938-8385"
                 >
                   <span className="fw-bold">Aabha Borle: </span>
-                  +91 8169388385
+                  +91 8928330710
                 </a>
               </li>
             </ul>
@@ -145,6 +145,26 @@ const Footer = ({}: FooterProps) => {
           </div>
         </div>
       </div>
+
+      {/* developer credits */}
+      {/* <div className="text-white text-center d-flex flex-column">
+        <div
+          style={{
+            borderBottom: "1px solid var(--yellow)",
+            width: "80%",
+            alignSelf: "center",
+            marginTop: 40,
+            marginBottom: 20,
+          }}
+        ></div>
+        <div>
+          Developed By
+          <a href=""> Jay Malave,</a>
+          <a href=""> Tanvi Deshapande</a>
+          <span> and </span>
+          <a href=""> Hussain Pettiwala </a>
+        </div>
+      </div> */}
     </footer>
   );
 };
