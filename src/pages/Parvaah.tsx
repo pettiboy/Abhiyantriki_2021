@@ -44,43 +44,6 @@ const Parvaah = ({}: ParvaahProps) => {
 
       <div>
 
-        {/* 2017 Parvaah Events */}
-
-        {/* <!-- image left text right --> */}
-        <div className="container p-3 text-white">
-          <div className="row">
-            <div className="col-sm-6 col-md-6 flex-column d-flex justify-content-center">
-              <div className="align-items-center d-flex justify-content-center flex-column">
-                <div className="fs-1 fw-bold">Beach Clean-up (2017)</div>
-                <div
-                  className="align-items-center d-flex justify-content-center flex-column"
-                  style={{ fontSize: 20, fontFamily: "Roboto" }}
-                >
-                  Team Parvaah was a part of the Versova Beach clean up drive. A
-                  lot of student organisations across Mumbai joined hands to
-                  save the beach. Cleaning and hygiene issues have always been
-                  of utmost importance in our city.
-                </div>
-              </div>
-            </div>
-            <div className="col-sm-6 col-md-6">
-              <div
-                style={{
-                  marginTop: "30",
-                  display: "flex",
-                  justifyContent: "center",
-                }}
-              >
-                <img
-                  style={{ width: "50%" }}
-                  src="/assets/images/events/Events.png"
-                  alt="Beach Clean-up"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-
         {/* 2019 Parvaah Events */}
         
         {/* <!-- image right text left --> */}
@@ -109,7 +72,7 @@ const Parvaah = ({}: ParvaahProps) => {
               >
                 <img
                   style={{ width: "50%" }}
-                  src="../assets/images/events/ecorun_2019.png"
+                  src="../assets/images/Parvaah/ecorun_2019.png"
                   alt="Beach Clean-up"
                 />
               </div>
@@ -143,7 +106,7 @@ const Parvaah = ({}: ParvaahProps) => {
               >
                 <img
                   style={{ width: "50%" }}
-                  src="/assets/images/events/Signal_Shala_2019.png"
+                  src="/assets/images/Parvaah/Signal_Shala_2019.png"
                   alt="Beach Clean-up"
                 />
               </div>
@@ -178,7 +141,7 @@ const Parvaah = ({}: ParvaahProps) => {
               >
                 <img
                   style={{ width: "50%" }}
-                  src="../assets/images/events/Secret_Santa_2019.png"
+                  src="../assets/images/Parvaah/Secret_Santa_2019.png"
                   alt="Beach Clean-up"
                 />
               </div>
@@ -212,7 +175,7 @@ const Parvaah = ({}: ParvaahProps) => {
               >
                 <img
                   style={{ width: "50%" }}
-                  src="/assets/images/events/Diwali_Donation_2019.png"
+                  src="/assets/images/Parvaah/Diwali_Donation_2019.png"
                   alt="Beach Clean-up"
                 />
               </div>
@@ -247,7 +210,7 @@ const Parvaah = ({}: ParvaahProps) => {
               >
                 <img
                   style={{ width: "50%" }}
-                  src="../assets/images/events/tree_plantation_2019.png"
+                  src="../assets/images/Parvaah/tree_plantation_2019.png"
                   alt="Beach Clean-up"
                 />
               </div>
@@ -282,7 +245,7 @@ const Parvaah = ({}: ParvaahProps) => {
               >
                 <img
                   style={{ width: "50%" }}
-                  src="/assets/images/events/Know_your_plastic_2020.png"
+                  src="/assets/images/Parvaah/Know_your_plastic_2020.png"
                   alt="Beach Clean-up"
                 />
               </div>
@@ -317,7 +280,7 @@ const Parvaah = ({}: ParvaahProps) => {
               >
                 <img
                   style={{ width: "50%" }}
-                  src="../assets/images/events/Beautification_2020.png"
+                  src="../assets/images/Parvaah/Beautification_2020.png"
                   alt="Beach Clean-up"
                 />
               </div>
@@ -350,7 +313,7 @@ const Parvaah = ({}: ParvaahProps) => {
               >
                 <img
                   style={{ width: "50%" }}
-                  src="/assets/images/events/Diwali_Donation_2020.png"
+                  src="/assets/images/Parvaah/Diwali_Donation_2020.png"
                   alt="Beach Clean-up"
                 />
               </div>
@@ -385,7 +348,7 @@ const Parvaah = ({}: ParvaahProps) => {
               >
                 <img
                   style={{ width: "50%" }}
-                  src="../assets/images/events/Mangrove_clean_up_2020.png"
+                  src="../assets/images/Parvaah/Mangrove_clean_up_2020.png"
                   alt="Beach Clean-up"
                 />
               </div>
