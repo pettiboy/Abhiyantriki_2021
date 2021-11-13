@@ -12,7 +12,9 @@ const EventCard = ({ event }: EventCardProps) => {
       <div className="row w-85 d-flex justify-content-center align-items-center">
         <div className="col">
           <img
-            src={process.env.PUBLIC_URL + "/assets/images/events/events_image.png"}
+            src={
+              process.env.PUBLIC_URL + "/assets/images/events/events_image.png"
+            }
             alt=""
             width="350"
             className="event-"
@@ -27,7 +29,7 @@ const EventCard = ({ event }: EventCardProps) => {
           <hr />
           <div>
             <img
-              src="/assets/images/events/team.png"
+              src={process.env.PUBLIC_URL + "/assets/images/events/team.png"}
               width="20"
               className="event-img"
             />
@@ -36,7 +38,7 @@ const EventCard = ({ event }: EventCardProps) => {
           <hr />
           <div>
             <img
-              src="/assets/images/events/prize.png"
+              src={process.env.PUBLIC_URL + "/assets/images/events/prize.png"}
               width="20"
               className="event-img"
             />
@@ -45,7 +47,10 @@ const EventCard = ({ event }: EventCardProps) => {
           <hr />
           <div>
             <img
-              src="/assets/images/events/registration.png"
+              src={
+                process.env.PUBLIC_URL +
+                "/assets/images/events/registration.png"
+              }
               width="20"
               className="event-img"
             />
@@ -55,7 +60,9 @@ const EventCard = ({ event }: EventCardProps) => {
           {event.contactInfo.map((contact) => (
             <div>
               <img
-                src="/assets/images/events/contact.png"
+                src={
+                  process.env.PUBLIC_URL + "/assets/images/events/contact.png"
+                }
                 width="20"
                 className="event-img"
               />
