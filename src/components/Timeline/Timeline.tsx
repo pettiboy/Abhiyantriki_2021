@@ -10,7 +10,7 @@ const Timeline = ({}: TimelineProps) => {
     "Abhiyantriki introduced as an individual, standalone festival of technical grandeur and pomp."
   );
   const [path, setPath] = useState("/assets/images/timeline/1998.png");
-  const [year, setYear] = useState(2019);
+  const [year, setYear] = useState(2020);
   const [anim, setAnim] = useState<boolean | null>(false);
 
   const changeTo1998 = () => {
@@ -61,8 +61,14 @@ const Timeline = ({}: TimelineProps) => {
     );
     setPath("/assets/images/timeline/2019.png");
   };
+  const changeTo2020 = () => {
+    setCaption(
+      "Owing to the COVID-19 pandemic, Abhiyantriki was conducted through the virtual mode of interaction for the first time. The fest welcomed IAF as its Chief Guest."
+    );
+    setPath("/assets/images/timeline/2020.png");
+  };
 
-  const years = [2019, 2018, 2017, 2016, 2014, 2009, 2008, 1998];
+  const years = [2020, 2019, 2018, 2017, 2016, 2014, 2009, 2008, 1998];
 
   const onPressLeft = () => {
     const max = years[0];
@@ -80,7 +86,7 @@ const Timeline = ({}: TimelineProps) => {
     setAnim(false);
   };
 
-  const onPressRight = () => {
+  const onPressRight= () => {
     const max = years[0];
     const min = years[years.length - 1];
 
@@ -120,6 +126,9 @@ const Timeline = ({}: TimelineProps) => {
         break;
       case 2019:
         changeTo2019();
+        break;
+      case 2020:
+        changeTo2020();
         break;
       default:
         break;
