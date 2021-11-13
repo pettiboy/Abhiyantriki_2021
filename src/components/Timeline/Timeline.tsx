@@ -131,12 +131,13 @@ const Timeline = ({}: TimelineProps) => {
   }, [year]);
 
   return (
-    <div className="tl">
+    <div className="tl mb-5">
       <h1 className="text-center m-10 my-5">Timeline</h1>
       <div className="d-inline">
         <div className="d-flex justify-content-around align-items-center font-size p-5">
           <i className="arrows fas fa-chevron-left" onClick={onPressLeft}></i>
           <span
+            style={{ fontSize: 30 }}
             className={anim ? "anim-loader displaying-year" : "displaying-year"}
           >
             {year}

@@ -10,10 +10,12 @@ const InfoSection = ({ caption, imgPath }: InfoSectionProps) => {
   return (
     <div className="container">
       <div className="row">
-        <div className="col-sm-6 col-md-6">
-          <div className="text-center">{caption}</div>
+        <div className="col-sm-6 col-md-6 order-2">
+          <div className="my-auto">
+            <div className="text-center p-4">{caption}</div>
+          </div>
         </div>
-        <div className="col-sm-6 col-md-6 text-center">
+        <div className="col-sm-6 col-md-6 text-center order-1 p-4">
           <img alt={caption} src={imgPath} width="300" />
         </div>
       </div>
