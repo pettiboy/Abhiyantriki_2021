@@ -82,43 +82,6 @@ export const exposAndSpeakersDataJson = [
         image: `${process.env.PUBLIC_URL}/assets/expos/tech/HEXAPOD.png`,
         cardHref: "#",
       },
-      {
-        heading: "Orion Racing",
-        text: `India's Orion Racing The K.J Somaiya College of Engineering's Official Formula Student Team was formed. Engineering students from various disciplines create, design, and build a Formula Style car to compete in national and international design competitions in Germany, Italy, and Hungary.`,
-        image: ``,
-        cardHref: "#",
-      },
-      {
-        heading: "RedShift Racing",
-        text: `K J Somaiya College Of Engineering's Official BAJA SAE Team is Redshift Racing India. The team designs, fabricates, and tests a single-seater all-terrain vehicle (ATV) and competes in national and international competitions such as BAJA SAE India, BAJA SAE USA, ESI, and the Mega ATV Championship.
-        `,
-        image: ``,
-        cardHref: "#",
-      },
-      {
-        heading: "Team ETA",
-        text: `Team Eta is a student organisation that participates in the Shell Eco-Marathon every year. The Shell Eco-Marathon is one of the world's leading energy efficiency competitions. Students are challenged to design, build, and test energy-efficient automobiles that push the boundaries of what is technically possible.`,
-        image: ``,
-        cardHref: "#",
-      },
-      {
-        heading: "Team Onyx",
-        text: `Team Onyx India, The Aero Design Club of K J Somaiya College of Engineering, is a group of Aviation Enthusiasts with a passion For everything. Participating in various aeromodelling competitions allows the team to broaden their knowledge base and put various technical and analytical skills to the test by validating research.`,
-        image: ``,
-        cardHref: "#",
-      },
-      {
-        heading: "Team Robocon",
-        text: `Robocon is a group of people that are passionate about robotics. Team KJSCE Robocon, which was founded in 2010 by a group of students, has paved the way for young intelligent minds to experiment with and implement new and innovative designs in modern robotics.`,
-        image: ``,
-        cardHref: "#",
-      },
-      {
-        heading: "Team TMRT",
-        text: `The College's Underwater Robotics and Offshore Engineering Team are the Marine Robotics Team (TMRT). This team was formed on July 27th, 2017. Their goal is to create an "autonomous underwater vehicle" that can perform a set of tasks and make decisions on its own using algorithms such as deep learning.`,
-        image: ``,
-        cardHref: "#",
-      },
     ],
   },
   {
