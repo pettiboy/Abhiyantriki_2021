@@ -1,3 +1,11 @@
+.dev-name {
+  color: var(--yellow) !important;
+}
+
+.codecell {
+  color: #11f1ff !important;
+}
+
 .site-footer {
   padding: 45px 0 0px;
   font-size: 1rem;

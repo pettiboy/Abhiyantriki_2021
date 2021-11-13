@@ -146,8 +146,10 @@ const Footer = ({}: FooterProps) => {
         </div>
       </div>
 
-      {/* developer credits */}
-      {/* <div className="text-white text-center d-flex flex-column">
+      <div
+        className="text-white text-center d-flex flex-column fs-4 p-3 mb-3"
+        style={{ lineHeight: 2 }}
+      >
         <div
           style={{
             borderBottom: "1px solid var(--yellow)",
@@ -159,12 +161,38 @@ const Footer = ({}: FooterProps) => {
         ></div>
         <div>
           Developed By
-          <a href=""> Jay Malave,</a>
-          <a href=""> Tanvi Deshapande</a>
+          <a
+            href="https://www.linkedin.com/in/jay-malave-0098a01ba/"
+            target="_blank"
+            className="dev-name"
+          >
+            {" "}
+            Jay Malave
+          </a>
+          <span>,</span>
+          <a
+            href="https://www.linkedin.com/in/tanvi-deshpande-9046b620a/"
+            target="_blank"
+            className="dev-name"
+          >
+            {" "}
+            Tanvi Deshpande
+          </a>
           <span> and </span>
-          <a href=""> Hussain Pettiwala </a>
+          <a
+            href="https://www.linkedin.com/in/hussain-pettiwala-198469202/"
+            target="_blank"
+            className="dev-name"
+          >
+            {" "}
+            Hussain Pettiwala{" "}
+          </a>
+          Powered by{" "}
+          <a href="https://www.kjscecodecell.com/" className="codecell">
+            CodeCell
+          </a>
         </div>
-      </div> */}
+      </div>
     </footer>
   );
 };

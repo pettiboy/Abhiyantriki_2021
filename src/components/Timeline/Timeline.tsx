@@ -86,7 +86,7 @@ const Timeline = ({}: TimelineProps) => {
     setAnim(false);
   };
 
-  const onPressRight= () => {
+  const onPressRight = () => {
     const max = years[0];
     const min = years[years.length - 1];
 
@@ -141,7 +141,7 @@ const Timeline = ({}: TimelineProps) => {
 
   return (
     <div className="tl mb-5">
-      <h1 className="text-center m-10 my-5">Timeline</h1>
+      <h1 className="text-center m-10 my-5 fw-bold">Timeline</h1>
       <div className="d-inline">
         <div className="d-flex justify-content-around align-items-center font-size p-5">
           <i className="arrows fas fa-chevron-left" onClick={onPressLeft}></i>

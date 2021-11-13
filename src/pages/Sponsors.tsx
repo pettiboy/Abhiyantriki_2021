@@ -69,20 +69,22 @@ const Sponsors = ({}: SponsorsProps) => {
         <i className="arrows fas fa-chevron-right" onClick={onPressRight}></i>
       </div>
       <div className="text-center fs-2 mb-5">
-        Presented By {year == 2021 ? null : "(Past Sponsors)"}
+        {/* Presented By {year == 2021 ? null : "(Past Sponsors)"} */}
       </div>
-      <div className="text-center fs-2 font-bold m-3">
-        Title Sponsor
-        <a href="https://www.citiustech.com/">
-          <div className="col p-3">
-            <img
-              src={"/assets/sponsors/citius-tech-logo.png"}
-              alt="source"
-              width={300}
-            />
-          </div>
-        </a>
-      </div>
+      {year === 2021 && (
+        <div className="text-center fs-2 font-bold m-3">
+          Title Sponsor
+          <a href="https://www.citiustech.com/">
+            <div className="col p-3">
+              <img
+                src={"/assets/sponsors/citius-tech-logo.png"}
+                alt="source"
+                width={300}
+              />
+            </div>
+          </a>
+        </div>
+      )}
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 justify-content-around">
         {sponsorsImgSources[year].map(
           (el: typeof sponsorsImgSources[2021][0]) => (

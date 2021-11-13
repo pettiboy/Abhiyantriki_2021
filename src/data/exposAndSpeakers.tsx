@@ -5,7 +5,7 @@ export const exposAndSpeakersDataJson = [
     gifName: "tech-expo.gif",
     heading: "Tech Expo",
     paraText: `Tech Expo is a unique exhibition and the most anticipated event at Abhiyantriki. With innovative technologies from all over the country, the Tech Expo contains exhibits from well-known organisations namely DRDO, ISRO, IMD, DAE and innovations ranging from speed-defying drones to humanoid robots with intellect on par with a human being. `,
-    buttonHref: "#",
+    buttonHref: "https://forms.gle/FweycRFNCkQLVGYt7",
     buttonText: "Register",
     cards: [
       {
@@ -95,7 +95,7 @@ export const exposAndSpeakersDataJson = [
               acquaint with a lot of new skills and give them the required work
               experience. Internships play an essential role in magnifying the
               morale of the students.`,
-    buttonHref: "#",
+    buttonHref: "https://forms.gle/FweycRFNCkQLVGYt7",
     buttonText: "Register",
     cards: [
       {
@@ -166,7 +166,7 @@ export const exposAndSpeakersDataJson = [
     gifName: "speaker-session.gif",
     heading: "Speaker Session",
     paraText: `The Speaker Sessions held during Abhiyantriki are bound to leave one in awe and inspired. It provides a platform for many great personalities to share their thoughts and views with the audience about their experiences in their fields, be it technical, financial, management, administration etc. Eminent figures including Dr A P J Abdul Kalam, Dr Raghuram Rajan, His Holiness The Dalai Lama, Zakir Hussain, Dr Jayant Narlikar and many others have honoured us at Abhiyantriki.`,
-    buttonHref: "#",
+    buttonHref: "https://forms.gle/FweycRFNCkQLVGYt7",
     buttonText: "Register",
     cards: [
       {
@@ -193,7 +193,7 @@ export const exposAndSpeakersDataJson = [
               for more! Abhiyantriki has previously hosted notable speakers like
               the Late Dr A.P.J Abdul Kalam, Dr Raghuram Rajan, the former RBI Governor,
               His Holiness the Dalai Lama, and many more!`,
-    buttonHref: "#",
+    buttonHref: "https://forms.gle/FweycRFNCkQLVGYt7",
     buttonText: "Register",
     cards: [
       {
