@@ -30,3 +30,8 @@ hr
   box-shadow: 0 0 5px rgba(17, 241, 255, 0.6);
 }
 
+@media only screen and (max-width: 768px){
+  .event-poster {
+    width: 80vw;
+  }
+}
