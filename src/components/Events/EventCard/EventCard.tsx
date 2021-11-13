@@ -40,7 +40,7 @@ const EventCard = ({ event }: EventCardProps) => {
               width="20"
               className="event-img"
             />
-            {/* {event.prize && <span>{event.prize}</span>} */}
+            {event.prize && <span>{event.prize}</span>}
           </div>
           <hr />
           <div>
