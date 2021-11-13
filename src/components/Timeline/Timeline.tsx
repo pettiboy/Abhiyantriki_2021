@@ -13,56 +13,48 @@ const Timeline = ({}: TimelineProps) => {
   const [year, setYear] = useState(2019);
 
   const changeTo1998 = () => {
-    console.log("changed to 1998");
     setCaption(
       "Abhiyantriki introduced as an individual, standalone festival of technical grandeur and pomp."
     );
     setPath("/assets/images/timeline/1998.png");
   };
   const changeTo2008 = () => {
-    console.log("changed to 2008");
     setCaption(
       "Funds collected this year were all donated for the rehabilitation of the flood struck Bihar and Abhiyantriki rose in popularity with extensive media coverage."
     );
     setPath("/assets/images/timeline/2008.png");
   };
   const changeTo2009 = () => {
-    console.log("changed to 2009");
     setCaption(
       "KJSCE marks 25 years since its inauguration,  and the closing ceremony of Abhiyantriki was ornamented by the presence of late Dr. A.P.J. Abdul Kalam."
     );
     setPath("/assets/images/timeline/2009.png");
   };
   const changeTo2014 = () => {
-    console.log("changed to 2014");
     setCaption(
       "The maiden year for Start-up and Auto Expo, Abhiyantriki this year also encompassed Rohit Suri, the Jagaur India CEO as one of the keynote speakers"
     );
     setPath("/assets/images/timeline/2014.png");
   };
   const changeTo2016 = () => {
-    console.log("changed to 2016");
     setCaption(
       "Abhiyantriki extended by a day, now was a two-day long fest with its flagship event being a technical exhibition presided over by ISRO."
     );
     setPath("/assets/images/timeline/2016.png");
   };
   const changeTo2017 = () => {
-    console.log("changed to 2017");
     setCaption(
       "Attending to the likes of DRDO, DAE and BARC, Abhiyantriki gamered a running footfall of over 15,000 for the first time in its history!"
     );
     setPath("/assets/images/timeline/2017.png");
   };
   const changeTo2018 = () => {
-    console.log("changed to 2018");
     setCaption(
       "Abhiyantriki had the Indian Army exhibiting their artillery as the highlight, along with prominent personalities like Dr S. Christopher and Mr. Vilas Shinde gracing the occasion."
     );
     setPath("/assets/images/timeline/2018.png");
   };
   const changeTo2019 = () => {
-    console.log("changed to 2019");
     setCaption(
       "This year witnessed the Indian Navy rolling out an array of Naval armaments at Abhiyantriki along with a riveting talk on the Big Bang by Dr. Bikash Chandra Sinha"
     );
@@ -140,7 +132,7 @@ const Timeline = ({}: TimelineProps) => {
           <i className="arrows fas fa-chevron-right" onClick={onPressRight}></i>
         </div>
 
-        <div className="d-flex justify-content-center w-100 info">
+        <div className="d-flex justify-content-center w-100">
           <InfoSection caption={caption} imgPath={path} />
         </div>
       </div>
