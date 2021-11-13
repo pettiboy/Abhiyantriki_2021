@@ -70,6 +70,17 @@ const Timeline = ({}: TimelineProps) => {
 
   const years = [2020, 2019, 2018, 2017, 2016, 2014, 2009, 2008, 1998];
 
+  // const [ticking, setTicking] = useState(true),
+  //   [count, setCount] = useState(0);
+
+  // useEffect(() => {
+  //   const timer = setTimeout(
+  //     () => ticking && setCount(count + 1) && onPressRight(),
+  //     500
+  //   );
+  //   return () => clearTimeout(timer);
+  // });
+
   const onPressLeft = () => {
     const max = years[0];
     const min = years[years.length - 1];
@@ -84,10 +95,6 @@ const Timeline = ({}: TimelineProps) => {
     }
     setAnim(false);
   };
-
-  setTimeout(() => {
-    onPressRight();
-  }, 5000);
 
   const onPressRight = () => {
     const max = years[0];
