@@ -37,7 +37,7 @@ const Parvaah = ({}: ParvaahProps) => {
             initiatives, has been striving to spread maximum social awareness in
             the community."
             buttonText="Volunteer"
-            buttonHref="#"
+            buttonHref="https://forms.gle/7PKJTegXqKkcPth59"
           />
         </div>
       </div>

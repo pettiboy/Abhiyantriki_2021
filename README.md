@@ -21,7 +21,9 @@
 - [x] events page ka image (Jay)
 - [x] Sponsors data update (Tanvi)
 
-- [ ] logo update, gif update (homepage)
+- [x] logo update
+- [ ] links update
+- [ ] gif update (homepage)
 - [ ] Carousal home page wala
 - [x] Increase timeline content size
 - [x] reduce parvaah line width

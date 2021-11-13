@@ -9,8 +9,8 @@ const Navbar = ({}: NavbarProps) => {
       <div className="container-fluid">
         <a href="/" className="navbar-brand">
           <img
-            src="/assets/logos/ab-name-right-white.png"
-            width="130"
+            src="/assets/logos/ab-dates.png"
+            width="200"
             alt="abhiyantriki"
             className="d-inline-block align-middle mr-2"
           />

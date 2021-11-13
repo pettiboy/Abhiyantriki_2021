@@ -31,7 +31,7 @@ const GetInvolved = ({}: GetInvolvedProps) => {
                 will leave the audience awestruck? If yes, feel free to add their details 
                 in the form below and we’ll reach out to them!`}
             buttonText="Nominate an Exhibitor"
-            buttonHref="#"
+            buttonHref="https://forms.gle/Pk3sScRCaLHac2YB6"
           />
 
           <TextAndButton
@@ -41,7 +41,7 @@ const GetInvolved = ({}: GetInvolvedProps) => {
             free to help us out in any other way possible. Fill out the form
             below to get in touch with us:`}
             buttonText="Partner with us"
-            buttonHref="#"
+            buttonHref="https://forms.gle/DEctEZ9shxsyY2Vy9"
           />
         </div>
       </div>
