@@ -49,7 +49,7 @@ const Footer = ({}: FooterProps) => {
               <li className="">
                 <a
                   className="a-cancel highlight-on-hover"
-                  href="tel:+91-816-938-8385"
+                  href="tel:+91-829-138-3303"
                 >
                   <span className="fw-bold">Freya Vora: </span>
                   +91 8291383303
@@ -63,7 +63,7 @@ const Footer = ({}: FooterProps) => {
               <li className="">
                 <a
                   className="a-cancel highlight-on-hover"
-                  href="tel:+91-816-938-8385"
+                  href="tel:+91-970-201-6387"
                 >
                   <span className="fw-bold">Supriya Tiwari: </span>
                   +91 9702016387
@@ -72,7 +72,7 @@ const Footer = ({}: FooterProps) => {
               <li className="">
                 <a
                   className="a-cancel highlight-on-hover"
-                  href="tel:+91-816-938-8385"
+                  href="tel:+91-892-833-0710"
                 >
                   <span className="fw-bold">Aabha Borle: </span>
                   +91 8928330710

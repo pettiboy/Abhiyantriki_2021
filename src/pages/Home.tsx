@@ -53,7 +53,7 @@ const Home = ({}: HomeProps) => {
               conditions of the less privileged. Team Parvaah, through its various
               initiatives, has been striving to spread maximum social awareness in
               the community."
-          buttonText="Volunteer"
+          buttonText="Know More"
           buttonHref={process.env.PUBLIC_URL + "/parvaah"}
         />
       </div>

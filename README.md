@@ -22,7 +22,7 @@
 - [x] Sponsors data update (Tanvi)
 
 - [x] logo update
-- [ ] links update
+- [x] links update
 - [ ] gif update (homepage)
 - [ ] Carousal home page wala
 - [x] Increase timeline content size
