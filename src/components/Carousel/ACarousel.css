@@ -37,7 +37,7 @@
 
 @media only screen and (max-width: 768px) {
   .slides {
-    height: 50vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -49,13 +49,15 @@
     margin: auto;
     text-align: center;
     margin-top: 5vh;
+    height: 30vh;
   }
   .image-ka-baap {
-    margin-top: 5vh;
-    height: 90vh !important;
+    margin-top: 2vh;
+    height: 75vh !important;
   }
   #grid-text {
     width: auto;
+    height: 25vh;
     text-align: center;
   }
   #grid-title {
