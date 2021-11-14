@@ -142,7 +142,7 @@ export const eventData = [
         eventImgPath:
           process.env.PUBLIC_URL + "/assets/images/shield/tech hunt.png",
         name: "Tech Hunt",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        text: "This bunch of enigma surely packs a head-scratching set of puzzles and directions. Team up with your comrades and set out on a quest to decipher every piece of information that has.",
         memberLimit: "4 members per team",
         prize: "-",
         fees: "-",
@@ -152,7 +152,7 @@ export const eventData = [
         eventImgPath:
           process.env.PUBLIC_URL + "/assets/images/shield/tech quiz.png",
         name: "Tech Quiz",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        text: "The Tech Quiz consists of a set of rounds that tests one’s overall technical knowledge. From MCQs to rapid fires to buzzer rounds, it will be an event that garners a lot of participation each year.",
         memberLimit: "3 members per team",
         prize: "-",
         fees: "-",
@@ -162,7 +162,7 @@ export const eventData = [
         eventImgPath:
           process.env.PUBLIC_URL + "/assets/images/shield/technovate.png",
         name: "Technovate",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        text: "Bring your ideas onto the deck and tackle its challenges with an ecstatic approach. Students are expected to summarise their solutions with cost analysis, implementation, merits and demerits.",
         memberLimit: "2 members per team",
         prize: "-",
         fees: "-",
@@ -172,7 +172,7 @@ export const eventData = [
         eventImgPath:
           process.env.PUBLIC_URL + "/assets/images/shield/espionage.png",
         name: "Espionage",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        text: "Solve the mystery surfacing around adventure involving extra-terrestrial visitors. Seek the answers to save your planet or watch everything crumble towards doom with 3 rounds to clear to accomplish the rescue mission of the entire humanity.",
         memberLimit: "2 members per team",
         prize: "-",
         fees: "-",
@@ -182,7 +182,7 @@ export const eventData = [
         eventImgPath:
           process.env.PUBLIC_URL + "/assets/images/shield/tpp.png",
         name: "Technical Paper Presentation",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        text: "Students are judged based on the quality of their research, depth of detailing, presenting style and clarity of expression. Prove your mettle in understanding the concept of a detailed technical report and present your results.",
         memberLimit: "2 members per team",
         prize: "-",
         fees: "-",
