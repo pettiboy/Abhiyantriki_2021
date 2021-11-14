@@ -7,7 +7,7 @@ export const carouselData = {
   0: {
     title: "Events",
     href: process.env.PUBLIC_URL + "/events",
-    text: "Let all your knowledge flow through your veins!",
+    text: "Let all your knowledge flow through your veins! Set your heartbeat pacing as the clock is ticking with each code compiled, circuit grounded and tool fitted!",
     imgPath: process.env.PUBLIC_URL + "/assets/images/carousel/Events.png",
   },
   1: {
@@ -20,7 +20,7 @@ export const carouselData = {
   2: {
     title: "Speaker Session",
     href: process.env.PUBLIC_URL + "/expos-and-speakers#speaker",
-    text: "Be that person you aspire to become with live interactions with renowned personalities.",
+    text: "Be that person you aspire to become. Meet some of the renowned personalities and experts who will inspire you to break the barriers.",
     imgPath:
       process.env.PUBLIC_URL + "/assets/images/carousel/speaker-session.png",
   },
@@ -34,7 +34,7 @@ export const carouselData = {
   4: {
     title: "Tech Expo",
     href: process.env.PUBLIC_URL + "/expos-and-speakers#tech",
-    text: "Immerse yourself in the world of world-class technologies!",
+    text: "Immerse yourself in the world of world-class technologies! Find out the latest developments in the field of R&D of science and technology.",
     imgPath: process.env.PUBLIC_URL + "/assets/images/carousel/tech_expo.png",
   },
 };
