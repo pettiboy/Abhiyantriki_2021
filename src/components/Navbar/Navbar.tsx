@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
 
 interface NavbarProps {}
@@ -10,7 +10,7 @@ const Navbar = ({}: NavbarProps) => {
         <a href={process.env.PUBLIC_URL + "/"} className="navbar-brand">
           <img
             src={process.env.PUBLIC_URL + "/assets/logos/ab-dates.png"}
-            width="200"
+            width="150"
             alt="abhiyantriki"
             className="d-inline-block align-middle mr-2"
           />

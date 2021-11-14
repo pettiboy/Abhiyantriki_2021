@@ -36,13 +36,15 @@ const ACarousel = ({}: ACarouselProps) => {
     <div className="mt-5">
       <div className="d-sm-flex justify-content-center align-items-center slides">
         <div className="text-grid w-50">
-          <div
-            ref={textRef}
-            // className={anim ? "anim-loader" : ""}
-            id="grid-title"
-          >
-            {carouselData[index].title}
-          </div>
+          <a href={carouselData[index].title}>
+            <div
+              ref={textRef}
+              // className={anim ? "anim-loader" : ""}
+              id="grid-title"
+            >
+              {carouselData[index].title}
+            </div>
+          </a>
           <div
             ref={textRef}
             // className={anim ? "anim-loader" : ""}
@@ -52,11 +54,13 @@ const ACarousel = ({}: ACarouselProps) => {
           </div>
         </div>
         <div ref={imgRef} className={anim ? "anim-loader" : ""}>
-          <img
-            className="m-3"
-            src={carouselData[index].imgPath}
-            width={useWidth}
-          />
+          <a href={carouselData[index].title}>
+            <img
+              className="m-3"
+              src={carouselData[index].imgPath}
+              width={useWidth}
+            />
+          </a>
         </div>
       </div>
       <div className="d-md-flex justify-content-end align-items-center navigate">
