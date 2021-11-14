@@ -33,10 +33,10 @@ const ACarousel = ({}: ACarouselProps) => {
   const useWidth = width > 750 ? 350 : 200;
 
   return (
-    <div className="mt-5">
+    <div className="mt-5" style={width < 750 ? { paddingTop: "90px" } : {}}>
       <div className="d-sm-flex justify-content-center align-items-center slides">
         <div className="text-grid w-50">
-          <a href={carouselData[index].title}>
+          <a href={carouselData[index].href}>
             <div
               ref={textRef}
               // className={anim ? "anim-loader" : ""}
@@ -54,9 +54,9 @@ const ACarousel = ({}: ACarouselProps) => {
           </div>
         </div>
         <div ref={imgRef} className={anim ? "anim-loader" : ""}>
-          <a href={carouselData[index].title}>
+          <a href={carouselData[index].href}>
             <img
-              className="m-3"
+              // style={width < 750 ? { margin: "90px !important" } : {}}
               src={carouselData[index].imgPath}
               width={useWidth}
             />
