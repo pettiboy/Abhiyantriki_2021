@@ -13,23 +13,23 @@ export const carouselData = {
     title: "Fun and Informals",
     text: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     imgPath:
-      process.env.PUBLIC_URL + "/assets/images/carousel/Fun and Informals.png",
+      process.env.PUBLIC_URL + "/assets/images/carousel/Fun-and-informals.png",
   },
   2: {
     title: "Speaker Session",
     text: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     imgPath:
-      process.env.PUBLIC_URL + "/assets/images/carousel/Speaker session.png",
+      process.env.PUBLIC_URL + "/assets/images/carousel/speaker-session.png",
   },
   3: {
     title: "Internship expo",
     text: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     imgPath:
-      process.env.PUBLIC_URL + "/assets/images/carousel/internship_expo.png",
+      process.env.PUBLIC_URL + "/assets/images/carousel/Internship-expo.png",
   },
   4: {
     title: "Tech Expo",
     text: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
-    imgPath: process.env.PUBLIC_URL + "/assets/images/carousel/Tech Expo.png",
+    imgPath: process.env.PUBLIC_URL + "/assets/images/carousel/tech_expo.png",
   },
 };
