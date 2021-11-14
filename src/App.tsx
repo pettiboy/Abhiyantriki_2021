@@ -49,11 +49,8 @@ function App() {
           </Switch>
         </div>
       </Router>
-      {window.location.href !==
-        process.env.PUBLIC_URL + "/expos-and-speakers" &&
-        window.location.href !== process.env.PUBLIC_URL + "/events" && (
-          <Footer />
-        )}
+      {window.location.pathname !== "/expos-and-speakers" &&
+        window.location.pathname !== "/events" && <Footer />}
       <Sidebar />
     </>
   );

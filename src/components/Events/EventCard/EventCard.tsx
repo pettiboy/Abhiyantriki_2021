@@ -11,14 +11,7 @@ const EventCard = ({ event }: EventCardProps) => {
     <div className="d-flex justify-content-center align-items-center event-card">
       <div className="row w-85 d-flex justify-content-center align-items-center">
         <div className="col">
-          <img
-            src={
-              process.env.PUBLIC_URL + "/assets/images/events/events_image.png"
-            }
-            alt=""
-            width="350"
-            className="event-"
-          />
+          <img src={event.eventImgPath} alt="" width="350" className="event-" />
         </div>
         <div className="col event-info">
           <div>

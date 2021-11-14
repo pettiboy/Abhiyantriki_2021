@@ -165,7 +165,7 @@ const Timeline = ({}: TimelineProps) => {
           <i className="arrows fas fa-chevron-right" onClick={onPressRight}></i>
         </div>
 
-        <div className="d-flex justify-content-center w-100">
+        <div className={"d-flex justify-content-center w-100"}>
           <InfoSection caption={caption} imgPath={path} />
         </div>
       </div>
