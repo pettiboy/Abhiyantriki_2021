@@ -48,6 +48,11 @@
     display: block;
     margin: auto;
     text-align: center;
+    margin-top: 5vh;
+  }
+  .image-ka-baap {
+    margin-top: 5vh;
+    height: 90vh !important;
   }
   #grid-text {
     width: auto;

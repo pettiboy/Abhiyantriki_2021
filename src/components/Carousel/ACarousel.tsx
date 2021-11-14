@@ -53,12 +53,15 @@ const ACarousel = ({}: ACarouselProps) => {
             {carouselData[index].text}
           </div>
         </div>
-        <div ref={imgRef} className={anim ? "anim-loader" : ""}>
+        <div
+          ref={imgRef}
+          className={anim ? "anim-loader image-ka-baap" : "image-ka-baap"}
+        >
           <a href={carouselData[index].href}>
             <img
-              // style={width < 750 ? { margin: "90px !important" } : {}}
               src={carouselData[index].imgPath}
-              width={useWidth}
+              // width={useWidth}
+              height={300}
             />
           </a>
         </div>
