@@ -170,16 +170,16 @@ export const exposAndSpeakersDataJson = [
     buttonText: "Register",
     cards: [
       {
-        heading: "Mukesh Jain",
-        text: "CTIO and VP Insights and Data at Capgemini India, a global leader in consulting, digital transformation, technology and engineering services. A Techno-biz leader with over 25 years of experience in Digital Transformation, Big Data analytics, AI, IoT, Blockchains and so much more!",
+        heading: "Dr Subramanian Swamy",
+        text: "Dr Subramanian Swamy is a renowned Indian politician, statistician and economist. He is the Member of the Upper House of the Indian Parliament, Rajya Sabha. He completed his Masters in Mathematics from the University of Delhi and PhD in Economics at Harvard University under the guidance of Nobel Laureate Simon Kuznets. In 1978, the United Nations made him a part of the team that reports economic cooperation between developing countries. The alumnus of the Indian Statistical Institute was a member of the Planning Commission and former Union Minister of Commerce in the period 1990-91. He was appointed as the Chairman of Commission on Labour Standards and International Trade by the P V N Rao Cabinet in 1994. Dr Swamy authored several books including, 'Reset: Regaining India's Economic Legacy'.",
         image:
-          "https://kjsce-abhiyantriki.org/2020/img/Panel%20Session/mukesh%20jain.png",
+        `${process.env.PUBLIC_URL}/assets/images/Speaker/Dr. Swamy.png`,
       },
       {
-        heading: "Tamaghna Basu",
-        text: "Co-founder and CTO at neoEYED, an AI monitoring 100+ behavioural factors to detect anomalies and prevent account takeover in real-time! A mentor for SANS and Stanford Cyber Security courses, he is also a Startup advisor!",
+        heading: "Mr A S Kiran Kumar",
+        text: "Shri A S Kiran Kumar is a highly reputed Indian space scientist who served as the Chairman of the Indian Space Research Organization (ISRO) between 2015-2018. He played a pivotal role in the development of scientific instruments aboard the Chandrayaan - I and Mangalyaan spacecraft and the insertion of MOM into Mars orbit. He represented ISRO at many international forums. Shri A S Kiran Kumar has been conferred with Padma Shri title by the Govt. of India and ‘Légion d'Honneur' - France's highest civilian award for his valuable contribution towards Indo-French Space Cooperation.",
         image:
-          "https://kjsce-abhiyantriki.org/2020/img/Panel%20Session/tamaghna%20basu.png",
+        `${process.env.PUBLIC_URL}/assets/images/Speaker/Mr AS Kiran Kumar.png`,
       },
     ],
   },
@@ -197,16 +197,28 @@ export const exposAndSpeakersDataJson = [
     buttonText: "Register",
     cards: [
       {
-        heading: "Mukesh Jain",
-        text: "CTIO and VP Insights and Data at Capgemini India, a global leader in consulting, digital transformation, technology and engineering services. A Techno-biz leader with over 25 years of experience in Digital Transformation, Big Data analytics, AI, IoT, Blockchains and so much more!",
+        heading: "Sathvik Vishwanath",
+        text: "Sathvik Vishwanath, a Melbourne Business School MBA graduate, is now a successful entrepreneur. His business journey began in 2008 with VentureNext, which was involved in custom scripting for businesses in the virtual world known as SecondLife. He launched Unocoin.com, a bitcoin buy/sell service that specialises in Bitcoin services, at the Global Bitcoin Conference in 2013.",
         image:
-          "https://kjsce-abhiyantriki.org/2020/img/Panel%20Session/mukesh%20jain.png",
+        `${process.env.PUBLIC_URL}/assets/images/Panel/Sathvik_Vishvanath.png`,
       },
       {
-        heading: "Tamaghna Basu",
-        text: "Co-founder and CTO at neoEYED, an AI monitoring 100+ behavioural factors to detect anomalies and prevent account takeover in real-time! A mentor for SANS and Stanford Cyber Security courses, he is also a Startup advisor!",
+        heading: "Sidharth Sogani",
+        text: "Sidharth is the founder and CEO of CREBACO Global, a Blockchain and Cryptocurrency research, intelligence, and rating firm. CREBACO has one of the industry's most comprehensive research databases, with over 2500 projects worldwide. Sidharth holds a double master's degree in international trade banking and finance, is a Foreign Trade Specialist, and is a Certified Bitcoin Professional. Sidharth is also a director in his three-generation textile family business.",
         image:
-          "https://kjsce-abhiyantriki.org/2020/img/Panel%20Session/tamaghna%20basu.png",
+        `${process.env.PUBLIC_URL}/assets/images/Panel/Sidharth_Sogani.png`,
+      },
+      {
+        heading: "Ritesh Bhatia",
+        text: "Ritesh Bhatia is a well-known Cybercrime Investigator as well as a Cybersecurity and Data Privacy Consultant with over 20 years of experience in cyberspace. He has successfully resolved numerous cases for large corporations, and individuals in India and abroad. He is a two-time TEDx speaker, an ACFE, USA Certified Fraud Examiner, and is well-known for his cybercrime investigations which have been featured in numerous national publications.",
+        image:
+        `${process.env.PUBLIC_URL}/assets/images/Panel/Ritesh_Bhatia.png`,
+      },
+      {
+        heading: "Prasanna Lohar",
+        text: "Prasanna Lohar is a Digital Transformation, Innovation Implementation, and Architecture Orchestration specialist at DCB Bank. He has over 21 years of industry experience in Engineering and Development, Product Development, Organization Strategy & Governance, Artificial Intelligence & Machine Learning,  Blockchain etc. He has bagged numerous Leadership awards from 2016 to 2021, including Most Influential Payment Professionals, Digital Leader of the Year, Top 20 BFSI Leaders and many more.",
+        image:
+        `${process.env.PUBLIC_URL}/assets/images/Panel/Prassana_lohar.png`,
       },
     ],
   },
