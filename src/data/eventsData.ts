@@ -6,7 +6,7 @@ export const eventData = [
     events: [
       {
         eventImgPath:
-          process.env.PUBLIC_URL + "/assets/images/events/events_image.png",
+          process.env.PUBLIC_URL + "/assets/images/tech-events/codeclan.png",
         name: "Codeclan",
         text: "Are you focusing on developing your finance dexterity along with coding as your past-time delectation, then you should consider registering for this one-of-a-kind event. CodeClan is a game that combines technical as well as financial-management skills with enticing rewards on the line for participants.",
         memberLimit: "3 members per team",
@@ -16,9 +16,9 @@ export const eventData = [
       },
       {
         eventImgPath:
-          process.env.PUBLIC_URL + "/assets/images/events/events_image.png",
+          process.env.PUBLIC_URL + "/assets/images/tech-events/crakathon.png",
         name: "Crackathon",
-        text: "If coding is your go-to debuffs and has the adroitness to solve profuse problems, then Crackathon is the event for you. With difficulty increasing every round, level up your problem-solving skills and test your limits in the 3 rounds of this coding fiesta!",
+        text: "If coding is your go-to debuffs and has the adroitness to solve profuse problems, then Crackathon is the event for you. Level up your problem-solving skills and test your limits in the 3 rounds of this coding fiesta!",
         memberLimit: "3 members per team",
         prize: "worth 12,000/-",
         fees: "60 Rs for a team of 3",
@@ -26,9 +26,9 @@ export const eventData = [
       },
       {
         eventImgPath:
-          process.env.PUBLIC_URL + "/assets/images/events/events_image.png",
+          process.env.PUBLIC_URL + "/assets/images/tech-events/technocrats.png",
         name: "Technocrats Assemble",
-        text: "ISTE is here with yet another virtual hunt where you can reverse the timeline and complete the quest for the infinity stones before Thanos does and become the reality among 14,000,605 others. The team that manages to solve all the levels in the shortest time will become the wielder of the gauntlet among many other amazing prizes.",
+        text: "ISTE is here with yet another virtual hunt where you can reverse the timeline and complete the quest for the infinity stones. The team that manages to solve all the levels in the shortest time will become the wielder of the gauntlet and other prizes.",
         memberLimit: "2 members per team",
         prize: "worth 7,000/-",
         fees: "70 Rs for a team of 2",
@@ -36,9 +36,9 @@ export const eventData = [
       },
       {
         eventImgPath:
-          process.env.PUBLIC_URL + "/assets/images/events/events_image.png",
+          process.env.PUBLIC_URL + "/assets/images/tech-events/circuitsaga.png",
         name: "Circuit Saga",
-        text: "If circuit designing is your poison, then ‘Circuit Saga’ should be your go-to event. Learn about the various aspects of circuit designing by challenging each other to make efficient and complex circuits. The 2 rounds of this event are intertwined as the redundant material removed from the circuit in round 1 will be the only components used in the finale.",
+        text: "Learn about the various aspects of circuit designing by challenging each other to make efficient and complex circuits. The materials removed from Round 1 will be used as components in the finale. So, choose wisely!",
         memberLimit: "1-3 members per team",
         prize: "worth 5,000/-",
         fees: "60 Rs for a team of 1-3",
@@ -46,9 +46,9 @@ export const eventData = [
       },
       {
         eventImgPath:
-          process.env.PUBLIC_URL + "/assets/images/events/events_image.png",
+          process.env.PUBLIC_URL + "/assets/images/tech-events/electronic wizard.png",
         name: "Electronic Wizard",
-        text: "EESA is back with yet another riveting event, ‘Electronic Wizard’, where the participants will be tested based on their knowledge of electronics and its interactions with circuits. Provide the answers as quickly as possible in the quiz and showcase your finesse in building circuits on TinkerCAD to become the one & only, “ELECTRONIC WIZARD”! ",
+        text: "Participants will be tested based on their knowledge of electronics and their interactions with circuits. Provide the answers as quickly as possible in the quiz and showcase your finesse in building circuits on Tinkercad!",
         memberLimit: "1-3 members per team",
         prize: "worth 5,000/-",
         fees: "60 Rs for a team of 1-3",
@@ -56,9 +56,9 @@ export const eventData = [
       },
       {
         eventImgPath:
-          process.env.PUBLIC_URL + "/assets/images/events/events_image.png",
+          process.env.PUBLIC_URL + "/assets/images/tech-events/incognito probe.png",
         name: "Incognito Probe",
-        text: " Feeling bored and don’t know what to do with your time? Join IETE in their virtual quest where every team competes against each other to reach the final location before anyone else. Are you ready to test your IQ & implementation skills in this unique ‘Race Against Time’?",
+        text: " Join IETE in their virtual quest where every team competes against each other to reach the final location before anyone else. Get ready to test your implementation skills in this game! ",
         memberLimit: "2-4 members per team",
         prize: "worth 5,000/-",
         fees: "50 Rs for a team of 2-4",
@@ -66,9 +66,9 @@ export const eventData = [
       },
       {
         eventImgPath:
-          process.env.PUBLIC_URL + "/assets/images/events/events_image.png",
-        name: "The Rising Star",
-        text: "ISTE is back with yet another alluring game…” THE RISING STAR” where the competitors will have to exhibit their prowess in the knowledge of memes, movies, web series and other forms of entertainment. Do you have what it takes to become a ‘Rising Star’ ?",
+          process.env.PUBLIC_URL + "/assets/images/tech-events/the rising star.png",
+        name: "The Rising Star!",
+        text: "ISTE is back with yet another alluring game,” THE RISING STAR” where the competitors will have to exhibit their prowess in the knowledge of entertainment and filming.",
         memberLimit: "2 members per team",
         prize: "worth 5,000/-",
         fees: "50 Rs for a team of 2",
@@ -76,9 +76,9 @@ export const eventData = [
       },
       {
         eventImgPath:
-          process.env.PUBLIC_URL + "/assets/images/events/events_image.png",
+          process.env.PUBLIC_URL + "/assets/images/tech-events/cadclash.png",
         name: "Cad-Clash",
-        text: "MESA council presents CADCLASH, a premium competition for all 3D Designers and AutoDesk connoisseurs out there. Each participant will have to prove their mettle by designing the most intricate & captivating designs to win fascinating prizes.",
+        text: "MESA council presents CADCLASH, a premium competition for all 3D Designers and AutoDesk connoisseurs out there. Participants will have to prove their mettle by designing the most intricate & captivating designs to win fascinating prizes.",
         memberLimit: "1 participant",
         prize: "worth 4,000/-",
         fees: "50 Rs per participant",
@@ -86,9 +86,9 @@ export const eventData = [
       },
       {
         eventImgPath:
-          process.env.PUBLIC_URL + "/assets/images/events/events_image.png",
+          process.env.PUBLIC_URL + "/assets/images/tech-events/rush.png",
         name: "Rush",
-        text: "On the demand of F1 enthusiasts, council MESA of KJSCE presents “RUSH”, wherein a team of 4 will be tested on their de-riddling skills & faster response times in the qualifying round as well as the finale. The ‘RUSH’ of the finale will get your blood pumping with adrenaline rushing through your veins!",
+        text: "MESA council of KJSCE presents “RUSH”, wherein a team of 4 will be tested on their de-riddling skills & faster response times in the qualifying round as well as the finale. The ‘RUSH’ of the finale will get you adrenaline-rushed!",
         memberLimit: "4 members per team",
         prize: "worth 4,000/-",
         fees: "80 Rs for a team of 4",
@@ -96,9 +96,9 @@ export const eventData = [
       },
       {
         eventImgPath:
-          process.env.PUBLIC_URL + "/assets/images/events/events_image.png",
+          process.env.PUBLIC_URL + "/assets/images/tech-events/wheel of faith.png",
         name: "Wheel of Faith",
-        text: "Feeling abundantly lucky? Try your luck at Emfinity’s newest event ‘Wheel Of Faith’. Spin the wheel and if the pointer lands on a question, solve the same within the given time limit to get the predetermined no. of points. If Lady-luck has her mercy on you, you may get the points without solving a question! ",
+        text: "Feeling abundantly lucky? Try your luck at Emfinity’s newest event ‘Wheel Of Faith’. Spin the wheel and if the pointer lands on a question, solve the same within the given time limit to get the predetermined no. of points. ",
         memberLimit: "1 particpant",
         prize: "worth 3,000/-",
         fees: "20 Rs per participant",
@@ -140,23 +140,53 @@ export const eventData = [
     events: [
       {
         eventImgPath:
-          process.env.PUBLIC_URL + "/assets/images/events/events_image.png",
-        name: "Sheild 1",
+          process.env.PUBLIC_URL + "/assets/images/shield/tech hunt.png",
+        name: "Tech Hunt",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        memberLimit: "3 members per team",
-        prize: "10 crore rupayy (in Amitabh Bachchan's voice)",
-        fees: "60 Rs for a team of 3",
-        contactInfo: ["Vidhi Shah: 9769051597", "Manasi Varaiya: 9867167255"],
+        memberLimit: "4 members per team",
+        prize: "-",
+        fees: "-",
+        contactInfo: ["Vedang: 7977501972"],
       },
       {
         eventImgPath:
-          process.env.PUBLIC_URL + "/assets/images/events/events_image.png",
-        name: "Shield 2",
+          process.env.PUBLIC_URL + "/assets/images/shield/tech quiz.png",
+        name: "Tech Quiz",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         memberLimit: "3 members per team",
-        prize: "10 crore rupayy (in Amitabh Bachchan's voice)",
-        fees: "60 Rs for a team of 3",
-        contactInfo: ["Vidhi Shah: 9769051597", "Manasi Varaiya: 9867167255"],
+        prize: "-",
+        fees: "-",
+        contactInfo: ["Vedang: 7977501972"],
+      },
+      {
+        eventImgPath:
+          process.env.PUBLIC_URL + "/assets/images/shield/technovate.png",
+        name: "Technovate",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        memberLimit: "2 members per team",
+        prize: "-",
+        fees: "-",
+        contactInfo: ["Vedang: 7977501972"],
+      },
+      {
+        eventImgPath:
+          process.env.PUBLIC_URL + "/assets/images/shield/espionage.png",
+        name: "Espionage",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        memberLimit: "2 members per team",
+        prize: "-",
+        fees: "-",
+        contactInfo: ["Vedang: 7977501972"],
+      },
+      {
+        eventImgPath:
+          process.env.PUBLIC_URL + "/assets/images/shield/tpp.png",
+        name: "Technical Paper Presentation",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        memberLimit: "2 members per team",
+        prize: "-",
+        fees: "-",
+        contactInfo: ["Vedang: 7977501972"],
       },
     ],
   },
@@ -167,23 +197,33 @@ export const eventData = [
     events: [
       {
         eventImgPath:
-          process.env.PUBLIC_URL + "/assets/images/events/events_image.png",
-        name: "Informals 1",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        memberLimit: "3 members per team",
-        prize: "10 crore rupayy (in Amitabh Bachchan's voice)",
-        fees: "60 Rs for a team of 3",
-        contactInfo: ["Vidhi Shah: 9769051597", "Manasi Varaiya: 9867167255"],
+          process.env.PUBLIC_URL + "/assets/images/fun/bgmi.png",
+        name: "BGMI",
+        text: "India’s favourite mobile game is back with more intense gameplay and better features. Assemble your squad of 4 players, dive into the zone and survive the game with weapons, medics and the best teamwork you can put into! Sign up for BGMI and get a chance to cook chicken dinner and win exciting prizes.",
+        memberLimit: "4 members per team",
+        prize: "worth 14,000/-",
+        fees: "180 Rs for a team of 4",
+        contactInfo: ["Shubham: 7021081949", "Dhruv: 9987105109"],
       },
       {
         eventImgPath:
-          process.env.PUBLIC_URL + "/assets/images/events/events_image.png",
-        name: "Informals 2",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        memberLimit: "3 members per team",
-        prize: "10 crore rupayy (in Amitabh Bachchan's voice)",
-        fees: "60 Rs for a team of 3",
-        contactInfo: ["Vidhi Shah: 9769051597", "Manasi Varaiya: 9867167255"],
+          process.env.PUBLIC_URL + "/assets/images/fun/valo.png",
+        name: "Valorant",
+        text: "Nothing’s more enjoyable than applying your wits in putting a great combination of firepower and special abilities against your opponents who will counter them with their own arsenal. Presenting to you Valorant, an FPS based PC game where you and your friends team up and ravage the map with the Radianite power.",
+        memberLimit: "4 members per team",
+        prize: "worth 14,000/-",
+        fees: "180 Rs for a team of 4",
+        contactInfo: ["Shubham: 7021081949", "Dhruv: 9987105109"],
+      },
+      {
+        eventImgPath:
+          process.env.PUBLIC_URL + "/assets/images/fun/codm.png",
+        name: "COD:Mobile",
+        text: "Bringing you the ultimate 5v5 team deathmatch battle in the form of a mobile phone, Call of Duty: Mobile will definitely bring an atmosphere of adrenaline rush. So get hold of your rifle, SMGs, shotguns, a handful of grenades and the Operator Skills and step on the battlefield.",
+        memberLimit: "4 members per team",
+        prize: "worth 14,000/-",
+        fees: "180 Rs for a team of 4",
+        contactInfo: ["Shubham: 7021081949", "Dhruv: 9987105109"],
       },
     ],
   },
@@ -194,7 +234,7 @@ export const eventData = [
     events: [
       {
         eventImgPath:
-          process.env.PUBLIC_URL + "/assets/images/events/events_image.png",
+          process.env.PUBLIC_URL + "/assets/images/tech-events/codespree.png",
         name: "Codespree",
         text: "CodeSpree is a precursor to Crackathon, which will take place during Abhiyantriki. It is a lengthy coding competition that puts your overall programming skills to the test, hosted on CodeChef. The CodeSpree winners will receive cash prizes as well as a direct entry into the third round of Crackathon!",
         memberLimit: "3 members per team",
