@@ -6,30 +6,30 @@ export const carouselData = {
 
   0: {
     title: "Events",
-    text: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+    text: "Let all your knowledge flow through your veins!",
     imgPath: process.env.PUBLIC_URL + "/assets/images/carousel/Events.png",
   },
   1: {
     title: "Fun and Informals",
-    text: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+    text: "Gang up with your pals in these intense and thrilling gaming events. Use all your firepower and tactics to help your teammates earn the glory!",
     imgPath:
       process.env.PUBLIC_URL + "/assets/images/carousel/Fun-and-informals.png",
   },
   2: {
     title: "Speaker Session",
-    text: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+    text: "Be that person you aspire to become with live interactions with renowned personalities.",
     imgPath:
       process.env.PUBLIC_URL + "/assets/images/carousel/speaker-session.png",
   },
   3: {
     title: "Internship expo",
-    text: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+    text: "Explore your options to check your skills in real-world scenario.",
     imgPath:
       process.env.PUBLIC_URL + "/assets/images/carousel/Internship-expo.png",
   },
   4: {
     title: "Tech Expo",
-    text: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+    text: "Immerse yourself in the world of world-class technologies!",
     imgPath: process.env.PUBLIC_URL + "/assets/images/carousel/tech_expo.png",
   },
 };
