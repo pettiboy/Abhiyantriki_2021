@@ -113,7 +113,7 @@ export const eventData = [
     events: [
       {
         eventImgPath:
-          process.env.PUBLIC_URL + "/assets/images/events/events_image.png",
+          process.env.PUBLIC_URL + "/assets/images/ideate/nif.png",
         name: "NIF",
         text: "IDEATE one of Abhiyantriki's signature events is back with a bang! It allows primaeval brains to pick up pen and paper and conceptualise their thoughts.The National Innovation Foundation (NIF) is a hub for converting innovative ideas into practical applications across India. It focuses on spreading grassroots innovation among individuals and local communities to ensure human survival in the absence of a formal strategy.",
         memberLimit: "3 members per team",
@@ -123,7 +123,7 @@ export const eventData = [
       },
       {
         eventImgPath:
-          process.env.PUBLIC_URL + "/assets/images/events/events_image.png",
+          process.env.PUBLIC_URL + "/assets/images/ideate/mpcb.png",
         name: "MPCB",
         text: "One of Abhiyantriki's flagship events, IDEATE, provides more than one incentive! IDEATE allows primeval brains to conceptualise their ideas by picking up pen and paper.Under the administrative control of the Maharashtra Pollution Control Board (MPCB), the Maharashtra Pollution Control Board (MPCB) implements a wide range of environmental laws and regulations that aid in the conservation of natural resources.",
         memberLimit: "3 members per team",
