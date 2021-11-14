@@ -108,7 +108,7 @@ const Footer = ({}: FooterProps) => {
                 Register
               </a>
               <a
-                href="https://kjsce-abhiyantriki.org/mini-game"
+                href={process.env.PUBLIC_URL + "/mini-game"}
                 className="highlight-on-hover"
               >
                 <i className="fas fa-gamepad"></i>
