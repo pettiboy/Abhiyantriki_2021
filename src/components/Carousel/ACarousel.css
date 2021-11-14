@@ -12,7 +12,7 @@
 
 .slides {
   height: 65vh;
-  width: 95vw;
+  width: 100vw;
   display: block;
   margin: auto;
 }
@@ -23,6 +23,8 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+
 
 #grid-title {
   font-size: 3rem;
@@ -48,17 +50,14 @@
     display: block;
     margin: auto;
     text-align: center;
-    margin-top: 5vh;
-    height: 30vh;
   }
-  .image-ka-baap {
-    margin-top: 2vh;
-    height: 75vh !important;
-  }
+ 
+
   #grid-text {
-    width: auto;
-    height: 25vh;
+    width: 90%;
     text-align: center;
+    display: block;
+    margin: auto;
   }
   #grid-title {
     text-align: center;
