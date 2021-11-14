@@ -51,11 +51,7 @@ const Sponsors = ({}: SponsorsProps) => {
         alt="Sponsors"
       />
       <p className={"responsive-para text-center" + ` fs-4`}>
-        Information Technology is growing exponentially constantly, every
-        second, around the globe.India is not far behind with its own IT
-        industry booming to new heights. Get to know about 'Future of IT sector
-        in India' on the 24th of October at the Panel Session in Abhiyantriki
-        2021!
+      With each passing day, technology advances by leaps and bounds. Abhiyantriki is a festival that assists in keeping up with this progress while also having fun. As simple as this may sound, without the assistance of Sponsors, it would be impossible to encourage each and every student to embark on this journey. Thank you for the sponsorship that you obliged us with, it has helped us to get a great deal of work done with more ease and less stress.
       </p>
       {/* YearCarousal */}
       <div className="d-flex justify-content-around align-items-center font-size p-5">

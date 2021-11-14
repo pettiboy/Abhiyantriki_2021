@@ -27,7 +27,7 @@ export const carouselData = {
   3: {
     title: "Internship expo",
     href: process.env.PUBLIC_URL + "/expos-and-speakers#internship",
-    text: "Explore your options to check your skills in real-world scenario.",
+    text: "Explore your options to check your skills in a real-world scenario. Give your hard-earned knowledge a chance to perform practically.",
     imgPath:
       process.env.PUBLIC_URL + "/assets/images/carousel/Internship-expo.png",
   },
