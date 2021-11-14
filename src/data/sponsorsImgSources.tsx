@@ -816,8 +816,7 @@ export const sponsorsImgSources = {
   2021: [
     {
       name: "GeeksforGeeks",
-      source:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/GeeksforGeeks.svg/2560px-GeeksforGeeks.svg.png",
+      source: process.env.PUBLIC_URL + "/assets/sponsors/gfg-new-logo.png",
       link: "https://www.geeksforgeeks.org/",
       text: "Coding Partner",
     },
@@ -862,7 +861,7 @@ export const sponsorsImgSources = {
     {
       name: "Epione Designs",
       text: "Tech Accessories Partner",
-      source: process.env.PUBLIC_URL + "/assets/sponsors/epione logo.ai",
+      source: process.env.PUBLIC_URL + "/assets/sponsors/epinome.png",
       link: "http://www.epioneindustries.com/",
     },
     {
