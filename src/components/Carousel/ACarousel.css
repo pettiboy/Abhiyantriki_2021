@@ -30,6 +30,7 @@
 }
 
 #grid-text {
+  width: 30vw;
   font-size: 1.2rem;
   color: aliceblue;
 }
@@ -46,6 +47,13 @@
   .navigate {
     display: block;
     margin: auto;
+    text-align: center;
+  }
+  #grid-text {
+    width: auto;
+    text-align: center;
+  }
+  #grid-title {
     text-align: center;
   }
 }

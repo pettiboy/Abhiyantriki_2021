@@ -23,7 +23,7 @@ const ACarousel = ({}: ACarouselProps) => {
 
   return (
     <>
-      <div className="d-sm-flex justify-content-around align-items-center slides">
+      <div className="d-sm-flex justify-content-center align-items-center slides">
         <div className="text-grid w-50">
           <div
             ref={textRef}
