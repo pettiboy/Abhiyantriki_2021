@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Abhiyantriki_2021/static/css/main.aab7189e.chunk.css",
+    "main.js": "/Abhiyantriki_2021/static/js/main.fb30b987.chunk.js",
+    "main.js.map": "/Abhiyantriki_2021/static/js/main.fb30b987.chunk.js.map",
+    "runtime-main.js": "/Abhiyantriki_2021/static/js/runtime-main.a001bc31.js",
+    "runtime-main.js.map": "/Abhiyantriki_2021/static/js/runtime-main.a001bc31.js.map",
+    "static/css/2.b0a1e6d1.chunk.css": "/Abhiyantriki_2021/static/css/2.b0a1e6d1.chunk.css",
+    "static/js/2.e1d33137.chunk.js": "/Abhiyantriki_2021/static/js/2.e1d33137.chunk.js",
+    "static/js/2.e1d33137.chunk.js.map": "/Abhiyantriki_2021/static/js/2.e1d33137.chunk.js.map",
+    "static/js/3.405ee6e5.chunk.js": "/Abhiyantriki_2021/static/js/3.405ee6e5.chunk.js",
+    "static/js/3.405ee6e5.chunk.js.map": "/Abhiyantriki_2021/static/js/3.405ee6e5.chunk.js.map",
+    "index.html": "/Abhiyantriki_2021/index.html",
+    "static/css/2.b0a1e6d1.chunk.css.map": "/Abhiyantriki_2021/static/css/2.b0a1e6d1.chunk.css.map",
+    "static/css/main.aab7189e.chunk.css.map": "/Abhiyantriki_2021/static/css/main.aab7189e.chunk.css.map",
+    "static/js/2.e1d33137.chunk.js.LICENSE.txt": "/Abhiyantriki_2021/static/js/2.e1d33137.chunk.js.LICENSE.txt",
+    "static/media/bootstrap-icons.css": "/Abhiyantriki_2021/static/media/bootstrap-icons.7165e5d7.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a001bc31.js",
+    "static/css/2.b0a1e6d1.chunk.css",
+    "static/js/2.e1d33137.chunk.js",
+    "static/css/main.aab7189e.chunk.css",
+    "static/js/main.fb30b987.chunk.js"
+  ]
+}
