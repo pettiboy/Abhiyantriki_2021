@@ -1,9 +1,5 @@
 # Abhiyantriki 2021
 
-## TODO
-
-- [ ] gif update (homepage)
-
 ## Getting Started
 
 1. make sure you have [`nodejs`](https://nodejs.org/en/) installed
